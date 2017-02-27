@@ -1,0 +1,3 @@
+14:49:14.495773 IP 10.0.1.11 > 10.0.1.12: ICMP echo request, id 2448, seq 1, length 64
+14:49:14.496175 IP 10.0.1.12 > 10.0.1.11: ICMP echo reply, id 2448, seq 1, length 64
+
