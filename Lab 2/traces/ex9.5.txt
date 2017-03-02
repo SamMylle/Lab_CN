@@ -1,0 +1,384 @@
+      1 0.000000000    10.0.1.11             10.0.1.12             TCP      74     49908 → 21 [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=1186410 TSecr=0 WS=128
+
+Frame 1: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:7c:70, Dst: 68:05:ca:1a:7c:77
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.1.12
+Transmission Control Protocol, Src Port: 49908 (49908), Dst Port: 21 (21), Seq: 0, Len: 0
+    Source Port: 49908
+    Destination Port: 21
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 0    (relative sequence number)
+    Acknowledgment number: 0
+    Header Length: 40 bytes
+    Flags: 0x002 (SYN)
+    Window size value: 29200
+    [Calculated window size: 29200]
+    Checksum: 0x1645 [validation disabled]
+    Urgent pointer: 0
+    Options: (20 bytes), Maximum segment size, SACK permitted, Timestamps, No-Operation (NOP), Window scale
+
+      2 0.000364093    10.0.1.12             10.0.1.11             TCP      74     21 → 49908 [SYN, ACK] Seq=0 Ack=1 Win=28960 Len=0 MSS=1460 SACK_PERM=1 TSval=1186730 TSecr=1186410 WS=128
+
+Frame 2: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:7c:77, Dst: 68:05:ca:1a:7c:70
+Internet Protocol Version 4, Src: 10.0.1.12, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 21 (21), Dst Port: 49908 (49908), Seq: 0, Ack: 1, Len: 0
+    Source Port: 21
+    Destination Port: 49908
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 0    (relative sequence number)
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 40 bytes
+    Flags: 0x012 (SYN, ACK)
+    Window size value: 28960
+    [Calculated window size: 28960]
+    Checksum: 0xec33 [validation disabled]
+    Urgent pointer: 0
+    Options: (20 bytes), Maximum segment size, SACK permitted, Timestamps, No-Operation (NOP), Window scale
+    [SEQ/ACK analysis]
+
+      3 0.000398413    10.0.1.11             10.0.1.12             TCP      66     49908 → 21 [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=1186410 TSecr=1186730
+
+Frame 3: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:7c:70, Dst: 68:05:ca:1a:7c:77
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.1.12
+Transmission Control Protocol, Src Port: 49908 (49908), Dst Port: 21 (21), Seq: 1, Ack: 1, Len: 0
+    Source Port: 49908
+    Destination Port: 21
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x163d [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+      4 0.002965132    10.0.1.12             10.0.1.11             FTP      86     Response: 220 (vsFTPd 3.0.3)
+
+Frame 4: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:7c:77, Dst: 68:05:ca:1a:7c:70
+Internet Protocol Version 4, Src: 10.0.1.12, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 21 (21), Dst Port: 49908 (49908), Seq: 1, Ack: 1, Len: 20
+    Source Port: 21
+    Destination Port: 49908
+    [Stream index: 0]
+    [TCP Segment Len: 20]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 21    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x3112 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+File Transfer Protocol (FTP)
+
+      5 0.003004348    10.0.1.11             10.0.1.12             TCP      66     49908 → 21 [ACK] Seq=1 Ack=21 Win=29312 Len=0 TSval=1186410 TSecr=1186730
+
+Frame 5: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:7c:70, Dst: 68:05:ca:1a:7c:77
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.1.12
+Transmission Control Protocol, Src Port: 49908 (49908), Dst Port: 21 (21), Seq: 1, Ack: 21, Len: 0
+    Source Port: 49908
+    Destination Port: 21
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 21    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x163d [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+      8 8.970984439    10.0.1.11             10.0.1.12             FTP      80     Request: USER student
+
+Frame 8: 80 bytes on wire (640 bits), 80 bytes captured (640 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:7c:70, Dst: 68:05:ca:1a:7c:77
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.1.12
+Transmission Control Protocol, Src Port: 49908 (49908), Dst Port: 21 (21), Seq: 1, Ack: 21, Len: 14
+    Source Port: 49908
+    Destination Port: 21
+    [Stream index: 0]
+    [TCP Segment Len: 14]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 15    (relative sequence number)]
+    Acknowledgment number: 21    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x164b [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+File Transfer Protocol (FTP)
+
+      9 8.971323201    10.0.1.12             10.0.1.11             TCP      66     21 → 49908 [ACK] Seq=21 Ack=15 Win=29056 Len=0 TSval=1188972 TSecr=1188652
+
+Frame 9: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:7c:77, Dst: 68:05:ca:1a:7c:70
+Internet Protocol Version 4, Src: 10.0.1.12, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 21 (21), Dst Port: 49908 (49908), Seq: 21, Ack: 15, Len: 0
+    Source Port: 21
+    Destination Port: 49908
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 21    (relative sequence number)
+    Acknowledgment number: 15    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x7997 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     10 8.971571145    10.0.1.12             10.0.1.11             FTP      100    Response: 331 Please specify the password.
+
+Frame 10: 100 bytes on wire (800 bits), 100 bytes captured (800 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:7c:77, Dst: 68:05:ca:1a:7c:70
+Internet Protocol Version 4, Src: 10.0.1.12, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 21 (21), Dst Port: 49908 (49908), Seq: 21, Ack: 15, Len: 34
+    Source Port: 21
+    Destination Port: 49908
+    [Stream index: 0]
+    [TCP Segment Len: 34]
+    Sequence number: 21    (relative sequence number)
+    [Next sequence number: 55    (relative sequence number)]
+    Acknowledgment number: 15    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x324c [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+File Transfer Protocol (FTP)
+
+     11 8.971596354    10.0.1.11             10.0.1.12             TCP      66     49908 → 21 [ACK] Seq=15 Ack=55 Win=29312 Len=0 TSval=1188653 TSecr=1188972
+
+Frame 11: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:7c:70, Dst: 68:05:ca:1a:7c:77
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.1.12
+Transmission Control Protocol, Src Port: 49908 (49908), Dst Port: 21 (21), Seq: 15, Ack: 55, Len: 0
+    Source Port: 49908
+    Destination Port: 21
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 15    (relative sequence number)
+    Acknowledgment number: 55    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x163d [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     14 19.643212797   10.0.1.11             10.0.1.12             FTP      80     Request: PASS mvkbj1n
+
+Frame 14: 80 bytes on wire (640 bits), 80 bytes captured (640 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:7c:70, Dst: 68:05:ca:1a:7c:77
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.1.12
+Transmission Control Protocol, Src Port: 49908 (49908), Dst Port: 21 (21), Seq: 15, Ack: 55, Len: 14
+    Source Port: 49908
+    Destination Port: 21
+    [Stream index: 0]
+    [TCP Segment Len: 14]
+    Sequence number: 15    (relative sequence number)
+    [Next sequence number: 29    (relative sequence number)]
+    Acknowledgment number: 55    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x164b [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+File Transfer Protocol (FTP)
+
+     15 19.680287169   10.0.1.12             10.0.1.11             TCP      66     21 → 49908 [ACK] Seq=55 Ack=29 Win=29056 Len=0 TSval=1191650 TSecr=1191320
+
+Frame 15: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:7c:77, Dst: 68:05:ca:1a:7c:70
+Internet Protocol Version 4, Src: 10.0.1.12, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 21 (21), Dst Port: 49908 (49908), Seq: 55, Ack: 29, Len: 0
+    Source Port: 21
+    Destination Port: 49908
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 55    (relative sequence number)
+    Acknowledgment number: 29    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x6485 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     16 19.777732852   10.0.1.12             10.0.1.11             FTP      89     Response: 230 Login successful.
+
+Frame 16: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:7c:77, Dst: 68:05:ca:1a:7c:70
+Internet Protocol Version 4, Src: 10.0.1.12, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 21 (21), Dst Port: 49908 (49908), Seq: 55, Ack: 29, Len: 23
+    Source Port: 21
+    Destination Port: 49908
+    [Stream index: 0]
+    [TCP Segment Len: 23]
+    Sequence number: 55    (relative sequence number)
+    [Next sequence number: 78    (relative sequence number)]
+    Acknowledgment number: 29    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x82d5 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+File Transfer Protocol (FTP)
+
+     17 19.777746878   10.0.1.11             10.0.1.12             TCP      66     49908 → 21 [ACK] Seq=29 Ack=78 Win=29312 Len=0 TSval=1191354 TSecr=1191674
+
+Frame 17: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:7c:70, Dst: 68:05:ca:1a:7c:77
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.1.12
+Transmission Control Protocol, Src Port: 49908 (49908), Dst Port: 21 (21), Seq: 29, Ack: 78, Len: 0
+    Source Port: 49908
+    Destination Port: 21
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 29    (relative sequence number)
+    Acknowledgment number: 78    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x163d [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     18 19.777761661   10.0.1.11             10.0.1.12             FTP      72     Request: SYST
+
+Frame 18: 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:7c:70, Dst: 68:05:ca:1a:7c:77
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.1.12
+Transmission Control Protocol, Src Port: 49908 (49908), Dst Port: 21 (21), Seq: 29, Ack: 78, Len: 6
+    Source Port: 49908
+    Destination Port: 21
+    [Stream index: 0]
+    [TCP Segment Len: 6]
+    Sequence number: 29    (relative sequence number)
+    [Next sequence number: 35    (relative sequence number)]
+    Acknowledgment number: 78    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1643 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+File Transfer Protocol (FTP)
+
+     19 19.778279554   10.0.1.12             10.0.1.11             TCP      66     21 → 49908 [ACK] Seq=78 Ack=35 Win=29056 Len=0 TSval=1191674 TSecr=1191354
+
+Frame 19: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:7c:77, Dst: 68:05:ca:1a:7c:70
+Internet Protocol Version 4, Src: 10.0.1.12, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 21 (21), Dst Port: 49908 (49908), Seq: 78, Ack: 35, Len: 0
+    Source Port: 21
+    Destination Port: 49908
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 78    (relative sequence number)
+    Acknowledgment number: 35    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x642e [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     20 19.778529668   10.0.1.12             10.0.1.11             FTP      85     Response: 215 UNIX Type: L8
+
+Frame 20: 85 bytes on wire (680 bits), 85 bytes captured (680 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:7c:77, Dst: 68:05:ca:1a:7c:70
+Internet Protocol Version 4, Src: 10.0.1.12, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 21 (21), Dst Port: 49908 (49908), Seq: 78, Ack: 35, Len: 19
+    Source Port: 21
+    Destination Port: 49908
+    [Stream index: 0]
+    [TCP Segment Len: 19]
+    Sequence number: 78    (relative sequence number)
+    [Next sequence number: 97    (relative sequence number)]
+    Acknowledgment number: 35    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xfcc2 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+File Transfer Protocol (FTP)
+
+     21 19.815620112   10.0.1.11             10.0.1.12             TCP      66     49908 → 21 [ACK] Seq=35 Ack=97 Win=29312 Len=0 TSval=1191364 TSecr=1191674
+
+Frame 21: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:7c:70, Dst: 68:05:ca:1a:7c:77
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.1.12
+Transmission Control Protocol, Src Port: 49908 (49908), Dst Port: 21 (21), Seq: 35, Ack: 97, Len: 0
+    Source Port: 49908
+    Destination Port: 21
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 35    (relative sequence number)
+    Acknowledgment number: 97    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x163d [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
