@@ -1,0 +1,10 @@
+PING ameblo.jp (27.133.208.13) 56(84) bytes of data.
+64 bytes from 27.133.208.13: icmp_seq=1 ttl=128 time=234 ms
+64 bytes from 27.133.208.13: icmp_seq=2 ttl=128 time=216 ms
+64 bytes from 27.133.208.13: icmp_seq=3 ttl=128 time=218 ms
+64 bytes from 27.133.208.13: icmp_seq=4 ttl=128 time=217 ms
+64 bytes from 27.133.208.13: icmp_seq=5 ttl=128 time=216 ms
+
+--- ameblo.jp ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 5875ms
+rtt min/avg/max/mdev = 216.146/220.583/234.364/6.956 ms

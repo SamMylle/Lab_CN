@@ -1,0 +1,10 @@
+PING www.worldcrm.org (74.208.236.54) 56(84) bytes of data.
+64 bytes from 74-208-236-54.elastic-ssl.ui-r.com (74.208.236.54): icmp_seq=1 ttl=128 time=166 ms
+64 bytes from 74-208-236-54.elastic-ssl.ui-r.com (74.208.236.54): icmp_seq=2 ttl=128 time=168 ms
+64 bytes from 74-208-236-54.elastic-ssl.ui-r.com (74.208.236.54): icmp_seq=3 ttl=128 time=168 ms
+64 bytes from 74-208-236-54.elastic-ssl.ui-r.com (74.208.236.54): icmp_seq=4 ttl=128 time=165 ms
+64 bytes from 74-208-236-54.elastic-ssl.ui-r.com (74.208.236.54): icmp_seq=5 ttl=128 time=167 ms
+
+--- www.worldcrm.org ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 5231ms
+rtt min/avg/max/mdev = 165.286/167.327/168.884/1.394 ms
