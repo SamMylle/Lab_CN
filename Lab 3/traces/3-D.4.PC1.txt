@@ -1,0 +1,7 @@
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+10.0.0.0        10.0.1.71       255.255.0.0     UG        0 0          0 eth0
+10.0.1.0        0.0.0.0         255.255.255.0   U         0 0          0 eth0
+10.0.2.0        10.0.1.21       255.255.255.0   UG        0 0          0 eth0
+10.0.3.0        10.0.1.21       255.255.255.0   UG        0 0          0 eth0
+10.0.3.9        10.0.1.81       255.255.255.255 UGH       0 0          0 eth0
