@@ -1,0 +1,10 @@
+PING github.com (192.30.253.112) 56(84) bytes of data.
+64 bytes from 192.30.253.112: icmp_seq=1 ttl=128 time=122 ms
+64 bytes from 192.30.253.112: icmp_seq=2 ttl=128 time=104 ms
+64 bytes from 192.30.253.112: icmp_seq=3 ttl=128 time=101 ms
+64 bytes from 192.30.253.112: icmp_seq=4 ttl=128 time=101 ms
+64 bytes from 192.30.253.112: icmp_seq=5 ttl=128 time=102 ms
+
+--- github.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 5168ms
+rtt min/avg/max/mdev = 101.870/106.560/122.769/8.147 ms

@@ -1,5 +1,0 @@
-PING standaard.be (185.43.124.6) 56(84) bytes of data.
-
---- standaard.be ping statistics ---
-5 packets transmitted, 0 received, 100% packet loss, time 4104ms
-
