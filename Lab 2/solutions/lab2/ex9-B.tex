@@ -1,1 +1,1 @@
-Yes, but the username is sent one letter per packet (every letter twice). The password is also one letter per packet, but they are only sent once.
+Yes, but the username is sent one letter per packet (every letter twice for robustness). The password is also one letter per packet, but they are only sent once as opposed to the username. This can be seen in the pcap file "traces/9-B.pcapng", especially when following the TCP stream.
