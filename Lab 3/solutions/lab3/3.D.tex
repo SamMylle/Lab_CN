@@ -1,0 +1,13 @@
+PC 1's routing table:
+\begin{verbatim}
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+10.0.0.0        10.0.1.71       255.255.0.0     UG        0 0          0 eth0
+10.0.1.0        0.0.0.0         255.255.255.0   U         0 0          0 eth0
+10.0.2.0        10.0.1.21       255.255.255.0   UG        0 0          0 eth0
+10.0.3.0        10.0.1.21       255.255.255.0   UG        0 0          0 eth0
+10.0.3.9        10.0.1.81       255.255.255.255 UGH       0 0          0 eth0
+\end{verbatim}
+$10.0.3.9$ matches with 3 entries: $10.0.0.0 \backslash 16$, $10.0.3.0 \backslash 24$ and $10.0.3.9 \backslash 32$. It will pick $10.0.3.9 \backslash 32$ as it has the longest prefix match.
+$10.0.3.14$ matches with 2 entries: $10.0.0.0 \backslash 16$and $10.0.3.0 \backslash 24$. It will pick $10.0.3.0 \backslash 24$ as it has the longest prefix match.
+$10.0.4.1$ matches with only 1 entry: $10.0.0.0 \backslash 16$, and will be routed here.
