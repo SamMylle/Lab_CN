@@ -1,27 +1,30 @@
 Routing table of PC 1:
-\begin{verbatim}
-Kernel IP routing table
-Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
-10.0.1.0        0.0.0.0         255.255.255.0   U         0 0          0 eth0
-10.0.2.0        10.0.1.21       255.255.255.0   UG        0 0          0 eth0
-10.0.3.0        10.0.1.21       255.255.255.0   UG        0 0          0 eth0
-\end{verbatim}
+\lstinputlisting{traces/1-c.3.PC1.txt}
+% \begin{verbatim}
+% Kernel IP routing table
+% Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+% 10.0.1.0        0.0.0.0         255.255.255.0   U         0 0          0 eth0
+% 10.0.2.0        10.0.1.21       255.255.255.0   UG        0 0          0 eth0
+% 10.0.3.0        10.0.1.21       255.255.255.0   UG        0 0          0 eth0
+% \end{verbatim}
 Routing table of PC 2:
-\begin{verbatim}
-Kernel IP routing table
-Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
-10.0.1.0        0.0.0.0         255.255.255.0   U         0 0          0 eth0
-10.0.2.0        0.0.0.0         255.255.255.0   U         0 0          0 eth1
-10.0.3.0        10.0.2.1        255.255.255.0   UG        0 0          0 eth1
-\end{verbatim}
+\lstinputlisting{traces/1-c.3.PC2.txt}
+% \begin{verbatim}
+% Kernel IP routing table
+% Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+% 10.0.1.0        0.0.0.0         255.255.255.0   U         0 0          0 eth0
+% 10.0.2.0        0.0.0.0         255.255.255.0   U         0 0          0 eth1
+% 10.0.3.0        10.0.2.1        255.255.255.0   UG        0 0          0 eth1
+% \end{verbatim}
 Routing table of PC 4:
-\begin{verbatim}
-Kernel IP routing table
-Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
-10.0.1.0        10.0.3.1        255.255.255.0   UG        0 0          0 eth0
-10.0.2.0        10.0.3.1        255.255.255.0   UG        0 0          0 eth0
-10.0.3.0        0.0.0.0         255.255.255.0   U         0 0          0 eth0
-\end{verbatim}
+\lstinputlisting{traces/1-c.3.PC4.txt}
+% \begin{verbatim}
+% Kernel IP routing table
+% Destination     Gateway         Genmask         Flags   MSS Window  irtt Iface
+% 10.0.1.0        10.0.3.1        255.255.255.0   UG        0 0          0 eth0
+% 10.0.2.0        10.0.3.1        255.255.255.0   UG        0 0          0 eth0
+% 10.0.3.0        0.0.0.0         255.255.255.0   U         0 0          0 eth0
+% \end{verbatim}
 
 The routing table contains information on how to route packets from one network to the next. The destination column contains the network addresses of the destinations. The gateway column contains the address of the router which knows how to route to the corresponding destination network. The genmask column contains the netmasks for the destination networks/hosts. The Iface column contains on which interface the network is connected.\\\\
-We can clearly see PC1 routing its traffic for networks $10.0.2.0 \backslash 24$ and $10.0.3.0 \backslash 24$ through gateway $10.0.1.21$, as this is the address of PC2 on the $10.0.1.0 \backslash 24$ network. PC2 is connected to two networks with 2 interfaces: eth0 and eth1. Its directly connected to the $10.0.1.0 \backslash 24$ network on interface eth0, and directly connected to the $10.0.2.0 \backslash 24$ network on interface eth1. This explains the $0.0.0.0$ gateway addresses for these networks. In order for PC2 to reach the $10.0.3.0 \backslash 24$ network, it has to use the Cisco router ($10.0.2.1$) as the gateway. PC4 (and the $10.0.3.0 \backslash 24$ network) are hidden from the others behind the Cisco router. In order to reach the other two networks, PC4 must therefore route its packets for these networks through the Cisco router, available on the $10.0.3.0 \backslash 24$ network on address $10.0.3.1$.
+We can clearly see PC1 routing its traffic for networks $10.0.2.0 / 24$ and $10.0.3.0 / 24$ through gateway $10.0.1.21$, as this is the address of PC2 on the $10.0.1.0 / 24$ network. PC2 is connected to two networks with 2 interfaces: eth0 and eth1. Its directly connected to the $10.0.1.0 / 24$ network on interface eth0, and directly connected to the $10.0.2.0 / 24$ network on interface eth1. This explains the $0.0.0.0$ gateway addresses for these networks. In order for PC2 to reach the $10.0.3.0 / 24$ network, it has to use the Cisco router ($10.0.2.1$) as the gateway. PC4 (and the $10.0.3.0 / 24$ network) are hidden from the others behind the Cisco router. In order to reach the other two networks, PC4 must therefore route its packets for these networks through the Cisco router, available on the $10.0.3.0 / 24$ network on address $10.0.3.1$.
