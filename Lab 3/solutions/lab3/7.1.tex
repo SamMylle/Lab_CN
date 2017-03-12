@@ -1,0 +1,26 @@
+\textit{Due to the same problem as a few exercises before (checking for updates, attempting to reach ubuntu archives through default gateway), multiple ARP requests kept being sent. We couldn't clear the ARP caches on the PCs properly for this reason. Another problem is that the routing cache in the PCs was always empty.}
+\\ \\
+In the first scenario (step 3), the pings to the 2 hosts are both succesful. There are an equal amount of request and reply messages.
+\lstinputlisting{traces/7.3.f.PC1.txt}
+
+The second scenario (step 4) also runs without any problems. There are the same amount of requests as replies. The reason why this is succesful is because PC3 (who has a netmask of 29) can still see the IP address of PC4, meaning that it can answer to the ARP request from PC4 and send replies to the ICMP requests.
+\lstinputlisting{traces/7.4.f.txt}
+
+
+The third scenario (step 5) is not entirely succesful. The first ICMP echo request does not receive a reply, but the following requests do. PC3 will first try to send the ICMP packets through Router1, because it cannot see PC2 directly (due to its netmask). Router1 sees the first ICMP packet, and will determine that the packet should not be directed to him. As a result of this, the router will send an ICMP redirect message to PC3. This is the reason why there is no reply to the first ICMP request. \\
+After receiving the redirect message, PC3 will send the ICMP packets directly to PC2. The pings are succesful from this point on. \\ \\
+
+The redirect packet:
+\begin{verbatim}
+	No.     Time           Source                Destination           Protocol Length Info
+	    156 263.065460462  10.0.2.138            10.0.2.137            ICMP     70     Redirect             (Redirect for host)
+
+	Frame 156: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+	Ethernet II, Src: 00:0d:65:17:01:29, Dst: 68:05:ca:36:39:c7
+	Internet Protocol Version 4, Src: 10.0.2.138, Dst: 10.0.2.137
+	Internet Control Message Protocol
+\end{verbatim}
+The ping output:
+\lstinputlisting{traces/7.5.f.ping.txt}
+
+\textit{All the packets can be found at "traces/7.5.f.pcapng" (there are alot of 'junk' packets because of the reason listed above).}
