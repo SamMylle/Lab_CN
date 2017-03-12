@@ -6,7 +6,7 @@ When PC4 tries to ping PC1 in the first scenario, it tries to send an ARP reques
 PC4's ARP table also contains PC1's MAC address as a result.
 \lstinputlisting{traces/4.5.ARP.PC4.txt}
 
-PC4 can ping PC1 without problems after ARP is resolved (normal ICMP packets were captured over the network in all hosts, can be seen in these files: "4.5.PC1.pcapng", "4.5.PC2.pcapng", "4.5.PC1.pcap"). \\ \\
+PC4 can ping PC1 without problems after ARP is resolved (normal ICMP packets were captured over the network in all hosts, which can be verified in these files: "4.5.PC1.pcapng", "4.5.PC2.pcapng", "4.5.PC1.pcap"). \\ \\
 For the second scenario (where proxy ARP is disabled), the ping is not succesful. PC4 will once again try to send an ARP request for PC1's MAC address. The ARP request reaches the router, but the packet will not be forwarded since proxy ARP is disabled. PC4 receives no reply to the ARP request, and will say that the host is unreachable.
 \lstinputlisting{traces/4.7.ping.PC4.txt}
 \lstinputlisting{traces/4.7.PC4.txt}
