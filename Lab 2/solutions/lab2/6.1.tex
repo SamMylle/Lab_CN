@@ -1,0 +1,4 @@
+ARP asked for the MAC address of the computer which has the ip address 10.0.1.11. The pc which answered first on the request will be put in the arp cache, as well as used for the telnet session. This did not result in an error, because the telnet session was established with a valid MAC address. \newline
+
+In the captured packets ("traces/6.packets.pcap") you can see the telnet session is established after receiving a reply to the ARP request. The arp cache is adjusted to include the reply from the ARP request.\newline
+\lstinputlisting{traces/6.arpcache.txt}
