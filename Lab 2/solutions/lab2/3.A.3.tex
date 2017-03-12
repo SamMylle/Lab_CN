@@ -1,1 +1,17 @@
-ARP sends a broadcast message, requesting the MAC Address of the device which has 10.0.1.12 as IP address (packet 1). The device whose IP matches the queried one responds with its MAC-address (packet 2).
+ARP sends a broadcast message, requesting the MAC Address of the device which has 10.0.1.12 as IP address (packet 1). The device whose IP matches the queried one responds with its MAC-address (packet 2). \\
+\begin{lstlisting}
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    68:05:ca:36:33:a0     ff:ff:ff:ff:ff:ff     ARP      42     Who has 10.0.1.12? Tell 10.0.1.11
+
+Frame 1: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: ff:ff:ff:ff:ff:ff
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000320047    68:05:ca:36:31:f0     68:05:ca:36:33:a0     ARP      60     10.0.1.12 is at 68:05:ca:36:31:f0
+
+Frame 2: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:31:f0, Dst: 68:05:ca:36:33:a0
+Address Resolution Protocol (reply)
+\end{lstlisting}
+\textit{All packets can be found at "traces/3-A.pcapng"}

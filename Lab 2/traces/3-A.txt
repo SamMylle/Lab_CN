@@ -1,0 +1,68 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    68:05:ca:36:33:a0     ff:ff:ff:ff:ff:ff     ARP      42     Who has 10.0.1.12? Tell 10.0.1.11
+
+Frame 1: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: ff:ff:ff:ff:ff:ff
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000320047    68:05:ca:36:31:f0     68:05:ca:36:33:a0     ARP      60     10.0.1.12 is at 68:05:ca:36:31:f0
+
+Frame 2: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:31:f0, Dst: 68:05:ca:36:33:a0
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000331586    10.0.1.11             10.0.1.12             ICMP     98     Echo (ping) request  id=0x1d07, seq=1/256, ttl=64 (reply in 4)
+
+Frame 3: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 68:05:ca:36:31:f0
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.1.12
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.000739049    10.0.1.12             10.0.1.11             ICMP     98     Echo (ping) reply    id=0x1d07, seq=1/256, ttl=64 (request in 3)
+
+Frame 4: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:31:f0, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.1.12, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.148132791    10.0.1.11             224.0.0.251           MDNS     183    Standard query 0x0000 PTR _nfs._tcp.local, "QM" question PTR _ipp._tcp.local, "QM" question PTR _ipps._tcp.local, "QM" question PTR _ftp._tcp.local, "QM" question PTR _webdav._tcp.local, "QM" question PTR _webdavs._tcp.local, "QM" question PTR _sftp-ssh._tcp.local, "QM" question PTR _smb._tcp.local, "QM" question PTR _afpovertcp._tcp.local, "QM" question
+
+Frame 5: 183 bytes on wire (1464 bits), 183 bytes captured (1464 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 01:00:5e:00:00:fb
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 224.0.0.251
+User Datagram Protocol, Src Port: 5353 (5353), Dst Port: 5353 (5353)
+Multicast Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.998991533    10.0.1.11             10.0.1.12             ICMP     98     Echo (ping) request  id=0x1d07, seq=2/512, ttl=64 (reply in 7)
+
+Frame 6: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 68:05:ca:36:31:f0
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.1.12
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.999370182    10.0.1.12             10.0.1.11             ICMP     98     Echo (ping) reply    id=0x1d07, seq=2/512, ttl=64 (request in 6)
+
+Frame 7: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:31:f0, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.1.12, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 5.006299925    68:05:ca:36:31:f0     68:05:ca:36:33:a0     ARP      60     Who has 10.0.1.11? Tell 10.0.1.12
+
+Frame 8: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:31:f0, Dst: 68:05:ca:36:33:a0
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 5.006314502    68:05:ca:36:33:a0     68:05:ca:36:31:f0     ARP      42     10.0.1.11 is at 68:05:ca:36:33:a0
+
+Frame 9: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 68:05:ca:36:31:f0
+Address Resolution Protocol (reply)
