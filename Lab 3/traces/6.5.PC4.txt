@@ -1,0 +1,172 @@
+     12 17.505885249   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=64 (no response found!)
+
+Frame 12: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:2f, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     13 17.507080621   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=61 (no response found!)
+
+Frame 13: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     14 17.507816935   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=58 (no response found!)
+
+Frame 14: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     15 17.508529627   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=55 (no response found!)
+
+Frame 15: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     16 17.509309038   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=52 (no response found!)
+
+Frame 16: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     17 17.510048453   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=49 (no response found!)
+
+Frame 17: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     18 17.510797220   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=46 (no response found!)
+
+Frame 18: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     19 17.511490476   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=43 (no response found!)
+
+Frame 19: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     20 17.512265206   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=40 (no response found!)
+
+Frame 20: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     21 17.513050044   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=37 (no response found!)
+
+Frame 21: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     22 17.513810860   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=34 (no response found!)
+
+Frame 22: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     23 17.514515605   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=31 (no response found!)
+
+Frame 23: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     24 17.515285669   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=28 (no response found!)
+
+Frame 24: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     25 17.516031870   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=25 (no response found!)
+
+Frame 25: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     26 17.516772920   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=22 (no response found!)
+
+Frame 26: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     27 17.517563408   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=19 (no response found!)
+
+Frame 27: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     28 17.518363794   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=16 (no response found!)
+
+Frame 28: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     29 17.519099711   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=13 (no response found!)
+
+Frame 29: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     30 17.519833874   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=10 (no response found!)
+
+Frame 30: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     31 17.520546431   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=7 (no response found!)
+
+Frame 31: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     32 17.521319155   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=4 (no response found!)
+
+Frame 32: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     33 17.522058193   10.0.4.10             10.0.1.10             ICMP     98     Echo (ping) request  id=0x09fd, seq=1/256, ttl=1 (no response found!)
+
+Frame 33: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 00:0d:bc:ef:b9:48
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 10.0.1.10
+Internet Control Message Protocol
+
+     34 17.522850159   10.0.4.4              10.0.4.10             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 34: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:b9:48, Dst: 68:05:ca:39:e1:2f
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.4.10
+Internet Control Message Protocol
+
+     39 22.510743390   68:05:ca:39:e1:2f     00:0d:bc:ef:b9:48     ARP      42     Who has 10.0.4.4? Tell 10.0.4.10
+
+Frame 39: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:2f, Dst: 00:0d:bc:ef:b9:48
+Address Resolution Protocol (request)
+
+     40 22.511702437   00:0d:bc:ef:b9:48     68:05:ca:39:e1:2f     ARP      60     10.0.4.4 is at 00:0d:bc:ef:b9:48
+
+Frame 40: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:b9:48, Dst: 68:05:ca:39:e1:2f
+Address Resolution Protocol (reply)
