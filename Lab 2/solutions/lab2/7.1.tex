@@ -1,16 +1,16 @@
 The first 2 pings, \newline
 
-\lstinputlisting{traces/7.2.a.txt} \newline and \newline
-\lstinputlisting{traces/7.2.b.txt} \newline
+\lstinputlisting{traces/7.2.a.txt} and \newline
+\lstinputlisting{traces/7.2.b.txt}
 ,are succesful. The first ping is succesful since PC1 can see PC3, according to their respective netmasks, and the same can be said the other way around. \newline
 The second ping is succesful for the same reason, PC1 can see PC2 and PC2 can see PC1 (PC2 can see addresses in range 10.0.1.97 - 10.0.1.110). \newline
 \newline
 The third ping, \newline
-\lstinputlisting{traces/7.2.c.txt} \newline
+\lstinputlisting{traces/7.2.c.txt}
 ,is not succesful. The ping can be sent from PC1 to PC4, but PC4 cannot send a reply to PC1: it is not reachable with its netmask (range 10.0.1.113 - 10.0.1.126). \newline
 \newline
 The other pings, \newline
-\lstinputlisting{traces/7.2.d.txt} \newline
-\lstinputlisting{traces/7.2.e.txt} \newline
-\lstinputlisting{traces/7.2.f.txt} \newline
+\lstinputlisting{traces/7.2.d.txt}
+\lstinputlisting{traces/7.2.e.txt}
+\lstinputlisting{traces/7.2.f.txt}
 , are not succesful. This is because, in all 3 scenarios, the PC which tries to send a ping cannot reach/see the destination PC. The reason remains the same: the ip addresses are not in the range of the ip + netmask of the source PC.
