@@ -1,0 +1,303 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    10.0.1.1              10.0.1.2              OSPF     66     DB Description
+
+Frame 1: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+    Interface id: 0 (eth0)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 23, 2017 15:32:53.067332018 CET
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1490279573.067332018 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:ospf]
+    [Coloring Rule Name: OSPF State Change]
+    [Coloring Rule String: ospf.msg != 1]
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 68:05:ca:36:31:f0
+    Destination: 68:05:ca:36:31:f0
+        Address: 68:05:ca:36:31:f0
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 68:05:ca:36:33:a0
+        Address: 68:05:ca:36:33:a0
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.1.1, Dst: 10.0.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (48)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 52
+    Identification: 0xdc64 (56420)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: OSPF IGP (89)
+    Header checksum: 0xc64a [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.0.1.1
+    Destination: 10.0.1.2
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Open Shortest Path First
+    OSPF Header
+        Version: 2
+        Message Type: DB Description (2)
+        Packet Length: 32
+        Source OSPF Router: 10.0.1.1
+        Area ID: 0.0.0.0 (Backbone)
+        Checksum: 0x9a9b [correct]
+        Auth Type: Null (0)
+        Auth Data (none): 0000000000000000
+    OSPF DB Description
+        Interface MTU: 1500
+        Options: 0x02 ((E) External Routing)
+            0... .... = DN: Not set
+            .0.. .... = O: Not set
+            ..0. .... = (DC) Demand Circuits: Not supported
+            ...0 .... = (L) LLS Data block: Not Present
+            .... 0... = (N) NSSA: Not supported
+            .... .0.. = (MC) Multicast: Not capable
+            .... ..1. = (E) External Routing: Capable
+            .... ...0 = (MT) Multi-Topology Routing: No
+        DB Description: 0x00
+            .... 0... = (R) OOBResync: Not set
+            .... .0.. = (I) Init: Not set
+            .... ..0. = (M) More: Not set
+            .... ...0 = (MS) Master: No
+        DD Sequence: 1490286481
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000008337    10.0.1.1              10.0.1.2              OSPF     70     LS Request
+
+Frame 2: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+    Interface id: 0 (eth0)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 23, 2017 15:32:53.067340355 CET
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1490279573.067340355 seconds
+    [Time delta from previous captured frame: 0.000008337 seconds]
+    [Time delta from previous displayed frame: 0.000008337 seconds]
+    [Time since reference or first frame: 0.000008337 seconds]
+    Frame Number: 2
+    Frame Length: 70 bytes (560 bits)
+    Capture Length: 70 bytes (560 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:ospf]
+    [Coloring Rule Name: OSPF State Change]
+    [Coloring Rule String: ospf.msg != 1]
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 68:05:ca:36:31:f0
+    Destination: 68:05:ca:36:31:f0
+        Address: 68:05:ca:36:31:f0
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 68:05:ca:36:33:a0
+        Address: 68:05:ca:36:33:a0
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.1.1, Dst: 10.0.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (48)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 56
+    Identification: 0xdc65 (56421)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: OSPF IGP (89)
+    Header checksum: 0xc645 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.0.1.1
+    Destination: 10.0.1.2
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Open Shortest Path First
+    OSPF Header
+        Version: 2
+        Message Type: LS Request (3)
+        Packet Length: 36
+        Source OSPF Router: 10.0.1.1
+        Area ID: 0.0.0.0 (Backbone)
+        Checksum: 0xdcd2 [correct]
+        Auth Type: Null (0)
+        Auth Data (none): 0000000000000000
+    Link State Request
+        LS Type: Router-LSA (1)
+        Link State ID: 10.0.1.2
+        Advertising Router: 10.0.1.2
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000484803    10.0.1.1              224.0.0.5             OSPF     182    LS Update
+
+Frame 3: 182 bytes on wire (1456 bits), 182 bytes captured (1456 bits) on interface 0
+    Interface id: 0 (eth0)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 23, 2017 15:32:53.067816821 CET
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1490279573.067816821 seconds
+    [Time delta from previous captured frame: 0.000476466 seconds]
+    [Time delta from previous displayed frame: 0.000476466 seconds]
+    [Time since reference or first frame: 0.000484803 seconds]
+    Frame Number: 3
+    Frame Length: 182 bytes (1456 bits)
+    Capture Length: 182 bytes (1456 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:ospf]
+    [Coloring Rule Name: OSPF State Change]
+    [Coloring Rule String: ospf.msg != 1]
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 01:00:5e:00:00:05
+    Destination: 01:00:5e:00:00:05
+        Address: 01:00:5e:00:00:05
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: 68:05:ca:36:33:a0
+        Address: 68:05:ca:36:33:a0
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.1.1, Dst: 224.0.0.5
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (48)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 168
+    Identification: 0xdc66 (56422)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: OSPF IGP (89)
+    Header checksum: 0xf0d0 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.0.1.1
+    Destination: 224.0.0.5
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Open Shortest Path First
+    OSPF Header
+        Version: 2
+        Message Type: LS Update (4)
+        Packet Length: 148
+        Source OSPF Router: 10.0.1.1
+        Area ID: 0.0.0.0 (Backbone)
+        Checksum: 0x4feb [correct]
+        Auth Type: Null (0)
+        Auth Data (none): 0000000000000000
+    LS Update Packet
+        Number of LSAs: 4
+        LSA-type 1 (Router-LSA), len 36
+            .000 0000 0010 1001 = LS Age (seconds): 41
+            0... .... .... .... = Do Not Age Flag: 0
+            Options: 0x02 ((E) External Routing)
+                0... .... = DN: Not set
+                .0.. .... = O: Not set
+                ..0. .... = (DC) Demand Circuits: Not supported
+                ...0 .... = (L) LLS Data block: Not Present
+                .... 0... = (N) NSSA: Not supported
+                .... .0.. = (MC) Multicast: Not capable
+                .... ..1. = (E) External Routing: Capable
+                .... ...0 = (MT) Multi-Topology Routing: No
+            LS Type: Router-LSA (1)
+            Link State ID: 10.0.1.1
+            Advertising Router: 10.0.1.1
+            Sequence Number: 0x80000003
+            Checksum: 0xce54
+            Length: 36
+            Flags: 0x01 ((B) Area border router)
+                .... .0.. = (V) Virtual link endpoint: No
+                .... ..0. = (E) AS boundary router: No
+                .... ...1 = (B) Area border router: Yes
+            Number of Links: 1
+            Type: Stub     ID: 10.0.1.0        Data: 255.255.255.0   Metric: 10
+                Link ID: 10.0.1.0 - IP network/subnet number
+                Link Data: 255.255.255.0
+                Link Type: 3 - Connection to a stub network
+                Number of Metrics: 0 - TOS
+                0 Metric: 10
+        LSA-type 3 (Summary-LSA (IP network)), len 28
+            .000 0000 0101 0000 = LS Age (seconds): 80
+            0... .... .... .... = Do Not Age Flag: 0
+            Options: 0x02 ((E) External Routing)
+                0... .... = DN: Not set
+                .0.. .... = O: Not set
+                ..0. .... = (DC) Demand Circuits: Not supported
+                ...0 .... = (L) LLS Data block: Not Present
+                .... 0... = (N) NSSA: Not supported
+                .... .0.. = (MC) Multicast: Not capable
+                .... ..1. = (E) External Routing: Capable
+                .... ...0 = (MT) Multi-Topology Routing: No
+            LS Type: Summary-LSA (IP network) (3)
+            Link State ID: 10.0.2.0
+            Advertising Router: 10.0.1.1
+            Sequence Number: 0x80000001
+            Checksum: 0xcf6b
+            Length: 28
+            Netmask: 255.255.255.0
+            TOS: 0
+            Metric: 10
+        LSA-type 3 (Summary-LSA (IP network)), len 28
+            .000 0000 0101 0000 = LS Age (seconds): 80
+            0... .... .... .... = Do Not Age Flag: 0
+            Options: 0x02 ((E) External Routing)
+                0... .... = DN: Not set
+                .0.. .... = O: Not set
+                ..0. .... = (DC) Demand Circuits: Not supported
+                ...0 .... = (L) LLS Data block: Not Present
+                .... 0... = (N) NSSA: Not supported
+                .... .0.. = (MC) Multicast: Not capable
+                .... ..1. = (E) External Routing: Capable
+                .... ...0 = (MT) Multi-Topology Routing: No
+            LS Type: Summary-LSA (IP network) (3)
+            Link State ID: 10.0.3.0
+            Advertising Router: 10.0.1.1
+            Sequence Number: 0x80000001
+            Checksum: 0xce6a
+            Length: 28
+            Netmask: 255.255.255.0
+            TOS: 0
+            Metric: 11
+        LSA-type 3 (Summary-LSA (IP network)), len 28
+            .000 0000 0101 0000 = LS Age (seconds): 80
+            0... .... .... .... = Do Not Age Flag: 0
+            Options: 0x02 ((E) External Routing)
+                0... .... = DN: Not set
+                .0.. .... = O: Not set
+                ..0. .... = (DC) Demand Circuits: Not supported
+                ...0 .... = (L) LLS Data block: Not Present
+                .... 0... = (N) NSSA: Not supported
+                .... .0.. = (MC) Multicast: Not capable
+                .... ..1. = (E) External Routing: Capable
+                .... ...0 = (MT) Multi-Topology Routing: No
+            LS Type: Summary-LSA (IP network) (3)
+            Link State ID: 10.0.4.0
+            Advertising Router: 10.0.1.1
+            Sequence Number: 0x80000001
+            Checksum: 0xc374
+            Length: 28
+            Netmask: 255.255.255.0
+            TOS: 0
+            Metric: 11
