@@ -1,0 +1,2507 @@
+      1 0.000000000    10.0.5.11             10.0.5.22             TCP      74     33230 → 23 [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=1525233 TSecr=0 WS=128
+
+Frame 1: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 0, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 0    (relative sequence number)
+    Acknowledgment number: 0
+    Header Length: 40 bytes
+    Flags: 0x002 (SYN)
+    Window size value: 29200
+    [Calculated window size: 29200]
+    Checksum: 0x1e4f [validation disabled]
+    Urgent pointer: 0
+    Options: (20 bytes), Maximum segment size, SACK permitted, Timestamps, No-Operation (NOP), Window scale
+
+      2 0.000388357    10.0.5.22             10.0.5.11             TCP      74     23 → 33230 [SYN, ACK] Seq=0 Ack=1 Win=28960 Len=0 MSS=1460 SACK_PERM=1 TSval=1524972 TSecr=1525233 WS=128
+
+Frame 2: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 0, Ack: 1, Len: 0
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 0    (relative sequence number)
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 40 bytes
+    Flags: 0x012 (SYN, ACK)
+    Window size value: 28960
+    [Calculated window size: 28960]
+    Checksum: 0x479a [validation disabled]
+    Urgent pointer: 0
+    Options: (20 bytes), Maximum segment size, SACK permitted, Timestamps, No-Operation (NOP), Window scale
+    [SEQ/ACK analysis]
+
+      3 0.000417125    10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=1525233 TSecr=1524972
+
+Frame 3: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 1, Ack: 1, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+      4 0.000556972    10.0.5.11             10.0.5.22             TELNET   93     Telnet Data ...
+
+Frame 4: 93 bytes on wire (744 bits), 93 bytes captured (744 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 1, Ack: 1, Len: 27
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 27]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 28    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e62 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+      5 0.000987380    10.0.5.22             10.0.5.11             TCP      66     23 → 33230 [ACK] Seq=1 Ack=28 Win=29056 Len=0 TSval=1524972 TSecr=1525233
+
+Frame 5: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 1, Ack: 28, Len: 0
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 28    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xe688 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+      6 5.003486973    68:05:ca:39:cc:79     68:05:ca:39:e1:36     ARP      42     Who has 10.0.5.22? Tell 10.0.5.11
+
+Frame 6: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Address Resolution Protocol (request)
+
+      7 5.003770435    68:05:ca:39:e1:36     68:05:ca:39:cc:79     ARP      60     10.0.5.22 is at 68:05:ca:39:e1:36
+
+Frame 7: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Address Resolution Protocol (reply)
+
+      8 10.487115293   10.0.5.22             10.0.5.11             TELNET   78     Telnet Data ...
+
+Frame 8: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 1, Ack: 28, Len: 12
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 12]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 13    (relative sequence number)]
+    Acknowledgment number: 28    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xa4f4 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+      9 10.487143932   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=28 Ack=13 Win=29312 Len=0 TSval=1527854 TSecr=1527593
+
+Frame 9: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 28, Ack: 13, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 28    (relative sequence number)
+    Acknowledgment number: 13    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     10 10.487528999   10.0.5.22             10.0.5.11             TELNET   105    Telnet Data ...
+
+Frame 10: 105 bytes on wire (840 bits), 105 bytes captured (840 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 13, Ack: 28, Len: 39
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 39]
+    Sequence number: 13    (relative sequence number)
+    [Next sequence number: 52    (relative sequence number)]
+    Acknowledgment number: 28    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xf71a [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     11 10.487543883   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=28 Ack=52 Win=29312 Len=0 TSval=1527855 TSecr=1527593
+
+Frame 11: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 28, Ack: 52, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 28    (relative sequence number)
+    Acknowledgment number: 52    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     12 10.487649812   10.0.5.11             10.0.5.22             TELNET   147    Telnet Data ...
+
+Frame 12: 147 bytes on wire (1176 bits), 147 bytes captured (1176 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 28, Ack: 52, Len: 81
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 81]
+    Sequence number: 28    (relative sequence number)
+    [Next sequence number: 109    (relative sequence number)]
+    Acknowledgment number: 52    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e98 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     13 10.488165233   10.0.5.22             10.0.5.11             TCP      66     23 → 33230 [ACK] Seq=52 Ack=109 Win=29056 Len=0 TSval=1527594 TSecr=1527855
+
+Frame 13: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 52, Ack: 109, Len: 0
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 52    (relative sequence number)
+    Acknowledgment number: 109    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xd188 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     14 10.488443883   10.0.5.22             10.0.5.11             TELNET   69     Telnet Data ...
+
+Frame 14: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 52, Ack: 109, Len: 3
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 3]
+    Sequence number: 52    (relative sequence number)
+    [Next sequence number: 55    (relative sequence number)]
+    Acknowledgment number: 109    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xd07f [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     15 10.488496774   10.0.5.11             10.0.5.22             TELNET   69     Telnet Data ...
+
+Frame 15: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 109, Ack: 55, Len: 3
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 3]
+    Sequence number: 109    (relative sequence number)
+    [Next sequence number: 112    (relative sequence number)]
+    Acknowledgment number: 55    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e4a [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     16 10.489760648   10.0.5.22             10.0.5.11             TELNET   69     Telnet Data ...
+
+Frame 16: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 55, Ack: 112, Len: 3
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 3]
+    Sequence number: 55    (relative sequence number)
+    [Next sequence number: 58    (relative sequence number)]
+    Acknowledgment number: 112    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xd07b [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     17 10.489824440   10.0.5.11             10.0.5.22             TELNET   69     Telnet Data ...
+
+Frame 17: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 112, Ack: 58, Len: 3
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 3]
+    Sequence number: 112    (relative sequence number)
+    [Next sequence number: 115    (relative sequence number)]
+    Acknowledgment number: 58    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e4a [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     18 10.490207823   10.0.5.22             10.0.5.11             TELNET   86     Telnet Data ...
+
+Frame 18: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 58, Ack: 115, Len: 20
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 20]
+    Sequence number: 58    (relative sequence number)
+    [Next sequence number: 78    (relative sequence number)]
+    Acknowledgment number: 115    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x5bac [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     19 10.527496749   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=115 Ack=78 Win=29312 Len=0 TSval=1527865 TSecr=1527594
+
+Frame 19: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 115, Ack: 78, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 115    (relative sequence number)
+    Acknowledgment number: 78    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     20 10.599860171   10.0.5.22             10.0.5.11             TELNET   79     Telnet Data ...
+
+Frame 20: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 78, Ack: 115, Len: 13
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 13]
+    Sequence number: 78    (relative sequence number)
+    [Next sequence number: 91    (relative sequence number)]
+    Acknowledgment number: 115    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x3d28 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     21 10.599874735   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=115 Ack=91 Win=29312 Len=0 TSval=1527883 TSecr=1527622
+
+Frame 21: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 115, Ack: 91, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 115    (relative sequence number)
+    Acknowledgment number: 91    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     22 21.444032914   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 22: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 115, Ack: 91, Len: 1
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 115    (relative sequence number)
+    [Next sequence number: 116    (relative sequence number)]
+    Acknowledgment number: 91    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e48 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     23 21.444490532   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 23: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 91, Ack: 116, Len: 1
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 91    (relative sequence number)
+    [Next sequence number: 92    (relative sequence number)]
+    Acknowledgment number: 116    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x48eb [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     24 21.444514569   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=116 Ack=92 Win=29312 Len=0 TSval=1530594 TSecr=1530333
+
+Frame 24: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 116, Ack: 92, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 116    (relative sequence number)
+    Acknowledgment number: 92    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     25 21.579721360   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 25: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 116, Ack: 92, Len: 1
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 116    (relative sequence number)
+    [Next sequence number: 117    (relative sequence number)]
+    Acknowledgment number: 92    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e48 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     26 21.580231903   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 26: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 92, Ack: 117, Len: 1
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 92    (relative sequence number)
+    [Next sequence number: 93    (relative sequence number)]
+    Acknowledgment number: 117    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x47a5 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     27 21.580253635   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=117 Ack=93 Win=29312 Len=0 TSval=1530628 TSecr=1530367
+
+Frame 27: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 117, Ack: 93, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 117    (relative sequence number)
+    Acknowledgment number: 93    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     28 21.811201267   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 28: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 117, Ack: 93, Len: 1
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 117    (relative sequence number)
+    [Next sequence number: 118    (relative sequence number)]
+    Acknowledgment number: 93    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e48 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     29 21.811692839   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 29: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 93, Ack: 118, Len: 1
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 93    (relative sequence number)
+    [Next sequence number: 94    (relative sequence number)]
+    Acknowledgment number: 118    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x4630 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     30 21.811712582   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=118 Ack=94 Win=29312 Len=0 TSval=1530686 TSecr=1530425
+
+Frame 30: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 118, Ack: 94, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 118    (relative sequence number)
+    Acknowledgment number: 94    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     31 21.962432511   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 31: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 118, Ack: 94, Len: 1
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 118    (relative sequence number)
+    [Next sequence number: 119    (relative sequence number)]
+    Acknowledgment number: 94    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e48 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     32 21.962942994   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 32: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 94, Ack: 119, Len: 1
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 94    (relative sequence number)
+    [Next sequence number: 95    (relative sequence number)]
+    Acknowledgment number: 119    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x56e3 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     33 21.962960053   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=119 Ack=95 Win=29312 Len=0 TSval=1530723 TSecr=1530462
+
+Frame 33: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 119, Ack: 95, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 119    (relative sequence number)
+    Acknowledgment number: 95    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     34 22.331366578   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 34: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 119, Ack: 95, Len: 1
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 119    (relative sequence number)
+    [Next sequence number: 120    (relative sequence number)]
+    Acknowledgment number: 95    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e48 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     35 22.331826516   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 35: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 95, Ack: 120, Len: 1
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 95    (relative sequence number)
+    [Next sequence number: 96    (relative sequence number)]
+    Acknowledgment number: 120    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x5528 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     36 22.331848825   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=120 Ack=96 Win=29312 Len=0 TSval=1530816 TSecr=1530555
+
+Frame 36: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 120, Ack: 96, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 120    (relative sequence number)
+    Acknowledgment number: 96    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     37 22.442632628   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 37: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 120, Ack: 96, Len: 1
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 120    (relative sequence number)
+    [Next sequence number: 121    (relative sequence number)]
+    Acknowledgment number: 96    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e48 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     38 22.443154577   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 38: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 96, Ack: 121, Len: 1
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 96    (relative sequence number)
+    [Next sequence number: 97    (relative sequence number)]
+    Acknowledgment number: 121    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x4bef [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     39 22.443175399   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=121 Ack=97 Win=29312 Len=0 TSval=1530843 TSecr=1530582
+
+Frame 39: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 121, Ack: 97, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 121    (relative sequence number)
+    Acknowledgment number: 97    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     40 22.578349538   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 40: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 121, Ack: 97, Len: 1
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 121    (relative sequence number)
+    [Next sequence number: 122    (relative sequence number)]
+    Acknowledgment number: 97    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e48 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     41 22.578830300   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 41: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 97, Ack: 122, Len: 1
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 97    (relative sequence number)
+    [Next sequence number: 98    (relative sequence number)]
+    Acknowledgment number: 122    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x45a9 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     42 22.578846178   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=122 Ack=98 Win=29312 Len=0 TSval=1530877 TSecr=1530616
+
+Frame 42: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 122, Ack: 98, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 122    (relative sequence number)
+    Acknowledgment number: 98    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     43 25.828069331   10.0.5.11             10.0.5.22             TELNET   68     Telnet Data ...
+
+Frame 43: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 122, Ack: 98, Len: 2
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 2]
+    Sequence number: 122    (relative sequence number)
+    [Next sequence number: 124    (relative sequence number)]
+    Acknowledgment number: 98    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e49 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     44 25.828621996   10.0.5.22             10.0.5.11             TELNET   68     Telnet Data ...
+
+Frame 44: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 98, Ack: 124, Len: 2
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 2]
+    Sequence number: 98    (relative sequence number)
+    [Next sequence number: 100    (relative sequence number)]
+    Acknowledgment number: 124    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xa641 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     45 25.828647684   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=124 Ack=100 Win=29312 Len=0 TSval=1531690 TSecr=1531429
+
+Frame 45: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 124, Ack: 100, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 124    (relative sequence number)
+    Acknowledgment number: 100    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     46 25.829480015   10.0.5.22             10.0.5.11             TELNET   76     Telnet Data ...
+
+Frame 46: 76 bytes on wire (608 bits), 76 bytes captured (608 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 100, Ack: 124, Len: 10
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 10]
+    Sequence number: 100    (relative sequence number)
+    [Next sequence number: 110    (relative sequence number)]
+    Acknowledgment number: 124    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xcb78 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     47 25.829496730   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=124 Ack=110 Win=29312 Len=0 TSval=1531690 TSecr=1531429
+
+Frame 47: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 124, Ack: 110, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 124    (relative sequence number)
+    Acknowledgment number: 110    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     48 27.371573720   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 48: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 124, Ack: 110, Len: 1
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 124    (relative sequence number)
+    [Next sequence number: 125    (relative sequence number)]
+    Acknowledgment number: 110    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e48 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     49 27.411706908   10.0.5.22             10.0.5.11             TCP      66     23 → 33230 [ACK] Seq=110 Ack=125 Win=29056 Len=0 TSval=1531825 TSecr=1532076
+
+Frame 49: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 110, Ack: 125, Len: 0
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 110    (relative sequence number)
+    Acknowledgment number: 125    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xb03a [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     50 27.650786590   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 50: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 125, Ack: 110, Len: 1
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 125    (relative sequence number)
+    [Next sequence number: 126    (relative sequence number)]
+    Acknowledgment number: 110    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e48 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     51 27.651147838   10.0.5.22             10.0.5.11             TCP      66     23 → 33230 [ACK] Seq=110 Ack=126 Win=29056 Len=0 TSval=1531884 TSecr=1532145
+
+Frame 51: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 110, Ack: 126, Len: 0
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 110    (relative sequence number)
+    Acknowledgment number: 126    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xafb9 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     52 28.140087823   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 52: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 126, Ack: 110, Len: 1
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 126    (relative sequence number)
+    [Next sequence number: 127    (relative sequence number)]
+    Acknowledgment number: 110    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e48 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     53 28.140442166   10.0.5.22             10.0.5.11             TCP      66     23 → 33230 [ACK] Seq=110 Ack=127 Win=29056 Len=0 TSval=1532007 TSecr=1532268
+
+Frame 53: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 110, Ack: 127, Len: 0
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 110    (relative sequence number)
+    Acknowledgment number: 127    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xaec2 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     54 28.483707661   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 54: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 127, Ack: 110, Len: 1
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 127    (relative sequence number)
+    [Next sequence number: 128    (relative sequence number)]
+    Acknowledgment number: 110    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e48 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     55 28.484008637   10.0.5.22             10.0.5.11             TCP      66     23 → 33230 [ACK] Seq=110 Ack=128 Win=29056 Len=0 TSval=1532093 TSecr=1532354
+
+Frame 55: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 110, Ack: 128, Len: 0
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 110    (relative sequence number)
+    Acknowledgment number: 128    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xae15 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     56 28.723321439   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 56: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 128, Ack: 110, Len: 1
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 128    (relative sequence number)
+    [Next sequence number: 129    (relative sequence number)]
+    Acknowledgment number: 110    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e48 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     57 28.723682489   10.0.5.22             10.0.5.11             TCP      66     23 → 33230 [ACK] Seq=110 Ack=129 Win=29056 Len=0 TSval=1532152 TSecr=1532413
+
+Frame 57: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 110, Ack: 129, Len: 0
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 110    (relative sequence number)
+    Acknowledgment number: 129    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xad9e [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     58 29.259680973   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 58: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 129, Ack: 110, Len: 1
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 129    (relative sequence number)
+    [Next sequence number: 130    (relative sequence number)]
+    Acknowledgment number: 110    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e48 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     59 29.260047359   10.0.5.22             10.0.5.11             TCP      66     23 → 33230 [ACK] Seq=110 Ack=130 Win=29056 Len=0 TSval=1532287 TSecr=1532548
+
+Frame 59: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 110, Ack: 130, Len: 0
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 110    (relative sequence number)
+    Acknowledgment number: 130    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xac8f [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     60 29.547283587   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 60: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 130, Ack: 110, Len: 1
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 130    (relative sequence number)
+    [Next sequence number: 131    (relative sequence number)]
+    Acknowledgment number: 110    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e48 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     61 29.547647398   10.0.5.22             10.0.5.11             TCP      66     23 → 33230 [ACK] Seq=110 Ack=131 Win=29056 Len=0 TSval=1532358 TSecr=1532619
+
+Frame 61: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 110, Ack: 131, Len: 0
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 110    (relative sequence number)
+    Acknowledgment number: 131    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xac00 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     62 29.779613461   10.0.5.11             10.0.5.22             TELNET   68     Telnet Data ...
+
+Frame 62: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 131, Ack: 110, Len: 2
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 2]
+    Sequence number: 131    (relative sequence number)
+    [Next sequence number: 133    (relative sequence number)]
+    Acknowledgment number: 110    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e49 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     63 29.779898009   10.0.5.22             10.0.5.11             TCP      66     23 → 33230 [ACK] Seq=110 Ack=133 Win=29056 Len=0 TSval=1532417 TSecr=1532678
+
+Frame 63: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 110, Ack: 133, Len: 0
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 110    (relative sequence number)
+    Acknowledgment number: 133    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xab88 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     64 29.780190909   10.0.5.22             10.0.5.11             TELNET   68     Telnet Data ...
+
+Frame 64: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 110, Ack: 133, Len: 2
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 2]
+    Sequence number: 110    (relative sequence number)
+    [Next sequence number: 112    (relative sequence number)]
+    Acknowledgment number: 133    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x9e74 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     65 29.780207384   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=133 Ack=112 Win=29312 Len=0 TSval=1532678 TSecr=1532417
+
+Frame 65: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 133, Ack: 112, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 133    (relative sequence number)
+    Acknowledgment number: 112    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     66 29.994659586   10.0.5.22             10.0.5.11             TELNET   608    Telnet Data ...
+
+Frame 66: 608 bytes on wire (4864 bits), 608 bytes captured (4864 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 112, Ack: 133, Len: 542
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 542]
+    Sequence number: 112    (relative sequence number)
+    [Next sequence number: 654    (relative sequence number)]
+    Acknowledgment number: 133    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xa07b [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     67 29.994681986   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=133 Ack=654 Win=30336 Len=0 TSval=1532731 TSecr=1532470
+
+Frame 67: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 133, Ack: 654, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 133    (relative sequence number)
+    Acknowledgment number: 654    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 237
+    [Calculated window size: 30336]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     68 30.021585091   10.0.5.22             10.0.5.11             TELNET   341    Telnet Data ...
+
+Frame 68: 341 bytes on wire (2728 bits), 341 bytes captured (2728 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 654, Ack: 133, Len: 275
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 275]
+    Sequence number: 654    (relative sequence number)
+    [Next sequence number: 929    (relative sequence number)]
+    Acknowledgment number: 133    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xdf3d [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     69 30.021596176   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=133 Ack=929 Win=31488 Len=0 TSval=1532738 TSecr=1532477
+
+Frame 69: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 133, Ack: 929, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 133    (relative sequence number)
+    Acknowledgment number: 929    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 246
+    [Calculated window size: 31488]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     70 30.083069542   10.0.5.22             10.0.5.11             TELNET   130    Telnet Data ...
+
+Frame 70: 130 bytes on wire (1040 bits), 130 bytes captured (1040 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 929, Ack: 133, Len: 64
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 64]
+    Sequence number: 929    (relative sequence number)
+    [Next sequence number: 993    (relative sequence number)]
+    Acknowledgment number: 133    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x1763 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     71 30.083078544   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=133 Ack=993 Win=31488 Len=0 TSval=1532753 TSecr=1532492
+
+Frame 71: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 133, Ack: 993, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 133    (relative sequence number)
+    Acknowledgment number: 993    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 246
+    [Calculated window size: 31488]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     72 49.363782537   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 72: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 133, Ack: 993, Len: 1
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 133    (relative sequence number)
+    [Next sequence number: 134    (relative sequence number)]
+    Acknowledgment number: 993    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 246
+    [Calculated window size: 31488]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e48 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     73 49.364451891   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 73: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 993, Ack: 134, Len: 1
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 993    (relative sequence number)
+    [Next sequence number: 994    (relative sequence number)]
+    Acknowledgment number: 134    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x3ecb [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     74 49.364477314   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=134 Ack=994 Win=31488 Len=0 TSval=1537574 TSecr=1537313
+
+Frame 74: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 134, Ack: 994, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 134    (relative sequence number)
+    Acknowledgment number: 994    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 246
+    [Calculated window size: 31488]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     75 49.771708423   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 75: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 134, Ack: 994, Len: 1
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 134    (relative sequence number)
+    [Next sequence number: 135    (relative sequence number)]
+    Acknowledgment number: 994    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 246
+    [Calculated window size: 31488]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e48 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     76 49.772343933   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 76: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 994, Ack: 135, Len: 1
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 994    (relative sequence number)
+    [Next sequence number: 995    (relative sequence number)]
+    Acknowledgment number: 135    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x0cfd [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     77 49.772366230   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=135 Ack=995 Win=31488 Len=0 TSval=1537676 TSecr=1537415
+
+Frame 77: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 135, Ack: 995, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 135    (relative sequence number)
+    Acknowledgment number: 995    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 246
+    [Calculated window size: 31488]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     78 50.611990407   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 78: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 135, Ack: 995, Len: 1
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 135    (relative sequence number)
+    [Next sequence number: 136    (relative sequence number)]
+    Acknowledgment number: 995    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 246
+    [Calculated window size: 31488]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e48 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     79 50.612649055   10.0.5.22             10.0.5.11             TELNET   70     Telnet Data ...
+
+Frame 79: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 995, Ack: 136, Len: 4
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 4]
+    Sequence number: 995    (relative sequence number)
+    [Next sequence number: 999    (relative sequence number)]
+    Acknowledgment number: 136    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x1bee [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     80 50.612673133   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=136 Ack=999 Win=31488 Len=0 TSval=1537886 TSecr=1537625
+
+Frame 80: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 136, Ack: 999, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 136    (relative sequence number)
+    Acknowledgment number: 999    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 246
+    [Calculated window size: 31488]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     81 50.779336661   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 81: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 136, Ack: 999, Len: 1
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 1]
+    Sequence number: 136    (relative sequence number)
+    [Next sequence number: 137    (relative sequence number)]
+    Acknowledgment number: 999    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 246
+    [Calculated window size: 31488]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e48 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     82 50.780020508   10.0.5.22             10.0.5.11             TELNET   70     Telnet Data ...
+
+Frame 82: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 999, Ack: 137, Len: 4
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 4]
+    Sequence number: 999    (relative sequence number)
+    [Next sequence number: 1003    (relative sequence number)]
+    Acknowledgment number: 137    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x1b96 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     83 50.780040202   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=137 Ack=1003 Win=31488 Len=0 TSval=1537928 TSecr=1537667
+
+Frame 83: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 137, Ack: 1003, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 137    (relative sequence number)
+    Acknowledgment number: 1003    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 246
+    [Calculated window size: 31488]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     84 61.275803181   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [FIN, ACK] Seq=137 Ack=1003 Win=31488 Len=0 TSval=1540552 TSecr=1537667
+
+Frame 84: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 137, Ack: 1003, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 137    (relative sequence number)
+    Acknowledgment number: 1003    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x011 (FIN, ACK)
+    Window size value: 246
+    [Calculated window size: 31488]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+
+     85 61.276354731   10.0.5.22             10.0.5.11             TCP      66     23 → 33230 [FIN, ACK] Seq=1003 Ack=138 Win=29056 Len=0 TSval=1540291 TSecr=1540552
+
+Frame 85: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33230 (33230), Seq: 1003, Ack: 138, Len: 0
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 1003    (relative sequence number)
+    Acknowledgment number: 138    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x011 (FIN, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x6a81 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     86 61.276385955   10.0.5.11             10.0.5.22             TCP      66     33230 → 23 [ACK] Seq=138 Ack=1004 Win=31488 Len=0 TSval=1540552 TSecr=1540291
+
+Frame 86: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33230 (33230), Dst Port: 23 (23), Seq: 138, Ack: 1004, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 138    (relative sequence number)
+    Acknowledgment number: 1004    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 246
+    [Calculated window size: 31488]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     87 82.513364545   10.0.5.11             10.0.5.22             TCP      74     33232 → 23 [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=1545861 TSecr=0 WS=128
+
+Frame 87: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33232 (33232), Dst Port: 23 (23), Seq: 0, Len: 0
+    Source Port: 33232
+    Destination Port: 23
+    [Stream index: 1]
+    [TCP Segment Len: 0]
+    Sequence number: 0    (relative sequence number)
+    Acknowledgment number: 0
+    Header Length: 40 bytes
+    Flags: 0x002 (SYN)
+    Window size value: 29200
+    [Calculated window size: 29200]
+    Checksum: 0x1e4f [validation disabled]
+    Urgent pointer: 0
+    Options: (20 bytes), Maximum segment size, SACK permitted, Timestamps, No-Operation (NOP), Window scale
+
+     88 82.513751286   10.0.5.22             10.0.5.11             TCP      74     23 → 33232 [SYN, ACK] Seq=0 Ack=1 Win=28960 Len=0 MSS=1460 SACK_PERM=1 TSval=1545600 TSecr=1545861 WS=128
+
+Frame 88: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33232 (33232), Seq: 0, Ack: 1, Len: 0
+    Source Port: 23
+    Destination Port: 33232
+    [Stream index: 1]
+    [TCP Segment Len: 0]
+    Sequence number: 0    (relative sequence number)
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 40 bytes
+    Flags: 0x012 (SYN, ACK)
+    Window size value: 28960
+    [Calculated window size: 28960]
+    Checksum: 0x8c36 [validation disabled]
+    Urgent pointer: 0
+    Options: (20 bytes), Maximum segment size, SACK permitted, Timestamps, No-Operation (NOP), Window scale
+    [SEQ/ACK analysis]
+
+     89 82.513791275   10.0.5.11             10.0.5.22             TCP      66     33232 → 23 [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=1545861 TSecr=1545600
+
+Frame 89: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33232 (33232), Dst Port: 23 (23), Seq: 1, Ack: 1, Len: 0
+    Source Port: 33232
+    Destination Port: 23
+    [Stream index: 1]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     90 82.513898675   10.0.5.11             10.0.5.22             TELNET   93     Telnet Data ...
+
+Frame 90: 93 bytes on wire (744 bits), 93 bytes captured (744 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33232 (33232), Dst Port: 23 (23), Seq: 1, Ack: 1, Len: 27
+    Source Port: 33232
+    Destination Port: 23
+    [Stream index: 1]
+    [TCP Segment Len: 27]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 28    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e62 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     91 82.514320764   10.0.5.22             10.0.5.11             TCP      66     23 → 33232 [ACK] Seq=1 Ack=28 Win=29056 Len=0 TSval=1545600 TSecr=1545861
+
+Frame 91: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33232 (33232), Seq: 1, Ack: 28, Len: 0
+    Source Port: 23
+    Destination Port: 33232
+    [Stream index: 1]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 28    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x2b25 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     92 92.529020124   10.0.5.22             10.0.5.11             TELNET   78     Telnet Data ...
+
+Frame 92: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33232 (33232), Seq: 1, Ack: 28, Len: 12
+    Source Port: 23
+    Destination Port: 33232
+    [Stream index: 1]
+    [TCP Segment Len: 12]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 13    (relative sequence number)]
+    Acknowledgment number: 28    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xea05 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     93 92.529047683   10.0.5.11             10.0.5.22             TCP      66     33232 → 23 [ACK] Seq=28 Ack=13 Win=29312 Len=0 TSval=1548365 TSecr=1548104
+
+Frame 93: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33232 (33232), Dst Port: 23 (23), Seq: 28, Ack: 13, Len: 0
+    Source Port: 33232
+    Destination Port: 23
+    [Stream index: 1]
+    [TCP Segment Len: 0]
+    Sequence number: 28    (relative sequence number)
+    Acknowledgment number: 13    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     94 92.529411171   10.0.5.22             10.0.5.11             TELNET   105    Telnet Data ...
+
+Frame 94: 105 bytes on wire (840 bits), 105 bytes captured (840 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33232 (33232), Seq: 13, Ack: 28, Len: 39
+    Source Port: 23
+    Destination Port: 33232
+    [Stream index: 1]
+    [TCP Segment Len: 39]
+    Sequence number: 13    (relative sequence number)
+    [Next sequence number: 52    (relative sequence number)]
+    Acknowledgment number: 28    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x3ca1 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     95 92.529425477   10.0.5.11             10.0.5.22             TCP      66     33232 → 23 [ACK] Seq=28 Ack=52 Win=29312 Len=0 TSval=1548365 TSecr=1548104
+
+Frame 95: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33232 (33232), Dst Port: 23 (23), Seq: 28, Ack: 52, Len: 0
+    Source Port: 33232
+    Destination Port: 23
+    [Stream index: 1]
+    [TCP Segment Len: 0]
+    Sequence number: 28    (relative sequence number)
+    Acknowledgment number: 52    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     96 92.529528547   10.0.5.11             10.0.5.22             TELNET   147    Telnet Data ...
+
+Frame 96: 147 bytes on wire (1176 bits), 147 bytes captured (1176 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33232 (33232), Dst Port: 23 (23), Seq: 28, Ack: 52, Len: 81
+    Source Port: 33232
+    Destination Port: 23
+    [Stream index: 1]
+    [TCP Segment Len: 81]
+    Sequence number: 28    (relative sequence number)
+    [Next sequence number: 109    (relative sequence number)]
+    Acknowledgment number: 52    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e98 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     97 92.530052971   10.0.5.22             10.0.5.11             TCP      66     23 → 33232 [ACK] Seq=52 Ack=109 Win=29056 Len=0 TSval=1548104 TSecr=1548365
+
+Frame 97: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33232 (33232), Seq: 52, Ack: 109, Len: 0
+    Source Port: 23
+    Destination Port: 33232
+    [Stream index: 1]
+    [TCP Segment Len: 0]
+    Sequence number: 52    (relative sequence number)
+    Acknowledgment number: 109    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x1711 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+     98 92.530303231   10.0.5.22             10.0.5.11             TELNET   69     Telnet Data ...
+
+Frame 98: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33232 (33232), Seq: 52, Ack: 109, Len: 3
+    Source Port: 23
+    Destination Port: 33232
+    [Stream index: 1]
+    [TCP Segment Len: 3]
+    Sequence number: 52    (relative sequence number)
+    [Next sequence number: 55    (relative sequence number)]
+    Acknowledgment number: 109    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x1608 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+     99 92.530356468   10.0.5.11             10.0.5.22             TELNET   69     Telnet Data ...
+
+Frame 99: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33232 (33232), Dst Port: 23 (23), Seq: 109, Ack: 55, Len: 3
+    Source Port: 33232
+    Destination Port: 23
+    [Stream index: 1]
+    [TCP Segment Len: 3]
+    Sequence number: 109    (relative sequence number)
+    [Next sequence number: 112    (relative sequence number)]
+    Acknowledgment number: 55    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e4a [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+    100 92.530803002   10.0.5.22             10.0.5.11             TELNET   69     Telnet Data ...
+
+Frame 100: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33232 (33232), Seq: 55, Ack: 112, Len: 3
+    Source Port: 23
+    Destination Port: 33232
+    [Stream index: 1]
+    [TCP Segment Len: 3]
+    Sequence number: 55    (relative sequence number)
+    [Next sequence number: 58    (relative sequence number)]
+    Acknowledgment number: 112    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x1604 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+    101 92.530866487   10.0.5.11             10.0.5.22             TELNET   69     Telnet Data ...
+
+Frame 101: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33232 (33232), Dst Port: 23 (23), Seq: 112, Ack: 58, Len: 3
+    Source Port: 33232
+    Destination Port: 23
+    [Stream index: 1]
+    [TCP Segment Len: 3]
+    Sequence number: 112    (relative sequence number)
+    [Next sequence number: 115    (relative sequence number)]
+    Acknowledgment number: 58    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e4a [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+    102 92.531246309   10.0.5.22             10.0.5.11             TELNET   86     Telnet Data ...
+
+Frame 102: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33232 (33232), Seq: 58, Ack: 115, Len: 20
+    Source Port: 23
+    Destination Port: 33232
+    [Stream index: 1]
+    [TCP Segment Len: 20]
+    Sequence number: 58    (relative sequence number)
+    [Next sequence number: 78    (relative sequence number)]
+    Acknowledgment number: 115    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xa134 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+    103 92.567492374   10.0.5.11             10.0.5.22             TCP      66     33232 → 23 [ACK] Seq=115 Ack=78 Win=29312 Len=0 TSval=1548375 TSecr=1548104
+
+Frame 103: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33232 (33232), Dst Port: 23 (23), Seq: 115, Ack: 78, Len: 0
+    Source Port: 33232
+    Destination Port: 23
+    [Stream index: 1]
+    [TCP Segment Len: 0]
+    Sequence number: 115    (relative sequence number)
+    Acknowledgment number: 78    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+    104 92.567858973   10.0.5.22             10.0.5.11             TELNET   79     Telnet Data ...
+
+Frame 104: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33232 (33232), Seq: 78, Ack: 115, Len: 13
+    Source Port: 23
+    Destination Port: 33232
+    [Stream index: 1]
+    [TCP Segment Len: 13]
+    Sequence number: 78    (relative sequence number)
+    [Next sequence number: 91    (relative sequence number)]
+    Acknowledgment number: 115    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x82c3 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+    105 92.567869376   10.0.5.11             10.0.5.22             TCP      66     33232 → 23 [ACK] Seq=115 Ack=91 Win=29312 Len=0 TSval=1548375 TSecr=1548113
+
+Frame 105: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33232 (33232), Dst Port: 23 (23), Seq: 115, Ack: 91, Len: 0
+    Source Port: 33232
+    Destination Port: 23
+    [Stream index: 1]
+    [TCP Segment Len: 0]
+    Sequence number: 115    (relative sequence number)
+    Acknowledgment number: 91    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+    106 152.533278434  10.0.5.22             10.0.5.11             TELNET   103    Telnet Data ...
+
+Frame 106: 103 bytes on wire (824 bits), 103 bytes captured (824 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33232 (33232), Seq: 91, Ack: 115, Len: 37
+    Source Port: 23
+    Destination Port: 33232
+    [Stream index: 1]
+    [TCP Segment Len: 37]
+    Sequence number: 91    (relative sequence number)
+    [Next sequence number: 128    (relative sequence number)]
+    Acknowledgment number: 115    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0x73a9 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+Telnet
+
+    107 152.533311804  10.0.5.11             10.0.5.22             TCP      66     33232 → 23 [ACK] Seq=115 Ack=128 Win=29312 Len=0 TSval=1563366 TSecr=1563105
+
+Frame 107: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33232 (33232), Dst Port: 23 (23), Seq: 115, Ack: 128, Len: 0
+    Source Port: 33232
+    Destination Port: 23
+    [Stream index: 1]
+    [TCP Segment Len: 0]
+    Sequence number: 115    (relative sequence number)
+    Acknowledgment number: 128    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+    108 152.533766851  10.0.5.22             10.0.5.11             TCP      66     23 → 33232 [FIN, ACK] Seq=128 Ack=115 Win=29056 Len=0 TSval=1563105 TSecr=1563366
+
+Frame 108: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33232 (33232), Seq: 128, Ack: 115, Len: 0
+    Source Port: 23
+    Destination Port: 33232
+    [Stream index: 1]
+    [TCP Segment Len: 0]
+    Sequence number: 128    (relative sequence number)
+    Acknowledgment number: 115    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x011 (FIN, ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xa18b [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+
+    109 152.533839362  10.0.5.11             10.0.5.22             TCP      66     33232 → 23 [FIN, ACK] Seq=115 Ack=129 Win=29312 Len=0 TSval=1563366 TSecr=1563105
+
+Frame 109: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33232 (33232), Dst Port: 23 (23), Seq: 115, Ack: 129, Len: 0
+    Source Port: 33232
+    Destination Port: 23
+    [Stream index: 1]
+    [TCP Segment Len: 0]
+    Sequence number: 115    (relative sequence number)
+    Acknowledgment number: 129    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x011 (FIN, ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1e47 [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+    110 152.534168238  10.0.5.22             10.0.5.11             TCP      66     23 → 33232 [ACK] Seq=129 Ack=116 Win=29056 Len=0 TSval=1563105 TSecr=1563366
+
+Frame 110: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33232 (33232), Seq: 129, Ack: 116, Len: 0
+    Source Port: 23
+    Destination Port: 33232
+    [Stream index: 1]
+    [TCP Segment Len: 0]
+    Sequence number: 129    (relative sequence number)
+    Acknowledgment number: 116    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 227
+    [Calculated window size: 29056]
+    [Window size scaling factor: 128]
+    Checksum: 0xa18a [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+
+    111 157.536152022  68:05:ca:39:e1:36     68:05:ca:39:cc:79     ARP      60     Who has 10.0.5.11? Tell 10.0.5.22
+
+Frame 111: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Address Resolution Protocol (request)
+
+    112 157.536179945  68:05:ca:39:cc:79     68:05:ca:39:e1:36     ARP      42     10.0.5.11 is at 68:05:ca:39:cc:79
+
+Frame 112: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Address Resolution Protocol (reply)

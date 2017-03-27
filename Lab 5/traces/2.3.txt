@@ -1,0 +1,18 @@
+Connected to 10.0.5.11.
+220 (vsFTPd 3.0.3)
+Name (10.0.5.11:root): student
+331 Please specify the password.
+Password:
+230 Login successful.
+Remote system type is UNIX.
+Using binary mode to transfer files.
+ftp> cd /tftpboot/
+250 Directory successfully changed.
+ftp> get large.d
+local: large.d remote: large.d
+200 PORT command successful. Consider using PASV.
+150 Opening BINARY mode data connection for large.d (1048576 bytes).
+226 Transfer complete.
+1048576 bytes received in 1.23 secs (834.7375 kB/s)
+ftp> quit
+221 Goodbye.
