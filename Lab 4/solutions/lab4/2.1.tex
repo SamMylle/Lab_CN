@@ -1,4 +1,4 @@
-\begin{verbatim}
+\begin{lstlisting}
       3 0.809577151    10.0.1.1              10.0.1.10             RIPv2    106    Response
 
 Frame 3: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
@@ -83,8 +83,7 @@ Routing Information Protocol
         Next Hop: 0.0.0.0
         Metric: 3
 
-\end{verbatim}
+\end{lstlisting}
+\textit{the captured RIP packet.} \newline
 
-\textit{the captured RIP packet.}
-
-\\ \\ The RIP message starts with the command that the protocol issues. In this case, the command is Response, as a reply to the Request command of the previous packet. Following that is the version of RIP that is used (version 2 in this packet). After this you have a list of all the IP addresses that the host/router knows, providing routing information to the host/router that sent the request.
+The RIP message starts with the command that the protocol issues. In this case, the command is Response, as a reply to the Request command of the previous packet. Following that is the version of RIP that is used (version 2 in this packet). After this you have a list of all the IP addresses that the host/router knows, providing routing information to the host/router that sent the request.
