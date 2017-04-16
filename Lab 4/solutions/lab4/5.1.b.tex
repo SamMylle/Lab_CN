@@ -1,0 +1,2 @@
+
+Routers in Area 1 only have information about the subnets from area 2 and area 0. It should be noted that they do not know which subnets belong to which area, they just know how to direct traffic to them. This can be seen by looking at the summary net link states. If they want to send traffic to those subnets, they need to send the traffic to advertising router 10.0.1.1 (PC1).
