@@ -1,0 +1,3 @@
+Every router on which RIP is enabled will have a send-timer. Once the timer expires, he will send an update and reset his send-timer. By default, this interval is 30 seconds. \\
+When a router changes the metric for a route, he will send a triggered update. This will not reset his send-timer. \\
+This is because if he wouldn't send the updates immediately, the other nodes would have outdated information for 30 seconds (at most).
