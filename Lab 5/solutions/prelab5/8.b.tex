@@ -1,0 +1,4 @@
+Slow start begins with a congestion window size that will be incremented every time an ACK is received. \\
+When a packet is lost or the receiver advertised a limiting window size or the slow start treshold is reached, the window will not be increased when receiving an ACK. \\
+On packet loss, TCP takes steps to reduce the load. \\
+When the slow start treshold is reached, the congestion window will increase by one every round-trip time.

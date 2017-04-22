@@ -1,0 +1,7 @@
+Assume you have data to send. \\
+If the window size allows it and if the available data is larger than the maximum segment size, then you shoud send a complete segment now (with a size of "maximum segment size"). \\
+If the above does not hold and there is still unconfirmed data, then you have to enqueue the data in the buffer until an acknowledgment is received. \\
+If the above does not hold, then you just have to send the data immediately. \\
+ \\
+The reason this algoritmh is used is because it sends small packets together in a full packet's worth of output. This reduces the overhead of acknowledgments. \\
+For example: if you send 8 small packets, the receiver has to send 8 acknowledgments. If you send those 8 small messages in one packet, the sender only has to send one acknowledgment.
