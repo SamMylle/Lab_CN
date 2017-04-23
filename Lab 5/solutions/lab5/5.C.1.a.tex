@@ -1,0 +1,76 @@
+\begin{verbatim}
+		153 51.154268129   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+	Frame 153: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+	Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+	Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+	Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 143, Ack: 790, Len: 1
+	Telnet
+
+		154 51.155874871   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+	Frame 154: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+	Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+	Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+	Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 790, Ack: 144, Len: 1
+	Telnet
+
+		155 51.155910736   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+	Frame 155: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+	Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+	Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+	Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 144, Ack: 791, Len: 1
+	Telnet
+
+		156 51.157254672   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+	Frame 156: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+	Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+	Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+	Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 791, Ack: 145, Len: 1
+	Telnet
+
+		157 51.186483346   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+	Frame 157: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+	Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+	Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+	Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 145, Ack: 792, Len: 1
+	Telnet
+
+		158 51.187870097   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+	Frame 158: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+	Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+	Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+	Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 792, Ack: 146, Len: 1
+	Telnet
+
+		159 51.187890200   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+	Frame 159: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+	Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+	Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+	Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 146, Ack: 793, Len: 1
+	Telnet
+
+		160 51.189228372   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+	Frame 160: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+	Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+	Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+	Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 793, Ack: 147, Len: 1
+	Telnet
+
+		183 51.531557677   10.0.1.11             10.0.2.22             TELNET   70     Telnet Data ...
+
+	Frame 183: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+	Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+	Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+	Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 156, Ack: 803, Len: 4
+	Telnet
+\end{verbatim}
+
+As you can see in packets 153-160 there are no longer 3 packets per character, only 2. These packets have piggybacked ACKs. \\
+In packet 183, you can even see that there are multiple characters in one packet.

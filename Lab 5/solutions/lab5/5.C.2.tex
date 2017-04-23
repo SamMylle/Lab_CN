@@ -1,0 +1,11 @@
+\begin{verbatim}
+No.     Time           Source                Destination           Protocol Length Info
+    183 51.531557677   10.0.1.11             10.0.2.22             TELNET   70     Telnet Data ...
+
+Frame 183: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+...
+Telnet
+Data: cflz
+\end{verbatim}
+
+As you can see, 4 characters are sent in one packet. This means that Nagle's algorithm was active.

@@ -1,0 +1,41 @@
+\begin{verbatim}
+		 22 10.891039493   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+		 
+	Frame 22: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+	Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+	Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+	Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 115, Ack: 91, Len: 1
+	Telnet
+
+		 23 10.891487340   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+	Frame 23: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+	Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+	Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+	Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 91, Ack: 116, Len: 1
+	Telnet
+
+		 24 10.891507546   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=116 Ack=92 Win=29312 Len=0 TSval=2012244 TSecr=2011981
+
+	Frame 24: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+	Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+	Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+	Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 116, Ack: 92, Len: 0
+
+		 25 11.026831823   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+	Frame 25: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+	Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+	Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+	Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 116, Ack: 92, Len: 1
+	Telnet
+\end{verbatim}
+
+For the username, there are 3 packets per typed character. An example of this are packets 22-24, which indicate that the "s" key has been pressed.
+PC1 sends a character to PC2. According to the protocol, PC2 has to send the same character back to PC1. Now according to Nagle's algoritmh, PC2 piggybacks this character on the ACK he had to send to PC1.
+After that, PC1 sends an ACK back to PC2.
+You might wonder why PC1 doesn't piggyback his next character on that ACK. But that is because the time between keystrokes was too large. As you can see in packets 22 and 25, the time between keystrokes was approximately 135 ms. \\
+\\
+For the password, there's only two packets per keystroke. The reason for this is the same as for the username, except now PC2 doesn't have to send the characters back to PC1 (according to TELNET) and thus PC2 can't piggyback acknowledgments. \\
+\\
+For the exit command, the mechanism is the same as for the username.

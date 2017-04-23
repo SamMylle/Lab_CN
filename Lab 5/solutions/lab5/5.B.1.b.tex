@@ -1,0 +1,37 @@
+\begin{verbatim}
+		 48 13.442543645   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+	Frame 48: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+	Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+	Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+	Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 124, Ack: 110, Len: 1
+	Telnet
+
+		 49 13.480247436   10.0.5.22             10.0.5.11             TCP      66     23 → 33240 [ACK] Seq=110 Ack=125 Win=29056 Len=0 TSval=2012629 TSecr=2012882
+
+	Frame 49: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+	Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+	Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+	Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 110, Ack: 125, Len: 0
+
+		 60 15.547661297   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+	Frame 60: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+	Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+	Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+	Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 130, Ack: 110, Len: 1
+	Telnet
+
+		 61 15.547992610   10.0.5.22             10.0.5.11             TCP      66     23 → 33240 [ACK] Seq=110 Ack=131 Win=29056 Len=0 TSval=2013145 TSecr=2013408
+
+	Frame 61: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+	Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+	Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+	Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 110, Ack: 131, Len: 0
+\end{verbatim}
+
+TCP delays ACKs so that they may be sent together with other ACKs or so that they can be piggybacked. This reduces the overhead of TCP. \\
+Because the ACKs get piggybacked here, we can't calculate the maximum delay, but we can get a lower and upper bound for the delays.
+According to RFC 1122, this delay may be at most 500 ms. \\
+The delay time ranges (in this example) from 0.33 ms (as seen in packets 60 and 61) to 42 ms (as seen in packets 48 and 49).
+As we can see in the other packets, the delays are rather close to 0.33 ms and rather far from 42 ms.

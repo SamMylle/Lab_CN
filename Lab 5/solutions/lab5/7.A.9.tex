@@ -1,0 +1,4 @@
+\includegraphics[width=\textwidth]{traces/7-a_7_tcptrace}
+\includegraphics[width=\textwidth]{traces/7-a_7_tcptrace_zoomedin}
+
+In the zoomed in version, you can see that (at 296 seconds) the cable gets disconnected. After the cable got connected again, the sender did not resend all the packets from the lowest sequence number onwards. This can be explained by the SACK's sent by the receiver. The packets with a high sequence number (blue line \#2) were not resent.

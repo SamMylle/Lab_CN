@@ -1,0 +1,32 @@
+\begin{verbatim}
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    10.0.5.11             10.0.5.22             TCP      74     33240→23 [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2009521 TSecr=0 WS=128
+
+Frame 1: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+    ...
+    Window size value: 29200
+    [Calculated window size: 29200]
+    ...
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000392779    10.0.5.22             10.0.5.11             TCP      74     23→33240 [SYN, ACK] Seq=0 Ack=1 Win=28960 Len=0 MSS=1460 SACK_PERM=1 TSval=2009259 TSecr=2009521 WS=128
+
+Frame 2: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+    ...
+    Window size value: 28960
+    [Calculated window size: 28960]
+    ...
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 16.150448897   10.0.5.11             10.0.5.22             TCP      66     33240→23 [ACK] Seq=133 Ack=707 Win=30336 Len=0 TSval=2013559 TSecr=2013296
+
+Frame 69: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+    ...
+    Window size value: 237
+    [Calculated window size: 30336]
+    ...
+\end{verbatim}
+
+The initial window size at the client is 29200. After the first packet, it becomes 29312. \\
+The initial window size at the server is 28960. After the first packet, it becomes 29056. \\
+Starting from packet 69, the window size of the client changes, it is now 30336.
