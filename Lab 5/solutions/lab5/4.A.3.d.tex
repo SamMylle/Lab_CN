@@ -1,0 +1,22 @@
+\begin{verbatim}
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000388357    10.0.5.22             10.0.5.11             TCP      74     23→33230 [SYN, ACK] Seq=0 Ack=1 Win=28960 Len=0 MSS=1460 SACK_PERM=1 TSval=1524972 TSecr=1525233 WS=128
+
+Frame 2: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+    ...
+    Window size value: 28960
+    [Calculated window size: 28960]
+    ...
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000417125    10.0.5.11             10.0.5.22             TCP      66     33230→23 [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=1525233 TSecr=1524972
+
+Frame 3: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+    ...
+    Window size value: 229
+    [Calculated window size: 29312]
+    ...
+
+\end{verbatim}
+
+The client has a window size of 29312, the server has a window size of 28960.
