@@ -1,0 +1,45 @@
+\begin{verbatim}
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    10.0.5.11             10.0.5.22             TCP      74     33230→23 [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=1525233 TSecr=0 WS=128
+
+Frame 1: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+...
+Transmission Control Protocol, Src Port: 33230, Dst Port: 23, Seq: 0, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 0    (relative sequence number)
+    Acknowledgment number: 0
+    Header Length: 40 bytes
+...
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000388357    10.0.5.22             10.0.5.11             TCP      74     23→33230 [SYN, ACK] Seq=0 Ack=1 Win=28960 Len=0 MSS=1460 SACK_PERM=1 TSval=1524972 TSecr=1525233 WS=128
+
+Frame 2: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+...
+Transmission Control Protocol, Src Port: 23, Dst Port: 33230, Seq: 0, Ack: 1, Len: 0
+    Source Port: 23
+    Destination Port: 33230
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 0    (relative sequence number)
+...
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.000417125    10.0.5.11             10.0.5.22             TCP      66     33230→23 [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=1525233 TSecr=1524972
+
+Frame 3: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+...
+Transmission Control Protocol, Src Port: 33230, Dst Port: 23, Seq: 1, Ack: 1, Len: 0
+    Source Port: 33230
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+...
+
+\end{verbatim}
+
+As you can see, the sequence number starts at 0.
