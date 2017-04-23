@@ -1,0 +1,1 @@
+We did not observe fast retransmits when disconnecting the cables. We did, however, observe SACKs. The SACK's are included in the duplicate ACK packets, and specify a range of data that is has received. The other data that is missing has to be resent by the sender (as opposed to all the data following the lost packet).
