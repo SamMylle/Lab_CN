@@ -1,0 +1,10 @@
+\lstinputlisting{traces/5-b.5.pcapng}
+
+For the username, there are 3 packets per typed character. An example of this are packets 22-24, which indicate that the "s" key has been pressed.
+PC1 sends a character to PC2. According to the protocol, PC2 has to send the same character back to PC1. Now according to Nagle's algoritmh, PC2 piggybacks this character on the ACK he had to send to PC1.
+After that, PC1 sends an ACK back to PC2.
+You might wonder why PC1 doesn't piggyback his next character on that ACK. But that is because the time between keystrokes was too large. As you can see in packets 22 and 25, the time between keystrokes was approximately 135 ms. \\
+\\
+For the password, there's only two packets per keystroke. The reason for this is the same as for the username, except now PC2 doesn't have to send the characters back to PC1 (according to TELNET) and thus PC2 can't piggyback acknowledgments. \\
+\\
+For the exit command, the mechanism is the same as for the username.

@@ -1,0 +1,5 @@
+TCP delays ACKs so that they may be sent together with other ACKs or so that they can be piggybacked. This reduces the overhead of TCP. \\
+Because the ACKs get piggybacked here, we can't calculate the maximum delay, but we can get a lower and upper bound for the delays.
+According to RFC 1122, this delay may be at most 500 ms. \\
+The delay time ranges (in this example) from 0.33 ms (as seen in packets 60 and 61) to 42 ms (as seen in packets 48 and 49).
+As we can see in the other packets, the delays are rather close to 0.33 ms and rather far from 42 ms.
