@@ -1,0 +1,47 @@
+No.     Time           Source                Destination           Protocol Length Info
+   8093 108.264114958  10.0.2.22             10.0.1.11             TCP      86     5041 → 60400 [ACK] Seq=1 Ack=70505 Win=180992 Len=0 TSval=2696368 TSecr=2695307 SLE=71953 SRE=74849 SLE=83537 SRE=86897
+
+Frame 8093: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 5041 (5041), Dst Port: 60400 (60400), Seq: 1, Ack: 70505, Len: 0
+    Source Port: 5041
+    Destination Port: 60400
+    [Stream index: 3]
+    [TCP Segment Len: 0]
+    Sequence number: 1    (relative sequence number)
+    Acknowledgment number: 70505    (relative ack number)
+    Header Length: 52 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 1414
+    [Calculated window size: 180992]
+    [Window size scaling factor: 128]
+    Checksum: 0x89c5 [validation disabled]
+    Urgent pointer: 0
+    Options: (32 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps, No-Operation (NOP), No-Operation (NOP), SACK
+    [SEQ/ACK analysis]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8094 108.264126328  10.0.1.11             10.0.2.22             TCP      1514   [TCP Retransmission] 60400 → 5041 [ACK] Seq=74849 Ack=1 Win=29312 Len=1448 TSval=2696633 TSecr=2696368
+
+Frame 8094: 1514 bytes on wire (12112 bits), 1514 bytes captured (12112 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 60400 (60400), Dst Port: 5041 (5041), Seq: 74849, Ack: 1, Len: 1448
+    Source Port: 60400
+    Destination Port: 5041
+    [Stream index: 3]
+    [TCP Segment Len: 1448]
+    Sequence number: 74849    (relative sequence number)
+    [Next sequence number: 76297    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x010 (ACK)
+    Window size value: 229
+    [Calculated window size: 29312]
+    [Window size scaling factor: 128]
+    Checksum: 0x1cef [validation disabled]
+    Urgent pointer: 0
+    Options: (12 bytes), No-Operation (NOP), No-Operation (NOP), Timestamps
+    [SEQ/ACK analysis]
+    Retransmitted TCP segment data (1448 bytes)

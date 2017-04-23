@@ -1,0 +1,3 @@
+\lstinputlisting{traces/7-b.5.timeout.txt}
+
+Judging by the packets, the retransmissions occur because of a timeout. The receiver sends an ACK for 70505, while the sender sends a retransmission for 74849. If the retransmission didn't occur by timeout, the retransmission of 74849 would not happen before receiving the concerning information from the receiver.
