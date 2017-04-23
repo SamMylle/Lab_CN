@@ -1,6 +1,6 @@
 A sender and a receiver both have a window size N. \\
-Whenever a sender has data to send, he checks the window size, the sequence number of the packet to be sent (n_s) and the highest sequence number that was acknowledged by the receiver (n_a).
-When n_a < n_s < N + n_a, the sender may send the packet. \\
+Whenever a sender has data to send, he checks the window size, the sequence number of the packet to be sent ($n_s$) and the highest sequence number that was acknowledged by the receiver ($n_a$.
+When $n_a$ < $n_s$ < N + $n_a$, the sender may send the packet. \\
 The receiver will only accept packets the same way the sender checks if he can send the packet. \\
-Whenever a receiver receives and accepts a packet, he will update his n_a. \\
-Whenever a sender receives an acknowledgment, he will update his n_a.
+Whenever a receiver receives and accepts a packet, he will update his $n_a$. \\
+Whenever a sender receives an acknowledgment, he will update his $n_a$.
