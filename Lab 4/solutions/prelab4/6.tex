@@ -1,6 +1,3 @@
-Describe how a Linux user accesses the processes of Zebra (zebra, ripd, ospfd, bgpd) pro-
-cesses to configure routing algorithm parameters?
-
 You must enable zebra by adjusting the file /etc/quagga/daemons. You must change/add the line "zebra=yes". \\
 In the same file, you must also activate the protocol. This is also done by changing/adding the line "X=yes" where X is ripd, ospfd or bgpd.
 Afterwards, you'll have to type the following command: /etc/init.d/quagga start.

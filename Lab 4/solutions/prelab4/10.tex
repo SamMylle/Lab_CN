@@ -1,5 +1,5 @@
 Split-horizon tries to avoid loops in an RIP protocol. \\
 There's one rule: Do not advertise addresses through the interface from which you received the initial advertisement. \\
 For example: If you have node A connected to node B and node B connected to node C. Node A will advertise it's route for node C to every other node that is not on the same interface as node B because he got the initial advertisement from node B. \\
-So if node A was connected to node D (via another interface), he would advertise the route for node to D but not to B. \\
+So if node A was connected to node D (via another interface), he would advertise the route for node C to node D but not to node B. \\
 If there were another node E connected to A on the same interface as node B is connected to A, he would not advertise the route for C to node E.
