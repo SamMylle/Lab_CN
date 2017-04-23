@@ -1,0 +1,13 @@
+When Router1 receives the ICMP request for subnet $10.0.3.0/24$, it determines that the request should not be sent to himself, but to another host (namely Router2's vlan1 interface). Router1 will inform PC2 of this, by sending a redirect ICMP message (as captured in Wireshark). All the captured packets can be found at "traces/5.6.pcapng".
+
+
+\begin{verbatim}
+	     16 16.234116546   10.0.2.1              10.0.2.10             ICMP     70     Redirect             (Redirect for host)
+
+	Frame 16: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+	Ethernet II, Src: 00:0d:65:17:01:29, Dst: 68:05:ca:36:31:f0
+	Internet Protocol Version 4, Src: 10.0.2.1, Dst: 10.0.2.10
+	Internet Control Message Protocol
+\end{verbatim}
+
+\textit{The captured packet containing the redirect message.}

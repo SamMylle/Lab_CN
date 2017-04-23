@@ -1,0 +1,243 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    10.0.4.10             224.0.0.9             RIPv2    66     Request
+
+Frame 1: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+    Interface id: 0 (eth0)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 16, 2017 15:00:30.052901779 CET
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1489672830.052901779 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 66 bytes (528 bits)
+    Capture Length: 66 bytes (528 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rip]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: 68:05:ca:39:e1:2f, Dst: 01:00:5e:00:00:09
+    Destination: 01:00:5e:00:00:09
+        Address: 01:00:5e:00:00:09
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: 68:05:ca:39:e1:2f
+        Address: 68:05:ca:39:e1:2f
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.4.10, Dst: 224.0.0.9
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (48)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 52
+    Identification: 0x4047 (16455)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: UDP (17)
+    Header checksum: 0x4a9f [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.0.4.10
+    Destination: 224.0.0.9
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 520 (520), Dst Port: 520 (520)
+    Source Port: 520
+    Destination Port: 520
+    Length: 32
+    Checksum: 0xee44 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 0]
+Routing Information Protocol
+    Command: Request (1)
+    Version: RIPv2 (2)
+    Address not specified, Metric: 16
+        Address Family: Unspecified (0)
+        Route Tag: 0
+        Netmask: 0.0.0.0
+        Next Hop: 0.0.0.0
+        Metric: 16
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.002228909    10.0.4.3              10.0.4.10             RIPv2    106    Response
+
+Frame 2: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+    Interface id: 0 (eth0)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 16, 2017 15:00:30.055130688 CET
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1489672830.055130688 seconds
+    [Time delta from previous captured frame: 0.002228909 seconds]
+    [Time delta from previous displayed frame: 0.002228909 seconds]
+    [Time since reference or first frame: 0.002228909 seconds]
+    Frame Number: 2
+    Frame Length: 106 bytes (848 bits)
+    Capture Length: 106 bytes (848 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rip]
+    [Coloring Rule Name: UDP]
+    [Coloring Rule String: udp]
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:39:e1:2f
+    Destination: 68:05:ca:39:e1:2f
+        Address: 68:05:ca:39:e1:2f
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: 00:0d:bc:ef:eb:24
+        Address: 00:0d:bc:ef:eb:24
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.4.3, Dst: 10.0.4.10
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (48)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 92
+    Identification: 0x0000 (0)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 255
+    Protocol: UDP (17)
+    Header checksum: 0x9ec4 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.0.4.3
+    Destination: 10.0.4.10
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 520 (520), Dst Port: 520 (520)
+    Source Port: 520
+    Destination Port: 520
+    Length: 72
+    Checksum: 0xbc30 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 1]
+Routing Information Protocol
+    Command: Response (2)
+    Version: RIPv2 (2)
+    IP Address: 10.0.1.0, Metric: 3
+        Address Family: IP (2)
+        Route Tag: 0
+        IP Address: 10.0.1.0
+        Netmask: 255.255.255.0
+        Next Hop: 0.0.0.0
+        Metric: 3
+    IP Address: 10.0.2.0, Metric: 2
+        Address Family: IP (2)
+        Route Tag: 0
+        IP Address: 10.0.2.0
+        Netmask: 255.255.255.0
+        Next Hop: 0.0.0.0
+        Metric: 2
+    IP Address: 10.0.3.0, Metric: 1
+        Address Family: IP (2)
+        Route Tag: 0
+        IP Address: 10.0.3.0
+        Netmask: 255.255.255.0
+        Next Hop: 0.0.0.0
+        Metric: 1
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 7.786237196    10.0.4.3              224.0.0.9             RIPv2    106    Response
+
+Frame 3: 106 bytes on wire (848 bits), 106 bytes captured (848 bits) on interface 0
+    Interface id: 0 (eth0)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 16, 2017 15:00:37.839138975 CET
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1489672837.839138975 seconds
+    [Time delta from previous captured frame: 7.784008287 seconds]
+    [Time delta from previous displayed frame: 7.784008287 seconds]
+    [Time since reference or first frame: 7.786237196 seconds]
+    Frame Number: 3
+    Frame Length: 106 bytes (848 bits)
+    Capture Length: 106 bytes (848 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:udp:rip]
+    [Coloring Rule Name: TTL low or unexpected]
+    [Coloring Rule String: ( ! ip.dst == 224.0.0.0/4 && ip.ttl < 5 && !pim && !ospf) || (ip.dst == 224.0.0.0/24 && ip.dst != 224.0.0.251 && ip.ttl != 1 && !(vrrp || carp))]
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 01:00:5e:00:00:09
+    Destination: 01:00:5e:00:00:09
+        Address: 01:00:5e:00:00:09
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: 00:0d:bc:ef:eb:24
+        Address: 00:0d:bc:ef:eb:24
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.4.3, Dst: 224.0.0.9
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (48)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 92
+    Identification: 0x0000 (0)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 2
+        [Expert Info (Note/Sequence): "Time To Live" != 1 for a packet sent to the Local Network Control Block (see RFC 3171)]
+            ["Time To Live" != 1 for a packet sent to the Local Network Control Block (see RFC 3171)]
+            [Severity level: Note]
+            [Group: Sequence]
+    Protocol: UDP (17)
+    Header checksum: 0xc9c5 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.0.4.3
+    Destination: 224.0.0.9
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 520 (520), Dst Port: 520 (520)
+    Source Port: 520
+    Destination Port: 520
+    Length: 72
+    Checksum: 0xea30 [validation disabled]
+        [Good Checksum: False]
+        [Bad Checksum: False]
+    [Stream index: 2]
+Routing Information Protocol
+    Command: Response (2)
+    Version: RIPv2 (2)
+    IP Address: 10.0.1.0, Metric: 3
+        Address Family: IP (2)
+        Route Tag: 0
+        IP Address: 10.0.1.0
+        Netmask: 255.255.255.0
+        Next Hop: 0.0.0.0
+        Metric: 3
+    IP Address: 10.0.2.0, Metric: 2
+        Address Family: IP (2)
+        Route Tag: 0
+        IP Address: 10.0.2.0
+        Netmask: 255.255.255.0
+        Next Hop: 0.0.0.0
+        Metric: 2
+    IP Address: 10.0.3.0, Metric: 1
+        Address Family: IP (2)
+        Route Tag: 0
+        IP Address: 10.0.3.0
+        Netmask: 255.255.255.0
+        Next Hop: 0.0.0.0
+        Metric: 1

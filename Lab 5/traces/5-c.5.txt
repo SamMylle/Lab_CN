@@ -1,0 +1,2585 @@
+      1 0.000000000    00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 1: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+      2 2.003349724    00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 2: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+      3 3.188701259    10.0.1.11             143.129.77.30         DNS      95     Standard query 0x4cce A ntp.ubuntu.com.mosaic.uantwerpen.be
+
+Frame 3: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 39271 (39271), Dst Port: 53 (53)
+Domain Name System (query)
+
+      4 3.188708352    10.0.1.11             143.129.77.30         DNS      95     Standard query 0x36fd AAAA ntp.ubuntu.com.mosaic.uantwerpen.be
+
+Frame 4: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 39271 (39271), Dst Port: 53 (53)
+Domain Name System (query)
+
+      5 3.894412734    10.0.1.11             10.0.2.22             TCP      74     45030 → 23 [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2030929 TSecr=0 WS=128
+
+Frame 5: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 0, Len: 0
+
+      6 3.895643477    10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 6: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+      7 3.895892384    10.0.2.22             10.0.1.11             TCP      74     23 → 45030 [SYN, ACK] Seq=0 Ack=1 Win=28960 Len=0 MSS=1460 SACK_PERM=1 TSval=2030667 TSecr=2030929 WS=128
+
+Frame 7: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 0, Ack: 1, Len: 0
+
+      8 3.895928190    10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2030930 TSecr=2030667
+
+Frame 8: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 1, Ack: 1, Len: 0
+
+      9 3.896053141    10.0.1.11             10.0.2.22             TELNET   93     Telnet Data ...
+
+Frame 9: 93 bytes on wire (744 bits), 93 bytes captured (744 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 1, Ack: 1, Len: 27
+Telnet
+
+     10 3.896324105    10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 10: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+     11 3.897361246    10.0.2.22             10.0.1.11             TCP      66     23 → 45030 [ACK] Seq=1 Ack=28 Win=29056 Len=0 TSval=2030667 TSecr=2030930
+
+Frame 11: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1, Ack: 28, Len: 0
+
+     12 4.002703059    00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 12: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+     13 6.005971214    00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 13: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+     14 8.009349161    00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 14: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+     15 8.193781981    10.0.1.11             143.129.77.30         DNS      95     Standard query 0x4cce A ntp.ubuntu.com.mosaic.uantwerpen.be
+
+Frame 15: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 39271 (39271), Dst Port: 53 (53)
+Domain Name System (query)
+
+     16 8.193791999    10.0.1.11             143.129.77.30         DNS      95     Standard query 0x36fd AAAA ntp.ubuntu.com.mosaic.uantwerpen.be
+
+Frame 16: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 39271 (39271), Dst Port: 53 (53)
+Domain Name System (query)
+
+     17 8.899820013    10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 17: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+     18 8.900226984    10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 18: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+     19 10.012689861   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 19: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+     20 12.012024503   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 20: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+     21 13.199329531   10.0.1.11             143.129.77.30         DNS      74     Standard query 0x86e2 A ntp.ubuntu.com
+
+Frame 21: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 46116 (46116), Dst Port: 53 (53)
+Domain Name System (query)
+
+     22 13.199340774   10.0.1.11             143.129.77.30         DNS      74     Standard query 0xc6e3 AAAA ntp.ubuntu.com
+
+Frame 22: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 46116 (46116), Dst Port: 53 (53)
+Domain Name System (query)
+
+     23 13.747949731   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 23: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+     24 13.748352359   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 24: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+     25 13.912806301   10.0.2.22             10.0.1.11             TELNET   78     Telnet Data ...
+
+Frame 25: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1, Ack: 28, Len: 12
+Telnet
+
+     26 13.912834292   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=28 Ack=13 Win=29312 Len=0 TSval=2033434 TSecr=2033171
+
+Frame 26: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 28, Ack: 13, Len: 0
+
+     27 13.914154138   10.0.2.22             10.0.1.11             TELNET   105    Telnet Data ...
+
+Frame 27: 105 bytes on wire (840 bits), 105 bytes captured (840 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 13, Ack: 28, Len: 39
+Telnet
+
+     28 13.914168226   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=28 Ack=52 Win=29312 Len=0 TSval=2033434 TSecr=2033171
+
+Frame 28: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 28, Ack: 52, Len: 0
+
+     29 13.914276484   10.0.1.11             10.0.2.22             TELNET   147    Telnet Data ...
+
+Frame 29: 147 bytes on wire (1176 bits), 147 bytes captured (1176 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 28, Ack: 52, Len: 81
+Telnet
+
+     30 13.915661336   10.0.2.22             10.0.1.11             TCP      66     23 → 45030 [ACK] Seq=52 Ack=109 Win=29056 Len=0 TSval=2033172 TSecr=2033434
+
+Frame 30: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 52, Ack: 109, Len: 0
+
+     31 13.915908941   10.0.2.22             10.0.1.11             TELNET   69     Telnet Data ...
+
+Frame 31: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 52, Ack: 109, Len: 3
+Telnet
+
+     32 13.915963210   10.0.1.11             10.0.2.22             TELNET   69     Telnet Data ...
+
+Frame 32: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 109, Ack: 55, Len: 3
+Telnet
+
+     33 13.917216165   10.0.2.22             10.0.1.11             TELNET   69     Telnet Data ...
+
+Frame 33: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 55, Ack: 112, Len: 3
+Telnet
+
+     34 13.917280170   10.0.1.11             10.0.2.22             TELNET   69     Telnet Data ...
+
+Frame 34: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 112, Ack: 58, Len: 3
+Telnet
+
+     35 13.918482934   10.0.2.22             10.0.1.11             TELNET   86     Telnet Data ...
+
+Frame 35: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 58, Ack: 115, Len: 20
+Telnet
+
+     36 13.955020636   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=115 Ack=78 Win=29312 Len=0 TSval=2033445 TSecr=2033172
+
+Frame 36: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 115, Ack: 78, Len: 0
+
+     37 13.956268484   10.0.2.22             10.0.1.11             TELNET   79     Telnet Data ...
+
+Frame 37: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 78, Ack: 115, Len: 13
+Telnet
+
+     38 13.956287594   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=115 Ack=91 Win=29312 Len=0 TSval=2033445 TSecr=2033182
+
+Frame 38: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 115, Ack: 91, Len: 0
+
+     39 14.015383282   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 39: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+     40 16.018651193   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 40: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+     41 18.018017570   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 41: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+     42 18.204421752   10.0.1.11             143.129.77.30         DNS      74     Standard query 0x86e2 A ntp.ubuntu.com
+
+Frame 42: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 46116 (46116), Dst Port: 53 (53)
+Domain Name System (query)
+
+     43 18.204429679   10.0.1.11             143.129.77.30         DNS      74     Standard query 0xc6e3 AAAA ntp.ubuntu.com
+
+Frame 43: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 46116 (46116), Dst Port: 53 (53)
+Domain Name System (query)
+
+     44 18.752423569   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 44: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+     45 18.752832044   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 45: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+     46 20.021333225   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 46: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+     47 20.057832619   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 47: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 115, Ack: 91, Len: 1
+Telnet
+
+     48 20.059312279   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 48: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 91, Ack: 116, Len: 1
+Telnet
+
+     49 20.059334975   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=116 Ack=92 Win=29312 Len=0 TSval=2034971 TSecr=2034708
+
+Frame 49: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 116, Ack: 92, Len: 0
+
+     50 20.865262267   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 50: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 116, Ack: 92, Len: 1
+Telnet
+
+     51 20.866750174   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 51: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 92, Ack: 117, Len: 1
+Telnet
+
+     52 20.866769668   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=117 Ack=93 Win=29312 Len=0 TSval=2035172 TSecr=2034909
+
+Frame 52: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 117, Ack: 93, Len: 0
+
+     53 21.721689261   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 53: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 117, Ack: 93, Len: 1
+Telnet
+
+     54 21.723224285   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 54: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 93, Ack: 118, Len: 1
+Telnet
+
+     55 21.723248732   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=118 Ack=94 Win=29312 Len=0 TSval=2035387 TSecr=2035124
+
+Frame 55: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 118, Ack: 94, Len: 0
+
+     56 22.024656836   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 56: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+     57 22.504992679   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 57: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 118, Ack: 94, Len: 1
+Telnet
+
+     58 22.506480539   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 58: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 94, Ack: 119, Len: 1
+Telnet
+
+     59 22.506499254   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=119 Ack=95 Win=29312 Len=0 TSval=2035582 TSecr=2035319
+
+Frame 59: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 119, Ack: 95, Len: 0
+
+     60 23.185553962   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 60: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 119, Ack: 95, Len: 1
+Telnet
+
+     61 23.187067280   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 61: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 95, Ack: 120, Len: 1
+Telnet
+
+     62 23.187089894   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=120 Ack=96 Win=29312 Len=0 TSval=2035753 TSecr=2035490
+
+Frame 62: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 120, Ack: 96, Len: 0
+
+     63 23.209525617   10.0.1.11             143.129.77.30         DNS      95     Standard query 0x5d72 A ntp.ubuntu.com.mosaic.uantwerpen.be
+
+Frame 63: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 56134 (56134), Dst Port: 53 (53)
+Domain Name System (query)
+
+     64 23.209530981   10.0.1.11             143.129.77.30         DNS      95     Standard query 0x1913 AAAA ntp.ubuntu.com.mosaic.uantwerpen.be
+
+Frame 64: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 56134 (56134), Dst Port: 53 (53)
+Domain Name System (query)
+
+     65 23.889049247   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 65: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+     66 23.889438422   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 66: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+     67 23.976093159   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 67: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 120, Ack: 96, Len: 1
+Telnet
+
+     68 23.977497713   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 68: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 96, Ack: 121, Len: 1
+Telnet
+
+     69 23.977505312   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 69: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 121, Ack: 97, Len: 1
+Telnet
+
+     70 23.978760295   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 70: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 97, Ack: 122, Len: 1
+Telnet
+
+     71 24.015004760   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=122 Ack=98 Win=29312 Len=0 TSval=2035960 TSecr=2035687
+
+Frame 71: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 122, Ack: 98, Len: 0
+
+     72 24.028055452   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 72: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+     73 25.402276197   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 73: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 122, Ack: 98, Len: 1
+Telnet
+
+     74 25.439195220   10.0.2.22             10.0.1.11             TELNET   69     Telnet Data ...
+
+Frame 74: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 98, Ack: 123, Len: 3
+Telnet
+
+     75 25.439220458   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=123 Ack=101 Win=29312 Len=0 TSval=2036316 TSecr=2036053
+
+Frame 75: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 123, Ack: 101, Len: 0
+
+     76 25.568911994   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 76: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 123, Ack: 101, Len: 1
+Telnet
+
+     77 25.595492712   10.0.2.22             10.0.1.11             TELNET   69     Telnet Data ...
+
+Frame 77: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 101, Ack: 124, Len: 3
+Telnet
+
+     78 25.595508146   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=124 Ack=104 Win=29312 Len=0 TSval=2036355 TSecr=2036092
+
+Frame 78: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 124, Ack: 104, Len: 0
+
+     79 26.027359048   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 79: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+     80 26.113389813   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 80: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 124, Ack: 104, Len: 1
+Telnet
+
+     81 26.114874924   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 81: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 104, Ack: 125, Len: 1
+Telnet
+
+     82 26.114894000   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=125 Ack=105 Win=29312 Len=0 TSval=2036484 TSecr=2036221
+
+Frame 82: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 125, Ack: 105, Len: 0
+
+     83 26.905604393   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 83: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 125, Ack: 105, Len: 1
+Telnet
+
+     84 26.907111135   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 84: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 105, Ack: 126, Len: 1
+Telnet
+
+     85 26.907133894   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=126 Ack=106 Win=29312 Len=0 TSval=2036683 TSecr=2036420
+
+Frame 85: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 126, Ack: 106, Len: 0
+
+     86 28.030704205   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 86: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+     87 28.214586459   10.0.1.11             143.129.77.30         DNS      95     Standard query 0x5d72 A ntp.ubuntu.com.mosaic.uantwerpen.be
+
+Frame 87: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 56134 (56134), Dst Port: 53 (53)
+Domain Name System (query)
+
+     88 28.214591455   10.0.1.11             143.129.77.30         DNS      95     Standard query 0x1913 AAAA ntp.ubuntu.com.mosaic.uantwerpen.be
+
+Frame 88: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 56134 (56134), Dst Port: 53 (53)
+Domain Name System (query)
+
+     89 28.273034412   10.0.1.11             10.0.2.22             TELNET   68     Telnet Data ...
+
+Frame 89: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 126, Ack: 106, Len: 2
+Telnet
+
+     90 28.295932025   10.0.2.22             10.0.1.11             TELNET   68     Telnet Data ...
+
+Frame 90: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 106, Ack: 128, Len: 2
+Telnet
+
+     91 28.295945804   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=128 Ack=108 Win=29312 Len=0 TSval=2037030 TSecr=2036767
+
+Frame 91: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 128, Ack: 108, Len: 0
+
+     92 28.372000168   10.0.2.22             10.0.1.11             TELNET   76     Telnet Data ...
+
+Frame 92: 76 bytes on wire (608 bits), 76 bytes captured (608 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 108, Ack: 128, Len: 10
+Telnet
+
+     93 28.372012777   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=128 Ack=118 Win=29312 Len=0 TSval=2037049 TSecr=2036786
+
+Frame 93: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 128, Ack: 118, Len: 0
+
+     94 28.921321023   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 94: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+     95 28.921758679   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 95: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+     96 29.409861101   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 96: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 128, Ack: 118, Len: 1
+Telnet
+
+     97 29.451126584   10.0.2.22             10.0.1.11             TCP      66     23 → 45030 [ACK] Seq=118 Ack=129 Win=29056 Len=0 TSval=2037056 TSecr=2037308
+
+Frame 97: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 118, Ack: 129, Len: 0
+
+     98 29.538023616   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 98: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 129, Ack: 118, Len: 1
+Telnet
+
+     99 29.539314916   10.0.2.22             10.0.1.11             TCP      66     23 → 45030 [ACK] Seq=118 Ack=130 Win=29056 Len=0 TSval=2037078 TSecr=2037340
+
+Frame 99: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 118, Ack: 130, Len: 0
+
+    100 29.737740551   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 100: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 130, Ack: 118, Len: 1
+Telnet
+
+    101 29.739007431   10.0.2.22             10.0.1.11             TCP      66     23 → 45030 [ACK] Seq=118 Ack=131 Win=29056 Len=0 TSval=2037128 TSecr=2037390
+
+Frame 101: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 118, Ack: 131, Len: 0
+
+    102 30.034039635   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 102: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    103 30.112613661   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 103: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 131, Ack: 118, Len: 1
+Telnet
+
+    104 30.113949489   10.0.2.22             10.0.1.11             TCP      66     23 → 45030 [ACK] Seq=118 Ack=132 Win=29056 Len=0 TSval=2037221 TSecr=2037484
+
+Frame 104: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 118, Ack: 132, Len: 0
+
+    105 30.311910633   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 105: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 132, Ack: 118, Len: 1
+Telnet
+
+    106 30.347124128   10.0.2.22             10.0.1.11             TCP      66     23 → 45030 [ACK] Seq=118 Ack=133 Win=29056 Len=0 TSval=2037280 TSecr=2037534
+
+Frame 106: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 118, Ack: 133, Len: 0
+
+    107 30.769366305   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 107: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 133, Ack: 118, Len: 1
+Telnet
+
+    108 30.811910665   10.0.2.22             10.0.1.11             TCP      66     23 → 45030 [ACK] Seq=118 Ack=134 Win=29056 Len=0 TSval=2037396 TSecr=2037648
+
+Frame 108: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 118, Ack: 134, Len: 0
+
+    109 31.106024075   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 109: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 134, Ack: 118, Len: 1
+Telnet
+
+    110 31.107312745   10.0.2.22             10.0.1.11             TCP      66     23 → 45030 [ACK] Seq=118 Ack=135 Win=29056 Len=0 TSval=2037470 TSecr=2037732
+
+Frame 110: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 118, Ack: 135, Len: 0
+
+    111 31.937133097   10.0.1.11             10.0.2.22             TELNET   68     Telnet Data ...
+
+Frame 111: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 135, Ack: 118, Len: 2
+Telnet
+
+    112 31.938485920   10.0.2.22             10.0.1.11             TCP      66     23 → 45030 [ACK] Seq=118 Ack=137 Win=29056 Len=0 TSval=2037677 TSecr=2037940
+
+Frame 112: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 118, Ack: 137, Len: 0
+
+    113 31.938723339   10.0.2.22             10.0.1.11             TELNET   68     Telnet Data ...
+
+Frame 113: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 118, Ack: 137, Len: 2
+Telnet
+
+    114 31.938734709   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=137 Ack=120 Win=29312 Len=0 TSval=2037940 TSecr=2037677
+
+Frame 114: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 137, Ack: 120, Len: 0
+
+    115 31.959972504   10.0.2.22             10.0.1.11             TELNET   119    Telnet Data ...
+
+Frame 115: 119 bytes on wire (952 bits), 119 bytes captured (952 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 120, Ack: 137, Len: 53
+Telnet
+
+    116 31.959985064   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=137 Ack=173 Win=29312 Len=0 TSval=2037946 TSecr=2037683
+
+Frame 116: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 137, Ack: 173, Len: 0
+
+    117 32.031930334   10.0.2.22             10.0.1.11             TELNET   608    Telnet Data ...
+
+Frame 117: 608 bytes on wire (4864 bits), 608 bytes captured (4864 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 173, Ack: 137, Len: 542
+Telnet
+
+    118 32.031941141   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=137 Ack=715 Win=30336 Len=0 TSval=2037964 TSecr=2037700
+
+Frame 118: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 137, Ack: 715, Len: 0
+
+    119 32.033404361   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 119: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    120 32.083431631   10.0.2.22             10.0.1.11             TELNET   130    Telnet Data ...
+
+Frame 120: 130 bytes on wire (1040 bits), 130 bytes captured (1040 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 715, Ack: 137, Len: 64
+Telnet
+
+    121 32.083439891   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=137 Ack=779 Win=30336 Len=0 TSval=2037977 TSecr=2037714
+
+Frame 121: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 137, Ack: 779, Len: 0
+
+    122 33.220026982   10.0.1.11             143.129.77.30         DNS      74     Standard query 0xd78c A ntp.ubuntu.com
+
+Frame 122: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 55223 (55223), Dst Port: 53 (53)
+Domain Name System (query)
+
+    123 33.220035405   10.0.1.11             143.129.77.30         DNS      74     Standard query 0x411a AAAA ntp.ubuntu.com
+
+Frame 123: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 55223 (55223), Dst Port: 53 (53)
+Domain Name System (query)
+
+    124 33.769255455   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 124: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+    125 33.769711103   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 125: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+    126 34.036686184   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 126: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    127 36.040040447   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 127: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    128 38.043334011   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 128: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    129 38.225111204   10.0.1.11             143.129.77.30         DNS      74     Standard query 0xd78c A ntp.ubuntu.com
+
+Frame 129: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 55223 (55223), Dst Port: 53 (53)
+Domain Name System (query)
+
+    130 38.225120252   10.0.1.11             143.129.77.30         DNS      74     Standard query 0x411a AAAA ntp.ubuntu.com
+
+Frame 130: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 55223 (55223), Dst Port: 53 (53)
+Domain Name System (query)
+
+    131 38.773617783   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 131: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+    132 38.774030118   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 132: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+    133 40.042703107   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 133: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    134 42.046031111   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 134: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    135 42.394009392   10.0.1.11             10.0.2.22             TELNET   69     Telnet Data ...
+
+Frame 135: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 137, Ack: 779, Len: 3
+Telnet
+
+    136 42.395692161   10.0.2.22             10.0.1.11             TELNET   70     Telnet Data ...
+
+Frame 136: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 779, Ack: 140, Len: 4
+Telnet
+
+    137 42.395716519   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=140 Ack=783 Win=30336 Len=0 TSval=2040555 TSecr=2040292
+
+Frame 137: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 140, Ack: 783, Len: 0
+
+    138 43.230249765   10.0.1.11             143.129.77.30         DNS      95     Standard query 0x41f5 A ntp.ubuntu.com.mosaic.uantwerpen.be
+
+Frame 138: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 48144 (48144), Dst Port: 53 (53)
+Domain Name System (query)
+
+    139 43.230259913   10.0.1.11             143.129.77.30         DNS      95     Standard query 0x51ef AAAA ntp.ubuntu.com.mosaic.uantwerpen.be
+
+Frame 139: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 48144 (48144), Dst Port: 53 (53)
+Domain Name System (query)
+
+    140 43.934216106   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 140: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+    141 43.934629767   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 141: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+    142 44.049335107   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 142: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    143 46.048713317   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 143: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    144 48.052039680   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 144: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    145 48.235336726   10.0.1.11             143.129.77.30         DNS      95     Standard query 0x41f5 A ntp.ubuntu.com.mosaic.uantwerpen.be
+
+Frame 145: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 48144 (48144), Dst Port: 53 (53)
+Domain Name System (query)
+
+    146 48.235346278   10.0.1.11             143.129.77.30         DNS      95     Standard query 0x51ef AAAA ntp.ubuntu.com.mosaic.uantwerpen.be
+
+Frame 146: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 48144 (48144), Dst Port: 53 (53)
+Domain Name System (query)
+
+    147 48.794374529   10.0.1.11             10.0.2.22             TELNET   69     Telnet Data ...
+
+Frame 147: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 140, Ack: 783, Len: 3
+Telnet
+
+    148 48.858264340   10.0.2.22             10.0.1.11             TELNET   73     Telnet Data ...
+
+Frame 148: 73 bytes on wire (584 bits), 73 bytes captured (584 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 783, Ack: 143, Len: 7
+Telnet
+
+    149 48.858289298   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=143 Ack=790 Win=30336 Len=0 TSval=2042170 TSecr=2041907
+
+Frame 149: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 143, Ack: 790, Len: 0
+
+    150 48.938730346   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 150: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+    151 48.939192333   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 151: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+    152 50.055393668   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 152: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    153 51.154268129   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 153: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 143, Ack: 790, Len: 1
+Telnet
+
+    154 51.155874871   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 154: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 790, Ack: 144, Len: 1
+Telnet
+
+    155 51.155910736   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 155: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 144, Ack: 791, Len: 1
+Telnet
+
+    156 51.157254672   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 156: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 791, Ack: 145, Len: 1
+Telnet
+
+    157 51.186483346   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 157: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 145, Ack: 792, Len: 1
+Telnet
+
+    158 51.187870097   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 158: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 792, Ack: 146, Len: 1
+Telnet
+
+    159 51.187890200   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 159: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 146, Ack: 793, Len: 1
+Telnet
+
+    160 51.189228372   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 160: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 793, Ack: 147, Len: 1
+Telnet
+
+    161 51.227013946   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=147 Ack=794 Win=30336 Len=0 TSval=2042763 TSecr=2042490
+
+Frame 161: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 147, Ack: 794, Len: 0
+
+    162 51.280658007   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 162: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 147, Ack: 794, Len: 1
+Telnet
+
+    163 51.282186679   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 163: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 794, Ack: 148, Len: 1
+Telnet
+
+    164 51.282198802   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 164: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 148, Ack: 795, Len: 1
+Telnet
+
+    165 51.283537619   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 165: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 795, Ack: 149, Len: 1
+Telnet
+
+    166 51.323020377   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=149 Ack=796 Win=30336 Len=0 TSval=2042787 TSecr=2042514
+
+Frame 166: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 149, Ack: 796, Len: 0
+
+    167 51.377946839   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 167: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 149, Ack: 796, Len: 1
+Telnet
+
+    168 51.379364366   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 168: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 796, Ack: 150, Len: 1
+Telnet
+
+    169 51.379385542   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 169: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 150, Ack: 797, Len: 1
+Telnet
+
+    170 51.380755480   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 170: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 797, Ack: 151, Len: 1
+Telnet
+
+    171 51.380775666   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 171: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 151, Ack: 798, Len: 1
+Telnet
+
+    172 51.382162684   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 172: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 798, Ack: 152, Len: 1
+Telnet
+
+    173 51.382182640   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 173: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 152, Ack: 799, Len: 1
+Telnet
+
+    174 51.383501903   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 174: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 799, Ack: 153, Len: 1
+Telnet
+
+    175 51.423024521   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=153 Ack=800 Win=30336 Len=0 TSval=2042812 TSecr=2042539
+
+Frame 175: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 153, Ack: 800, Len: 0
+
+    176 51.433731756   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 176: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 153, Ack: 800, Len: 1
+Telnet
+
+    177 51.435189373   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 177: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 800, Ack: 154, Len: 1
+Telnet
+
+    178 51.435202603   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 178: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 154, Ack: 801, Len: 1
+Telnet
+
+    179 51.436529785   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 179: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 801, Ack: 155, Len: 1
+Telnet
+
+    180 51.475027063   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=155 Ack=802 Win=30336 Len=0 TSval=2042825 TSecr=2042552
+
+Frame 180: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 155, Ack: 802, Len: 0
+
+    181 51.529988237   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 181: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 155, Ack: 802, Len: 1
+Telnet
+
+    182 51.531541762   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 182: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 802, Ack: 156, Len: 1
+Telnet
+
+    183 51.531557677   10.0.1.11             10.0.2.22             TELNET   70     Telnet Data ...
+
+Frame 183: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 156, Ack: 803, Len: 4
+Telnet
+
+    184 51.532965286   10.0.2.22             10.0.1.11             TELNET   68     Telnet Data ...
+
+Frame 184: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 803, Ack: 160, Len: 2
+Telnet
+
+    185 51.571028801   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=160 Ack=805 Win=30336 Len=0 TSval=2042849 TSecr=2042576
+
+Frame 185: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 160, Ack: 805, Len: 0
+
+    186 51.572174392   10.0.2.22             10.0.1.11             TELNET   68     Telnet Data ...
+
+Frame 186: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 805, Ack: 160, Len: 2
+Telnet
+
+    187 51.572219459   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=160 Ack=807 Win=30336 Len=0 TSval=2042849 TSecr=2042586
+
+Frame 187: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 160, Ack: 807, Len: 0
+
+    188 51.633975679   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 188: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 160, Ack: 807, Len: 1
+Telnet
+
+    189 51.635552577   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 189: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 807, Ack: 161, Len: 1
+Telnet
+
+    190 51.635568835   10.0.1.11             10.0.2.22             TELNET   68     Telnet Data ...
+
+Frame 190: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 161, Ack: 808, Len: 2
+Telnet
+
+    191 51.636995570   10.0.2.22             10.0.1.11             TELNET   68     Telnet Data ...
+
+Frame 191: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 808, Ack: 163, Len: 2
+Telnet
+
+    192 51.675024574   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=163 Ack=810 Win=30336 Len=0 TSval=2042875 TSecr=2042602
+
+Frame 192: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 163, Ack: 810, Len: 0
+
+    193 51.712060492   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 193: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 163, Ack: 810, Len: 1
+Telnet
+
+    194 51.713541827   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 194: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 810, Ack: 164, Len: 1
+Telnet
+
+    195 51.713546958   10.0.1.11             10.0.2.22             TELNET   69     Telnet Data ...
+
+Frame 195: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 164, Ack: 811, Len: 3
+Telnet
+
+    196 51.715029982   10.0.2.22             10.0.1.11             TELNET   68     Telnet Data ...
+
+Frame 196: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 811, Ack: 167, Len: 2
+Telnet
+
+    197 51.755005681   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=167 Ack=813 Win=30336 Len=0 TSval=2042895 TSecr=2042621
+
+Frame 197: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 167, Ack: 813, Len: 0
+
+    198 51.756254527   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 198: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 813, Ack: 167, Len: 1
+Telnet
+
+    199 51.756267486   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=167 Ack=814 Win=30336 Len=0 TSval=2042895 TSecr=2042632
+
+Frame 199: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 167, Ack: 814, Len: 0
+
+    200 51.791573338   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 200: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 167, Ack: 814, Len: 1
+Telnet
+
+    201 51.793004302   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 201: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 814, Ack: 168, Len: 1
+Telnet
+
+    202 51.793010184   10.0.1.11             10.0.2.22             TELNET   69     Telnet Data ...
+
+Frame 202: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 168, Ack: 815, Len: 3
+Telnet
+
+    203 51.794402808   10.0.2.22             10.0.1.11             TELNET   68     Telnet Data ...
+
+Frame 203: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 815, Ack: 171, Len: 2
+Telnet
+
+    204 51.830980419   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=171 Ack=817 Win=30336 Len=0 TSval=2042914 TSecr=2042641
+
+Frame 204: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 171, Ack: 817, Len: 0
+
+    205 51.832204521   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 205: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 817, Ack: 171, Len: 1
+Telnet
+
+    206 51.832215650   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=171 Ack=818 Win=30336 Len=0 TSval=2042914 TSecr=2042651
+
+Frame 206: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 171, Ack: 818, Len: 0
+
+    207 51.880387211   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 207: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 171, Ack: 818, Len: 1
+Telnet
+
+    208 51.881859729   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 208: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 818, Ack: 172, Len: 1
+Telnet
+
+    209 51.881869528   10.0.1.11             10.0.2.22             TELNET   69     Telnet Data ...
+
+Frame 209: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 172, Ack: 819, Len: 3
+Telnet
+
+    210 51.883341210   10.0.2.22             10.0.1.11             TELNET   68     Telnet Data ...
+
+Frame 210: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 819, Ack: 175, Len: 2
+Telnet
+
+    211 51.923011373   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=175 Ack=821 Win=30336 Len=0 TSval=2042937 TSecr=2042664
+
+Frame 211: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 175, Ack: 821, Len: 0
+
+    212 51.924252063   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 212: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 821, Ack: 175, Len: 1
+Telnet
+
+    213 51.924278057   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=175 Ack=822 Win=30336 Len=0 TSval=2042937 TSecr=2042674
+
+Frame 213: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 175, Ack: 822, Len: 0
+
+    214 51.968117308   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 214: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 175, Ack: 822, Len: 1
+Telnet
+
+    215 51.969643458   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 215: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 822, Ack: 176, Len: 1
+Telnet
+
+    216 51.969649775   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 216: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 176, Ack: 823, Len: 1
+Telnet
+
+    217 51.971056784   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 217: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 823, Ack: 177, Len: 1
+Telnet
+
+    218 52.011007322   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=177 Ack=824 Win=30336 Len=0 TSval=2042959 TSecr=2042686
+
+Frame 218: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 177, Ack: 824, Len: 0
+
+    219 52.023698639   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 219: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 177, Ack: 824, Len: 1
+Telnet
+
+    220 52.025118049   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 220: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 824, Ack: 178, Len: 1
+Telnet
+
+    221 52.025135208   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=178 Ack=825 Win=30336 Len=0 TSval=2042962 TSecr=2042699
+
+Frame 221: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 178, Ack: 825, Len: 0
+
+    222 52.058689505   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 222: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    223 52.127984534   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 223: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 178, Ack: 825, Len: 1
+Telnet
+
+    224 52.129546064   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 224: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 825, Ack: 179, Len: 1
+Telnet
+
+    225 52.129561426   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=179 Ack=826 Win=30336 Len=0 TSval=2042988 TSecr=2042725
+
+Frame 225: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 179, Ack: 826, Len: 0
+
+    226 52.167767194   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 226: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 179, Ack: 826, Len: 1
+Telnet
+
+    227 52.169203459   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 227: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 826, Ack: 180, Len: 1
+Telnet
+
+    228 52.169226719   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=180 Ack=827 Win=30336 Len=0 TSval=2042998 TSecr=2042735
+
+Frame 228: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 180, Ack: 827, Len: 0
+
+    229 52.256158374   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 229: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 180, Ack: 827, Len: 1
+Telnet
+
+    230 52.257701427   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 230: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 827, Ack: 181, Len: 1
+Telnet
+
+    231 52.257711683   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 231: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 181, Ack: 828, Len: 1
+Telnet
+
+    232 52.259106004   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 232: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 828, Ack: 182, Len: 1
+Telnet
+
+    233 52.299021016   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=182 Ack=829 Win=30336 Len=0 TSval=2043031 TSecr=2042758
+
+Frame 233: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 182, Ack: 829, Len: 0
+
+    234 52.376482961   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 234: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 182, Ack: 829, Len: 1
+Telnet
+
+    235 52.378041842   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 235: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 829, Ack: 183, Len: 1
+Telnet
+
+    236 52.378052467   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 236: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 183, Ack: 830, Len: 1
+Telnet
+
+    237 52.379478247   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 237: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 830, Ack: 184, Len: 1
+Telnet
+
+    238 52.419016739   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=184 Ack=831 Win=30336 Len=0 TSval=2043061 TSecr=2042788
+
+Frame 238: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 184, Ack: 831, Len: 0
+
+    239 52.431892539   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 239: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 184, Ack: 831, Len: 1
+Telnet
+
+    240 52.433272388   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 240: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 831, Ack: 185, Len: 1
+Telnet
+
+    241 52.433283215   10.0.1.11             10.0.2.22             TELNET   71     Telnet Data ...
+
+Frame 241: 71 bytes on wire (568 bits), 71 bytes captured (568 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 185, Ack: 832, Len: 5
+Telnet
+
+    242 52.434636342   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 242: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 832, Ack: 190, Len: 1
+Telnet
+
+    243 52.471010218   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=190 Ack=833 Win=30336 Len=0 TSval=2043074 TSecr=2042801
+
+Frame 243: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 190, Ack: 833, Len: 0
+
+    244 52.472200227   10.0.2.22             10.0.1.11             TELNET   70     Telnet Data ...
+
+Frame 244: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 833, Ack: 190, Len: 4
+Telnet
+
+    245 52.472231702   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=190 Ack=837 Win=30336 Len=0 TSval=2043074 TSecr=2042811
+
+Frame 245: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 190, Ack: 837, Len: 0
+
+    246 52.647518423   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 246: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 190, Ack: 837, Len: 1
+Telnet
+
+    247 52.649075962   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 247: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 837, Ack: 191, Len: 1
+Telnet
+
+    248 52.649093947   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=191 Ack=838 Win=30336 Len=0 TSval=2043118 TSecr=2042855
+
+Frame 248: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 191, Ack: 838, Len: 0
+
+    249 52.784336512   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 249: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 191, Ack: 838, Len: 1
+Telnet
+
+    250 52.785923078   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 250: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 838, Ack: 192, Len: 1
+Telnet
+
+    251 52.785951999   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=192 Ack=839 Win=30336 Len=0 TSval=2043152 TSecr=2042889
+
+Frame 251: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 192, Ack: 839, Len: 0
+
+    252 53.240868630   10.0.1.11             143.129.77.30         DNS      74     Standard query 0x710a A ntp.ubuntu.com
+
+Frame 252: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 35147 (35147), Dst Port: 53 (53)
+Domain Name System (query)
+
+    253 53.240878173   10.0.1.11             143.129.77.30         DNS      74     Standard query 0x5140 AAAA ntp.ubuntu.com
+
+Frame 253: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 35147 (35147), Dst Port: 53 (53)
+Domain Name System (query)
+
+    254 53.790722385   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 254: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+    255 53.791163189   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 255: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+    256 54.058057049   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 256: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    257 56.061375422   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 257: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    258 56.082317808   10.0.1.11             10.0.2.22             TELNET   68     Telnet Data ...
+
+Frame 258: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 192, Ack: 839, Len: 2
+Telnet
+
+    259 56.083854624   10.0.2.22             10.0.1.11             TELNET   68     Telnet Data ...
+
+Frame 259: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 839, Ack: 194, Len: 2
+Telnet
+
+    260 56.083880832   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=194 Ack=841 Win=30336 Len=0 TSval=2043977 TSecr=2043714
+
+Frame 260: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 194, Ack: 841, Len: 0
+
+    261 56.088146256   10.0.2.22             10.0.1.11             TELNET   509    Telnet Data ...
+
+Frame 261: 509 bytes on wire (4072 bits), 509 bytes captured (4072 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 841, Ack: 194, Len: 443
+Telnet
+
+    262 56.088163911   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=194 Ack=1284 Win=31488 Len=0 TSval=2043978 TSecr=2043714
+
+Frame 262: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 194, Ack: 1284, Len: 0
+
+    263 56.571755401   10.0.2.22             10.0.1.11             TELNET   134    Telnet Data ...
+
+Frame 263: 134 bytes on wire (1072 bits), 134 bytes captured (1072 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1284, Ack: 194, Len: 68
+Telnet
+
+    264 56.571790731   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=194 Ack=1352 Win=31488 Len=0 TSval=2044099 TSecr=2043836
+
+Frame 264: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 194, Ack: 1352, Len: 0
+
+    265 56.590895468   10.0.2.22             10.0.1.11             TELNET   130    Telnet Data ...
+
+Frame 265: 130 bytes on wire (1040 bits), 130 bytes captured (1040 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1352, Ack: 194, Len: 64
+Telnet
+
+    266 56.590914814   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=194 Ack=1416 Win=31488 Len=0 TSval=2044103 TSecr=2043840
+
+Frame 266: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 194, Ack: 1416, Len: 0
+
+    267 58.064686475   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 267: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    268 58.245954666   10.0.1.11             143.129.77.30         DNS      74     Standard query 0x710a A ntp.ubuntu.com
+
+Frame 268: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 35147 (35147), Dst Port: 53 (53)
+Domain Name System (query)
+
+    269 58.245964278   10.0.1.11             143.129.77.30         DNS      74     Standard query 0x5140 AAAA ntp.ubuntu.com
+
+Frame 269: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 35147 (35147), Dst Port: 53 (53)
+Domain Name System (query)
+
+    270 58.794934689   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 270: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+    271 58.795337493   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 271: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+    272 60.064059164   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 272: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    273 60.233928476   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 273: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 194, Ack: 1416, Len: 1
+Telnet
+
+    274 60.245211515   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 274: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1416, Ack: 195, Len: 1
+Telnet
+
+    275 60.245235144   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=195 Ack=1417 Win=31488 Len=0 TSval=2045017 TSecr=2044754
+
+Frame 275: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 195, Ack: 1417, Len: 0
+
+    276 61.152494139   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 276: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 195, Ack: 1417, Len: 1
+Telnet
+
+    277 61.154102559   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 277: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1417, Ack: 196, Len: 1
+Telnet
+
+    278 61.154117428   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=196 Ack=1418 Win=31488 Len=0 TSval=2045244 TSecr=2044981
+
+Frame 278: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 196, Ack: 1418, Len: 0
+
+    279 62.067397645   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 279: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    280 62.242335116   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 280: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 196, Ack: 1418, Len: 1
+Telnet
+
+    281 62.243951425   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 281: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1418, Ack: 197, Len: 1
+Telnet
+
+    282 62.243979534   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=197 Ack=1419 Win=31488 Len=0 TSval=2045517 TSecr=2045254
+
+Frame 282: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 197, Ack: 1419, Len: 0
+
+    283 63.225358392   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 283: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 197, Ack: 1419, Len: 1
+Telnet
+
+    284 63.226930652   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 284: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1419, Ack: 198, Len: 1
+Telnet
+
+    285 63.226951759   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=198 Ack=1420 Win=31488 Len=0 TSval=2045762 TSecr=2045499
+
+Frame 285: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 198, Ack: 1420, Len: 0
+
+    286 63.251073532   10.0.1.11             143.129.77.30         DNS      95     Standard query 0xbd09 A ntp.ubuntu.com.mosaic.uantwerpen.be
+
+Frame 286: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 42802 (42802), Dst Port: 53 (53)
+Domain Name System (query)
+
+    287 63.251079191   10.0.1.11             143.129.77.30         DNS      95     Standard query 0x93e9 AAAA ntp.ubuntu.com.mosaic.uantwerpen.be
+
+Frame 287: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 42802 (42802), Dst Port: 53 (53)
+Domain Name System (query)
+
+    288 63.931611819   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 288: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+    289 63.932021281   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 289: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+    290 64.070723952   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 290: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    291 64.265384969   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 291: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 198, Ack: 1420, Len: 1
+Telnet
+
+    292 64.266934806   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 292: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1420, Ack: 199, Len: 1
+Telnet
+
+    293 64.266956836   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=199 Ack=1421 Win=31488 Len=0 TSval=2046022 TSecr=2045759
+
+Frame 293: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 199, Ack: 1421, Len: 0
+
+    294 65.287840131   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 294: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 199, Ack: 1421, Len: 1
+Telnet
+
+    295 65.325649840   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 295: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1421, Ack: 200, Len: 1
+Telnet
+
+    296 65.325661944   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=200 Ack=1422 Win=31488 Len=0 TSval=2046287 TSecr=2046024
+
+Frame 296: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 200, Ack: 1422, Len: 0
+
+    297 66.074063010   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 297: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    298 66.273345310   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 298: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 200, Ack: 1422, Len: 1
+Telnet
+
+    299 66.274915477   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 299: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1422, Ack: 201, Len: 1
+Telnet
+
+    300 66.274937213   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=201 Ack=1423 Win=31488 Len=0 TSval=2046524 TSecr=2046261
+
+Frame 300: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 201, Ack: 1423, Len: 0
+
+    301 67.320069044   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 301: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 201, Ack: 1423, Len: 1
+Telnet
+
+    302 67.321696977   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 302: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1423, Ack: 202, Len: 1
+Telnet
+
+    303 67.321708366   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=202 Ack=1424 Win=31488 Len=0 TSval=2046786 TSecr=2046523
+
+Frame 303: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 202, Ack: 1424, Len: 0
+
+    304 68.073398599   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 304: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    305 68.256160147   10.0.1.11             143.129.77.30         DNS      95     Standard query 0xbd09 A ntp.ubuntu.com.mosaic.uantwerpen.be
+
+Frame 305: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 42802 (42802), Dst Port: 53 (53)
+Domain Name System (query)
+
+    306 68.256169260   10.0.1.11             143.129.77.30         DNS      95     Standard query 0x93e9 AAAA ntp.ubuntu.com.mosaic.uantwerpen.be
+
+Frame 306: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 42802 (42802), Dst Port: 53 (53)
+Domain Name System (query)
+
+    307 68.338306647   10.0.1.11             10.0.2.22             TELNET   68     Telnet Data ...
+
+Frame 307: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 202, Ack: 1424, Len: 2
+Telnet
+
+    308 68.410838485   10.0.2.22             10.0.1.11             TELNET   68     Telnet Data ...
+
+Frame 308: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1424, Ack: 204, Len: 2
+Telnet
+
+    309 68.410865713   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=204 Ack=1426 Win=31488 Len=0 TSval=2047058 TSecr=2046795
+
+Frame 309: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 204, Ack: 1426, Len: 0
+
+    310 68.522912148   10.0.2.22             10.0.1.11             TELNET   95     Telnet Data ...
+
+Frame 310: 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1426, Ack: 204, Len: 29
+Telnet
+
+    311 68.522931780   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=204 Ack=1455 Win=31488 Len=0 TSval=2047086 TSecr=2046823
+
+Frame 311: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 204, Ack: 1455, Len: 0
+
+    312 68.567003179   10.0.2.22             10.0.1.11             TELNET   130    Telnet Data ...
+
+Frame 312: 130 bytes on wire (1040 bits), 130 bytes captured (1040 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1455, Ack: 204, Len: 64
+Telnet
+
+    313 68.567031147   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=204 Ack=1519 Win=31488 Len=0 TSval=2047098 TSecr=2046834
+
+Frame 313: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 204, Ack: 1519, Len: 0
+
+    314 68.960083723   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 314: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+    315 68.960495068   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 315: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+    316 70.076728660   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 316: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    317 72.001860660   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 317: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 204, Ack: 1519, Len: 1
+Telnet
+
+    318 72.003454007   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 318: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1519, Ack: 205, Len: 1
+Telnet
+
+    319 72.003477182   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=205 Ack=1520 Win=31488 Len=0 TSval=2047957 TSecr=2047694
+
+Frame 319: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 205, Ack: 1520, Len: 0
+
+    320 72.080068571   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 320: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol
+
+    321 72.241689108   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 321: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 205, Ack: 1520, Len: 1
+Telnet
+
+    322 72.243296424   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 322: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1520, Ack: 206, Len: 1
+Telnet
+
+    323 72.243316594   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=206 Ack=1521 Win=31488 Len=0 TSval=2048017 TSecr=2047754
+
+Frame 323: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 206, Ack: 1521, Len: 0
+
+    324 72.408063664   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 324: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 206, Ack: 1521, Len: 1
+Telnet
+
+    325 72.409592948   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 325: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1521, Ack: 207, Len: 1
+Telnet
+
+    326 72.409600756   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=207 Ack=1522 Win=31488 Len=0 TSval=2048058 TSecr=2047795
+
+Frame 326: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 207, Ack: 1522, Len: 0
+
+    327 72.552384694   10.0.1.11             10.0.2.22             TELNET   67     Telnet Data ...
+
+Frame 327: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 207, Ack: 1522, Len: 1
+Telnet
+
+    328 72.553903676   10.0.2.22             10.0.1.11             TELNET   67     Telnet Data ...
+
+Frame 328: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1522, Ack: 208, Len: 1
+Telnet
+
+    329 72.553918386   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=208 Ack=1523 Win=31488 Len=0 TSval=2048094 TSecr=2047831
+
+Frame 329: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 208, Ack: 1523, Len: 0
+
+    330 72.938005189   10.0.1.11             10.0.2.22             TELNET   68     Telnet Data ...
+
+Frame 330: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 208, Ack: 1523, Len: 2
+Telnet
+
+    331 72.939620898   10.0.2.22             10.0.1.11             TELNET   68     Telnet Data ...
+
+Frame 331: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1523, Ack: 210, Len: 2
+Telnet
+
+    332 72.939646001   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=210 Ack=1525 Win=31488 Len=0 TSval=2048191 TSecr=2047928
+
+Frame 332: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 210, Ack: 1525, Len: 0
+
+    333 72.940795050   10.0.2.22             10.0.1.11             TELNET   74     Telnet Data ...
+
+Frame 333: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1525, Ack: 210, Len: 8
+Telnet
+
+    334 72.940811014   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [ACK] Seq=210 Ack=1533 Win=31488 Len=0 TSval=2048191 TSecr=2047928
+
+Frame 334: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 210, Ack: 1533, Len: 0
+
+    335 72.946349924   10.0.2.22             10.0.1.11             TCP      66     23 → 45030 [FIN, ACK] Seq=1533 Ack=210 Win=29056 Len=0 TSval=2047929 TSecr=2048191
+
+Frame 335: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1533, Ack: 210, Len: 0
+
+    336 72.946420299   10.0.1.11             10.0.2.22             TCP      66     45030 → 23 [FIN, ACK] Seq=210 Ack=1534 Win=31488 Len=0 TSval=2048192 TSecr=2047929
+
+Frame 336: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+Transmission Control Protocol, Src Port: 45030 (45030), Dst Port: 23 (23), Seq: 210, Ack: 1534, Len: 0
+
+    337 72.947474841   10.0.2.22             10.0.1.11             TCP      66     23 → 45030 [ACK] Seq=1534 Ack=211 Win=29056 Len=0 TSval=2047930 TSecr=2048192
+
+Frame 337: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.2.22, Dst: 10.0.1.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 45030 (45030), Seq: 1534, Ack: 211, Len: 0
+
+    338 73.261406084   10.0.1.11             143.129.77.30         DNS      74     Standard query 0xf764 A ntp.ubuntu.com
+
+Frame 338: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 33719 (33719), Dst Port: 53 (53)
+Domain Name System (query)
+
+    339 73.261410208   10.0.1.11             143.129.77.30         DNS      74     Standard query 0xdbea AAAA ntp.ubuntu.com
+
+Frame 339: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 00:0d:bc:ef:eb:24
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 143.129.77.30
+User Datagram Protocol, Src Port: 33719 (33719), Dst Port: 53 (53)
+Domain Name System (query)
+
+    340 73.811968684   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 340: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+    341 73.812393869   10.0.4.4              10.0.1.11             ICMP     70     Time-to-live exceeded (Time to live exceeded in transit)
+
+Frame 341: 70 bytes on wire (560 bits), 70 bytes captured (560 bits) on interface 0
+Ethernet II, Src: 00:0d:bc:ef:eb:24, Dst: 68:05:ca:36:33:a0
+Internet Protocol Version 4, Src: 10.0.4.4, Dst: 10.0.1.11
+Internet Control Message Protocol
+
+    342 74.079385200   00:12:00:d4:bd:b0     01:80:c2:00:00:00     STP      60     Conf. Root = 32768/0/00:12:00:d4:bd:b4  Cost = 0  Port = 0x8001
+
+Frame 342: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+IEEE 802.3 Ethernet 
+Logical-Link Control
+Spanning Tree Protocol

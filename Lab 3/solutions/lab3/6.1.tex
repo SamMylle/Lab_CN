@@ -1,0 +1,5 @@
+The packets differ because their TTL values are different. Every time the packet reaches the host again, its TTL is decreased by 3. In other words, every time the packet has to pass through a router, the TTL gets decreased by 1. This results in a decrease of 3 every time the packet completes a cycle.
+
+\lstinputlisting{traces/6.5.PC2.txt}
+
+In the captured packets you can see that every subsequent packet has a TTL that is 3 lower than the previous packet.

@@ -1,0 +1,684 @@
+      1 0.000000000    10.0.5.11             10.0.5.22             TCP      74     33240 → 23 [SYN] Seq=0 Win=29200 Len=0 MSS=1460 SACK_PERM=1 TSval=2009521 TSecr=0 WS=128
+
+Frame 1: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 0, Len: 0
+
+      2 0.000392779    10.0.5.22             10.0.5.11             TCP      74     23 → 33240 [SYN, ACK] Seq=0 Ack=1 Win=28960 Len=0 MSS=1460 SACK_PERM=1 TSval=2009259 TSecr=2009521 WS=128
+
+Frame 2: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 0, Ack: 1, Len: 0
+
+      3 0.000436362    10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=1 Ack=1 Win=29312 Len=0 TSval=2009521 TSecr=2009259
+
+Frame 3: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 1, Ack: 1, Len: 0
+
+      4 0.000566510    10.0.5.11             10.0.5.22             TELNET   93     Telnet Data ...
+
+Frame 4: 93 bytes on wire (744 bits), 93 bytes captured (744 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 1, Ack: 1, Len: 27
+Telnet
+
+      5 0.000988733    10.0.5.22             10.0.5.11             TCP      66     23 → 33240 [ACK] Seq=1 Ack=28 Win=29056 Len=0 TSval=2009259 TSecr=2009521
+
+Frame 5: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 1, Ack: 28, Len: 0
+
+      6 5.001044037    68:05:ca:39:cc:79     68:05:ca:39:e1:36     ARP      42     Who has 10.0.5.22? Tell 10.0.5.11
+
+Frame 6: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Address Resolution Protocol (request)
+
+      7 5.001393247    68:05:ca:39:e1:36     68:05:ca:39:cc:79     ARP      60     10.0.5.22 is at 68:05:ca:39:e1:36
+
+Frame 7: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Address Resolution Protocol (reply)
+
+      8 10.015736401   10.0.5.22             10.0.5.11             TELNET   78     Telnet Data ...
+
+Frame 8: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 1, Ack: 28, Len: 12
+Telnet
+
+      9 10.015748305   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=28 Ack=13 Win=29312 Len=0 TSval=2012025 TSecr=2011762
+
+Frame 9: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 28, Ack: 13, Len: 0
+
+     10 10.016103421   10.0.5.22             10.0.5.11             TELNET   105    Telnet Data ...
+
+Frame 10: 105 bytes on wire (840 bits), 105 bytes captured (840 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 13, Ack: 28, Len: 39
+Telnet
+
+     11 10.016117610   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=28 Ack=52 Win=29312 Len=0 TSval=2012025 TSecr=2011762
+
+Frame 11: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 28, Ack: 52, Len: 0
+
+     12 10.016152693   10.0.5.11             10.0.5.22             TELNET   147    Telnet Data ...
+
+Frame 12: 147 bytes on wire (1176 bits), 147 bytes captured (1176 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 28, Ack: 52, Len: 81
+Telnet
+
+     13 10.016697626   10.0.5.22             10.0.5.11             TCP      66     23 → 33240 [ACK] Seq=52 Ack=109 Win=29056 Len=0 TSval=2011763 TSecr=2012025
+
+Frame 13: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 52, Ack: 109, Len: 0
+
+     14 10.016947818   10.0.5.22             10.0.5.11             TELNET   69     Telnet Data ...
+
+Frame 14: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 52, Ack: 109, Len: 3
+Telnet
+
+     15 10.016972324   10.0.5.11             10.0.5.22             TELNET   69     Telnet Data ...
+
+Frame 15: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 109, Ack: 55, Len: 3
+Telnet
+
+     16 10.017343985   10.0.5.22             10.0.5.11             TELNET   69     Telnet Data ...
+
+Frame 16: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 55, Ack: 112, Len: 3
+Telnet
+
+     17 10.017361573   10.0.5.11             10.0.5.22             TELNET   69     Telnet Data ...
+
+Frame 17: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 112, Ack: 58, Len: 3
+Telnet
+
+     18 10.017697683   10.0.5.22             10.0.5.11             TELNET   86     Telnet Data ...
+
+Frame 18: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 58, Ack: 115, Len: 20
+Telnet
+
+     19 10.057044185   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=115 Ack=78 Win=29312 Len=0 TSval=2012036 TSecr=2011763
+
+Frame 19: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 115, Ack: 78, Len: 0
+
+     20 10.057382382   10.0.5.22             10.0.5.11             TELNET   79     Telnet Data ...
+
+Frame 20: 79 bytes on wire (632 bits), 79 bytes captured (632 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 78, Ack: 115, Len: 13
+Telnet
+
+     21 10.057389546   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=115 Ack=91 Win=29312 Len=0 TSval=2012036 TSecr=2011773
+
+Frame 21: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 115, Ack: 91, Len: 0
+
+     22 10.891039493   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 22: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 115, Ack: 91, Len: 1
+Telnet
+
+     23 10.891487340   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 23: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 91, Ack: 116, Len: 1
+Telnet
+
+     24 10.891507546   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=116 Ack=92 Win=29312 Len=0 TSval=2012244 TSecr=2011981
+
+Frame 24: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 116, Ack: 92, Len: 0
+
+     25 11.026831823   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 25: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 116, Ack: 92, Len: 1
+Telnet
+
+     26 11.027247381   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 26: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 92, Ack: 117, Len: 1
+Telnet
+
+     27 11.027263989   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=117 Ack=93 Win=29312 Len=0 TSval=2012278 TSecr=2012015
+
+Frame 27: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 117, Ack: 93, Len: 0
+
+     28 11.315337446   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 28: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 117, Ack: 93, Len: 1
+Telnet
+
+     29 11.315784551   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 29: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 93, Ack: 118, Len: 1
+Telnet
+
+     30 11.315810824   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=118 Ack=94 Win=29312 Len=0 TSval=2012350 TSecr=2012087
+
+Frame 30: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 118, Ack: 94, Len: 0
+
+     31 11.467806643   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 31: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 118, Ack: 94, Len: 1
+Telnet
+
+     32 11.468249802   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 32: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 94, Ack: 119, Len: 1
+Telnet
+
+     33 11.468273063   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=119 Ack=95 Win=29312 Len=0 TSval=2012388 TSecr=2012126
+
+Frame 33: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 119, Ack: 95, Len: 0
+
+     34 11.667711304   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 34: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 119, Ack: 95, Len: 1
+Telnet
+
+     35 11.668215706   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 35: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 95, Ack: 120, Len: 1
+Telnet
+
+     36 11.668236827   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=120 Ack=96 Win=29312 Len=0 TSval=2012438 TSecr=2012175
+
+Frame 36: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 120, Ack: 96, Len: 0
+
+     37 11.777576113   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 37: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 120, Ack: 96, Len: 1
+Telnet
+
+     38 11.778028987   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 38: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 96, Ack: 121, Len: 1
+Telnet
+
+     39 11.778039663   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=121 Ack=97 Win=29312 Len=0 TSval=2012466 TSecr=2012203
+
+Frame 39: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 121, Ack: 97, Len: 0
+
+     40 11.890224345   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 40: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 121, Ack: 97, Len: 1
+Telnet
+
+     41 11.890735957   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 41: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 97, Ack: 122, Len: 1
+Telnet
+
+     42 11.890748198   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=122 Ack=98 Win=29312 Len=0 TSval=2012494 TSecr=2012231
+
+Frame 42: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 122, Ack: 98, Len: 0
+
+     43 12.604046964   10.0.5.11             10.0.5.22             TELNET   68     Telnet Data ...
+
+Frame 43: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 122, Ack: 98, Len: 2
+Telnet
+
+     44 12.604548110   10.0.5.22             10.0.5.11             TELNET   68     Telnet Data ...
+
+Frame 44: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 98, Ack: 124, Len: 2
+Telnet
+
+     45 12.604573542   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=124 Ack=100 Win=29312 Len=0 TSval=2012672 TSecr=2012410
+
+Frame 45: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 124, Ack: 100, Len: 0
+
+     46 12.605495410   10.0.5.22             10.0.5.11             TELNET   76     Telnet Data ...
+
+Frame 46: 76 bytes on wire (608 bits), 76 bytes captured (608 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 100, Ack: 124, Len: 10
+Telnet
+
+     47 12.605511755   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=124 Ack=110 Win=29312 Len=0 TSval=2012673 TSecr=2012410
+
+Frame 47: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 124, Ack: 110, Len: 0
+
+     48 13.442543645   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 48: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 124, Ack: 110, Len: 1
+Telnet
+
+     49 13.480247436   10.0.5.22             10.0.5.11             TCP      66     23 → 33240 [ACK] Seq=110 Ack=125 Win=29056 Len=0 TSval=2012629 TSecr=2012882
+
+Frame 49: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 110, Ack: 125, Len: 0
+
+     50 13.627123916   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 50: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 125, Ack: 110, Len: 1
+Telnet
+
+     51 13.627475308   10.0.5.22             10.0.5.11             TCP      66     23 → 33240 [ACK] Seq=110 Ack=126 Win=29056 Len=0 TSval=2012665 TSecr=2012928
+
+Frame 51: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 110, Ack: 126, Len: 0
+
+     52 14.155660691   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 52: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 126, Ack: 110, Len: 1
+Telnet
+
+     53 14.155976838   10.0.5.22             10.0.5.11             TCP      66     23 → 33240 [ACK] Seq=110 Ack=127 Win=29056 Len=0 TSval=2012797 TSecr=2013060
+
+Frame 53: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 110, Ack: 127, Len: 0
+
+     54 14.331130157   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 54: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 127, Ack: 110, Len: 1
+Telnet
+
+     55 14.331492517   10.0.5.22             10.0.5.11             TCP      66     23 → 33240 [ACK] Seq=110 Ack=128 Win=29056 Len=0 TSval=2012841 TSecr=2013104
+
+Frame 55: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 110, Ack: 128, Len: 0
+
+     56 14.475693676   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 56: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 128, Ack: 110, Len: 1
+Telnet
+
+     57 14.476010903   10.0.5.22             10.0.5.11             TCP      66     23 → 33240 [ACK] Seq=110 Ack=129 Win=29056 Len=0 TSval=2012877 TSecr=2013140
+
+Frame 57: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 110, Ack: 129, Len: 0
+
+     58 15.052065182   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 58: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 129, Ack: 110, Len: 1
+Telnet
+
+     59 15.052418295   10.0.5.22             10.0.5.11             TCP      66     23 → 33240 [ACK] Seq=110 Ack=130 Win=29056 Len=0 TSval=2013022 TSecr=2013284
+
+Frame 59: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 110, Ack: 130, Len: 0
+
+     60 15.547661297   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 60: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 130, Ack: 110, Len: 1
+Telnet
+
+     61 15.547992610   10.0.5.22             10.0.5.11             TCP      66     23 → 33240 [ACK] Seq=110 Ack=131 Win=29056 Len=0 TSval=2013145 TSecr=2013408
+
+Frame 61: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 110, Ack: 131, Len: 0
+
+     62 16.067792403   10.0.5.11             10.0.5.22             TELNET   68     Telnet Data ...
+
+Frame 62: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 131, Ack: 110, Len: 2
+Telnet
+
+     63 16.068148806   10.0.5.22             10.0.5.11             TCP      66     23 → 33240 [ACK] Seq=110 Ack=133 Win=29056 Len=0 TSval=2013275 TSecr=2013538
+
+Frame 63: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 110, Ack: 133, Len: 0
+
+     64 16.068394173   10.0.5.22             10.0.5.11             TELNET   68     Telnet Data ...
+
+Frame 64: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 110, Ack: 133, Len: 2
+Telnet
+
+     65 16.068411468   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=133 Ack=112 Win=29312 Len=0 TSval=2013538 TSecr=2013276
+
+Frame 65: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 133, Ack: 112, Len: 0
+
+     66 16.090231513   10.0.5.22             10.0.5.11             TELNET   119    Telnet Data ...
+
+Frame 66: 119 bytes on wire (952 bits), 119 bytes captured (952 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 112, Ack: 133, Len: 53
+Telnet
+
+     67 16.090248728   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=133 Ack=165 Win=29312 Len=0 TSval=2013544 TSecr=2013281
+
+Frame 67: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 133, Ack: 165, Len: 0
+
+     68 16.150427911   10.0.5.22             10.0.5.11             TELNET   608    Telnet Data ...
+
+Frame 68: 608 bytes on wire (4864 bits), 608 bytes captured (4864 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 165, Ack: 133, Len: 542
+Telnet
+
+     69 16.150448897   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=133 Ack=707 Win=30336 Len=0 TSval=2013559 TSecr=2013296
+
+Frame 69: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 133, Ack: 707, Len: 0
+
+     70 16.201799900   10.0.5.22             10.0.5.11             TELNET   130    Telnet Data ...
+
+Frame 70: 130 bytes on wire (1040 bits), 130 bytes captured (1040 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 707, Ack: 133, Len: 64
+Telnet
+
+     71 16.201821466   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=133 Ack=771 Win=30336 Len=0 TSval=2013572 TSecr=2013309
+
+Frame 71: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 133, Ack: 771, Len: 0
+
+     72 21.715251950   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 72: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 133, Ack: 771, Len: 1
+Telnet
+
+     73 21.715894926   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 73: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 771, Ack: 134, Len: 1
+Telnet
+
+     74 21.715914920   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=134 Ack=772 Win=30336 Len=0 TSval=2014950 TSecr=2014687
+
+Frame 74: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 134, Ack: 772, Len: 0
+
+     75 21.954386908   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 75: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 134, Ack: 772, Len: 1
+Telnet
+
+     76 21.955041816   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 76: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 772, Ack: 135, Len: 1
+Telnet
+
+     77 21.955054619   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=135 Ack=773 Win=30336 Len=0 TSval=2015010 TSecr=2014747
+
+Frame 77: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 135, Ack: 773, Len: 0
+
+     78 22.123837827   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 78: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 135, Ack: 773, Len: 1
+Telnet
+
+     79 22.124487181   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 79: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 773, Ack: 136, Len: 1
+Telnet
+
+     80 22.124509337   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=136 Ack=774 Win=30336 Len=0 TSval=2015052 TSecr=2014790
+
+Frame 80: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 136, Ack: 774, Len: 0
+
+     81 22.251831416   10.0.5.11             10.0.5.22             TELNET   67     Telnet Data ...
+
+Frame 81: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 136, Ack: 774, Len: 1
+Telnet
+
+     82 22.252465831   10.0.5.22             10.0.5.11             TELNET   67     Telnet Data ...
+
+Frame 82: 67 bytes on wire (536 bits), 67 bytes captured (536 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 774, Ack: 137, Len: 1
+Telnet
+
+     83 22.252487982   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=137 Ack=775 Win=30336 Len=0 TSval=2015084 TSecr=2014822
+
+Frame 83: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 137, Ack: 775, Len: 0
+
+     84 22.682595038   10.0.5.11             10.0.5.22             TELNET   68     Telnet Data ...
+
+Frame 84: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 137, Ack: 775, Len: 2
+Telnet
+
+     85 22.683184502   10.0.5.22             10.0.5.11             TELNET   68     Telnet Data ...
+
+Frame 85: 68 bytes on wire (544 bits), 68 bytes captured (544 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 775, Ack: 139, Len: 2
+Telnet
+
+     86 22.683201210   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=139 Ack=777 Win=30336 Len=0 TSval=2015192 TSecr=2014929
+
+Frame 86: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 139, Ack: 777, Len: 0
+
+     87 22.683551469   10.0.5.22             10.0.5.11             TELNET   74     Telnet Data ...
+
+Frame 87: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 777, Ack: 139, Len: 8
+Telnet
+
+     88 22.683561177   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [ACK] Seq=139 Ack=785 Win=30336 Len=0 TSval=2015192 TSecr=2014929
+
+Frame 88: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 139, Ack: 785, Len: 0
+
+     89 23.101557636   10.0.5.22             10.0.5.11             TCP      66     23 → 33240 [FIN, ACK] Seq=785 Ack=139 Win=29056 Len=0 TSval=2015034 TSecr=2015192
+
+Frame 89: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 785, Ack: 139, Len: 0
+
+     90 23.101605025   10.0.5.11             10.0.5.22             TCP      66     33240 → 23 [FIN, ACK] Seq=139 Ack=786 Win=30336 Len=0 TSval=2015297 TSecr=2015034
+
+Frame 90: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:cc:79, Dst: 68:05:ca:39:e1:36
+Internet Protocol Version 4, Src: 10.0.5.11, Dst: 10.0.5.22
+Transmission Control Protocol, Src Port: 33240 (33240), Dst Port: 23 (23), Seq: 139, Ack: 786, Len: 0
+
+     91 23.101921827   10.0.5.22             10.0.5.11             TCP      66     23 → 33240 [ACK] Seq=786 Ack=140 Win=29056 Len=0 TSval=2015034 TSecr=2015297
+
+Frame 91: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: 68:05:ca:39:e1:36, Dst: 68:05:ca:39:cc:79
+Internet Protocol Version 4, Src: 10.0.5.22, Dst: 10.0.5.11
+Transmission Control Protocol, Src Port: 23 (23), Dst Port: 33240 (33240), Seq: 786, Ack: 140, Len: 0

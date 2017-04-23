@@ -1,0 +1,27 @@
+Before: \newline
+\lstinputlisting{traces/5.1.txt}
+After: \newline
+\lstinputlisting{traces/5.3.txt}
+
+The ifconfig command lists all the network interfaces on the pc (in our case eth0, eth1 and internet). \\
+
+For each interface/network device it displays a number of things: \\
+\begin{itemize}
+	\item Link encap: indicates what kind of device this is. In our case this is either an Ethernet device, or a Local Loopback (virtual) device.
+	\item HWaddr: the MAC address of the interface.
+	\item inet addr: the IPv4 address of the interface.
+	\item Bcast: the IPv4 address on which the interface can send broadcast packets.
+	\item Mask: the netmask associated with the interface.
+	\item inet6 addr: the IPv6 address of the interface.
+	\item Scope: determines the routing scope for this interface. 
+	\item MTU: the Maximum Transmission Unit.
+	\item Metric: this value decides the priority of the interface, the higher the value the higher the priority.
+	\item RX packets: the amount of received packets (normal packets, errored packets, ...).
+	\item TX packets: the amount of transmitted packets (normal packets, errored packets, ...).
+	\item collisions: the amount of collisions that have happened on the interface.
+	\item txqueuelen: the length of the transmit queue of the interface.
+	\item RX bytes: the amount of bytes received.
+	\item TX bytes: the amount of bytes transmitted.
+	\item Interrupt: the interrupt line used by this device.
+	\item Memory: the memory addresses used for shared memory for this device.
+\end{itemize}
