@@ -1,0 +1,8 @@
+Before fragmentation:\\
+This is impossible to export in wireshark.
+
+After fragmentation:\\
+First packet: \lstinputlisting{./traces/3-a.5-FRAG1.txt}
+Second packet: \lstinputlisting{./traces/3-a.5-FRAG2.txt}
+
+As we can see in the IP header, there are flags which deal with fragmentation: the "don't fragment" flag and the "more fragments" flag, which in the first fragment is set to $1$, as there will be a second fragment. The fragment offset for the first fragment is $0$, because it is the first. For the second fragment it is $1480$, as that is the byte where the previous fragment ended. In both packets the identification number is the same ($0x34af$) to indicate that it is the same packet, just fragmented.
