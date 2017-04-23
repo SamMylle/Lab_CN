@@ -1,2 +1,78 @@
+\begin{verbatim}
+No.     Time           Source                Destination           Protocol Length Info
+      9 3.896053141    10.0.1.11             10.0.2.22             TELNET   93     Telnet Data ...
+
+Frame 9: 93 bytes on wire (744 bits), 93 bytes captured (744 bits) on interface 0
+    Interface id: 0 (eth0)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 27, 2017 11:28:35.552353333 CEST
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1490606915.552353333 seconds
+    [Time delta from previous captured frame: 0.000124951 seconds]
+    [Time delta from previous displayed frame: 0.000124951 seconds]
+    [Time since reference or first frame: 3.896053141 seconds]
+    Frame Number: 9
+    Frame Length: 93 bytes (744 bits)
+    Capture Length: 93 bytes (744 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:tcp:telnet]
+    [Coloring Rule Name: TCP]
+    [Coloring Rule String: tcp]
+Ethernet II, Src: IntelCor_36:33:a0 (68:05:ca:36:33:a0), Dst: CiscoInc_ef:eb:24 (00:0d:bc:ef:eb:24)
+    Destination: CiscoInc_ef:eb:24 (00:0d:bc:ef:eb:24)
+        Address: CiscoInc_ef:eb:24 (00:0d:bc:ef:eb:24)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Source: IntelCor_36:33:a0 (68:05:ca:36:33:a0)
+        Address: IntelCor_36:33:a0 (68:05:ca:36:33:a0)
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.2.22
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x10 (DSCP: Unknown, ECN: Not-ECT)
+        0001 00.. = Differentiated Services Codepoint: Unknown (4)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 79
+    Identification: 0x99b1 (39345)
+    Flags: 0x02 (Don't Fragment)
+        0... .... = Reserved bit: Not set
+        .1.. .... = Don't fragment: Set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x89c7 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.0.1.11
+    Destination: 10.0.2.22
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 45030, Dst Port: 23, Seq: 1, Ack: 1, Len: 27
+    Source Port: 45030
+    Destination Port: 23
+    [Stream index: 0]
+    [TCP Segment Len: 27]
+    Sequence number: 1    (relative sequence number)
+    [Next sequence number: 28    (relative sequence number)]
+    Acknowledgment number: 1    (relative ack number)
+    Header Length: 32 bytes
+    Flags: 0x018 (PSH, ACK)
+        000. .... .... = Reserved: Not set
+        ...0 .... .... = Nonce: Not set
+        .... 0... .... = Congestion Window Reduced (CWR): Not set
+        .... .0.. .... = ECN-Echo: Not set
+        .... ..0. .... = Urgent: Not set
+        .... ...1 .... = Acknowledgment: Set
+        .... .... 1... = Push: Set
+        .... .... .0.. = Reset: Not set
+        .... .... ..0. = Syn: Not set
+        .... .... ...0 = Fin: Not set
+        [TCP Flags: ·······AP···]
+...
+\end{verbatim}
+
 Acknowledgment flag: This flag indicates that the Acknowledgment field is significant. All packets after the first packet of the session sent should have this flag set.
 Push flag: This flag indicates that TCP must send the packets immediately instead of waiting and combining the packets later.
