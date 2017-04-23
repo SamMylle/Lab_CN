@@ -1,0 +1,4 @@
+In the beginning, the receiver sends ACKS every other packets. After a while, the receiver starts to send an ACK every other packet. The point at which this happens, is when the windows size exceeds the length of the packets sent. After this, not every packets is acknowledged, but rather every other packet is acknowledged. \\
+\\
+
+This can be varified by looking at frame 144 (traces/6-a.5.pcapng). The window size becomes 1452 here, with the packet length being 1448. Shortly after this, the receiver only sends an ACK every other packet instead of every packet like before.
