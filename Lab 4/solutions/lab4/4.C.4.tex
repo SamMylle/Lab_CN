@@ -1,0 +1,270 @@
+
+\textit{Hello packet} 
+\begin{lstlisting}
+      1 0.000000000    10.0.1.2              224.0.0.5             OSPF     82     Hello Packet
+
+Frame 1: 82 bytes on wire (656 bits), 82 bytes captured (656 bits) on interface 0
+    Interface id: 0 (eth0)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 23, 2017 14:49:14.126448537 CET
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1490276954.126448537 seconds
+    [Time delta from previous captured frame: 0.000000000 seconds]
+    [Time delta from previous displayed frame: 0.000000000 seconds]
+    [Time since reference or first frame: 0.000000000 seconds]
+    Frame Number: 1
+    Frame Length: 82 bytes (656 bits)
+    Capture Length: 82 bytes (656 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:ospf]
+    [Coloring Rule Name: Routing]
+    [Coloring Rule String: hsrp || eigrp || ospf || bgp || cdp || vrrp || carp || gvrp || igmp || ismp]
+Ethernet II, Src: 68:05:ca:36:31:f0, Dst: 01:00:5e:00:00:05
+    Destination: 01:00:5e:00:00:05
+        Address: 01:00:5e:00:00:05
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: 68:05:ca:36:31:f0
+        Address: 68:05:ca:36:31:f0
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.1.2, Dst: 224.0.0.5
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (48)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 68
+    Identification: 0xcbda (52186)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: OSPF IGP (89)
+    Header checksum: 0x01c0 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.0.1.2
+    Destination: 224.0.0.5
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Open Shortest Path First
+    OSPF Header
+        Version: 2
+        Message Type: Hello Packet (1)
+        Packet Length: 48
+        Source OSPF Router: 10.0.1.2
+        Area ID: 0.0.0.1
+        Checksum: 0xd093 [correct]
+        Auth Type: Null (0)
+        Auth Data (none): 0000000000000000
+    OSPF Hello Packet
+        Network Mask: 255.255.255.0
+        Hello Interval [sec]: 10
+        Options: 0x02 ((E) External Routing)
+            0... .... = DN: Not set
+            .0.. .... = O: Not set
+            ..0. .... = (DC) Demand Circuits: Not supported
+            ...0 .... = (L) LLS Data block: Not Present
+            .... 0... = (N) NSSA: Not supported
+            .... .0.. = (MC) Multicast: Not capable
+            .... ..1. = (E) External Routing: Capable
+            .... ...0 = (MT) Multi-Topology Routing: No
+        Router Priority: 1
+        Router Dead Interval [sec]: 40
+        Designated Router: 10.0.1.2
+        Backup Designated Router: 10.0.1.1
+        Active Neighbor: 10.0.1.1
+\end{lstlisting}
+
+
+\textit{LS Update packet}
+\begin{lstlisting}
+      2 1.756152656    10.0.1.1              224.0.0.5             OSPF     110    LS Update
+
+Frame 2: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+    Interface id: 0 (eth0)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 23, 2017 14:49:15.882601193 CET
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1490276955.882601193 seconds
+    [Time delta from previous captured frame: 1.756152656 seconds]
+    [Time delta from previous displayed frame: 1.756152656 seconds]
+    [Time since reference or first frame: 1.756152656 seconds]
+    Frame Number: 2
+    Frame Length: 110 bytes (880 bits)
+    Capture Length: 110 bytes (880 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:ospf]
+    [Coloring Rule Name: OSPF State Change]
+    [Coloring Rule String: ospf.msg != 1]
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 01:00:5e:00:00:05
+    Destination: 01:00:5e:00:00:05
+        Address: 01:00:5e:00:00:05
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: 68:05:ca:36:33:a0
+        Address: 68:05:ca:36:33:a0
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.1.1, Dst: 224.0.0.5
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (48)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 96
+    Identification: 0xca0d (51725)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: OSPF IGP (89)
+    Header checksum: 0x0372 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.0.1.1
+    Destination: 224.0.0.5
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Open Shortest Path First
+    OSPF Header
+        Version: 2
+        Message Type: LS Update (4)
+        Packet Length: 76
+        Source OSPF Router: 10.0.1.1
+        Area ID: 0.0.0.1
+        Checksum: 0x039a [correct]
+        Auth Type: Null (0)
+        Auth Data (none): 0000000000000000
+    LS Update Packet
+        Number of LSAs: 1
+        LSA-type 1 (Router-LSA), len 48
+            .000 0000 0000 0010 = LS Age (seconds): 2
+            0... .... .... .... = Do Not Age Flag: 0
+            Options: 0x22 ((DC) Demand Circuits, (E) External Routing)
+                0... .... = DN: Not set
+                .0.. .... = O: Not set
+                ..1. .... = (DC) Demand Circuits: Supported
+                ...0 .... = (L) LLS Data block: Not Present
+                .... 0... = (N) NSSA: Not supported
+                .... .0.. = (MC) Multicast: Not capable
+                .... ..1. = (E) External Routing: Capable
+                .... ...0 = (MT) Multi-Topology Routing: No
+            LS Type: Router-LSA (1)
+            Link State ID: 10.0.3.3
+            Advertising Router: 10.0.3.3
+            Sequence Number: 0x80000006
+            Checksum: 0xfcc3
+            Length: 48
+            Flags: 0x00
+                .... .0.. = (V) Virtual link endpoint: No
+                .... ..0. = (E) AS boundary router: No
+                .... ...0 = (B) Area border router: No
+            Number of Links: 2
+            Type: Transit  ID: 10.0.2.1        Data: 10.0.2.3        Metric: 1
+                Link ID: 10.0.2.1 - IP address of Designated Router
+                Link Data: 10.0.2.3
+                Link Type: 2 - Connection to a transit network
+                Number of Metrics: 0 - TOS
+                0 Metric: 1
+            Type: Transit  ID: 10.0.3.4        Data: 10.0.3.3        Metric: 1
+                Link ID: 10.0.3.4 - IP address of Designated Router
+                Link Data: 10.0.3.3
+                Link Type: 2 - Connection to a transit network
+                Number of Metrics: 0 - TOS
+                0 Metric: 1
+\end{lstlisting}
+
+\textit{LS Acknowledgment packet} 
+\begin{lstlisting}
+
+      3 2.191991367    10.0.1.2              224.0.0.5             OSPF     78     LS Acknowledge
+
+Frame 3: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface 0
+    Interface id: 0 (eth0)
+    Encapsulation type: Ethernet (1)
+    Arrival Time: Mar 23, 2017 14:49:16.318439904 CET
+    [Time shift for this packet: 0.000000000 seconds]
+    Epoch Time: 1490276956.318439904 seconds
+    [Time delta from previous captured frame: 0.435838711 seconds]
+    [Time delta from previous displayed frame: 0.435838711 seconds]
+    [Time since reference or first frame: 2.191991367 seconds]
+    Frame Number: 3
+    Frame Length: 78 bytes (624 bits)
+    Capture Length: 78 bytes (624 bits)
+    [Frame is marked: False]
+    [Frame is ignored: False]
+    [Protocols in frame: eth:ethertype:ip:ospf]
+    [Coloring Rule Name: OSPF State Change]
+    [Coloring Rule String: ospf.msg != 1]
+Ethernet II, Src: 68:05:ca:36:31:f0, Dst: 01:00:5e:00:00:05
+    Destination: 01:00:5e:00:00:05
+        Address: 01:00:5e:00:00:05
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...1 .... .... .... .... = IG bit: Group address (multicast/broadcast)
+    Source: 68:05:ca:36:31:f0
+        Address: 68:05:ca:36:31:f0
+        .... ..0. .... .... .... .... = LG bit: Globally unique address (factory default)
+        .... ...0 .... .... .... .... = IG bit: Individual address (unicast)
+    Type: IPv4 (0x0800)
+Internet Protocol Version 4, Src: 10.0.1.2, Dst: 224.0.0.5
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+        1100 00.. = Differentiated Services Codepoint: Class Selector 6 (48)
+        .... ..00 = Explicit Congestion Notification: Not ECN-Capable Transport (0)
+    Total Length: 64
+    Identification: 0xcbdd (52189)
+    Flags: 0x00
+        0... .... = Reserved bit: Not set
+        .0.. .... = Don't fragment: Not set
+        ..0. .... = More fragments: Not set
+    Fragment offset: 0
+    Time to live: 1
+    Protocol: OSPF IGP (89)
+    Header checksum: 0x01c1 [validation disabled]
+        [Good: False]
+        [Bad: False]
+    Source: 10.0.1.2
+    Destination: 224.0.0.5
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Open Shortest Path First
+    OSPF Header
+        Version: 2
+        Message Type: LS Acknowledge (5)
+        Packet Length: 44
+        Source OSPF Router: 10.0.1.2
+        Area ID: 0.0.0.1
+        Checksum: 0x39c8 [correct]
+        Auth Type: Null (0)
+        Auth Data (none): 0000000000000000
+    LSA-type 1 (Router-LSA), len 48
+        .000 0000 0000 0010 = LS Age (seconds): 2
+        0... .... .... .... = Do Not Age Flag: 0
+        Options: 0x22 ((DC) Demand Circuits, (E) External Routing)
+            0... .... = DN: Not set
+            .0.. .... = O: Not set
+            ..1. .... = (DC) Demand Circuits: Supported
+            ...0 .... = (L) LLS Data block: Not Present
+            .... 0... = (N) NSSA: Not supported
+            .... .0.. = (MC) Multicast: Not capable
+            .... ..1. = (E) External Routing: Capable
+            .... ...0 = (MT) Multi-Topology Routing: No
+        LS Type: Router-LSA (1)
+        Link State ID: 10.0.3.3
+        Advertising Router: 10.0.3.3
+        Sequence Number: 0x80000006
+        Checksum: 0xfcc3
+        Length: 48
+\end{lstlisting}
+

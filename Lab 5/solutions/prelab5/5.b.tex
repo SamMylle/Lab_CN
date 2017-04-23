@@ -1,0 +1,6 @@
+Karn's algoritmh is used to get an accurate estimate of the round-trip time for messages using TCP. \\
+The round-trip time is estimated by calculating the difference between the time that a packet was sent and the time that the sender receives the corresponding aknowledgment. \\
+The problem here are retransmissions: is the acknowledgment a response to the first message or its retransmission?
+Karne's algorithm simply ignores these ambiguous acknowledgments. \\
+A new problem arises: if the delay is permanently increased, every packet will be retransmitted and the estimate will never be updated.
+The solution to this is to keep a backoff timer initialized using the round-trip time estimate . For each retransmission, this timer is doubled.

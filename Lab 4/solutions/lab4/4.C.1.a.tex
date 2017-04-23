@@ -1,0 +1,1 @@
+If we take a look at the pcap (traces/4-C.10.pcapng), we can see that the ping from packet 58 and onwards does not receive a reply. This happened at $\approx 44.6$ seconds into capturing. The first OSPF update packet captured after this is at $\approx 52.8$ seconds. It took OSPF approximately 8 seconds to notice the disconnection and start sending updates.

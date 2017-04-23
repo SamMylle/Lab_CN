@@ -1,0 +1,8 @@
+After receiving a packet, the receiver sends an acknowledgement to the sender. \\
+Assume some packet has been lost. In the meantime the receiver receives the packets that followed the lost packet.
+After receiving these packets, the receiver sends an acknowledgement, but still only for the sequence number of the lost packet (indicating it still has to receive this packet).
+This results in duplicate acknowledgments. \\
+Fast retransmit works as follows: if the sender receives a specified number (assume 3) of acknowledgements with the same acknowledge number, the sender will retransmit the packet that was lost before waiting for its timeout.
+Fast recovery works as follows: if the sender receives a specified number of acknowledgements (assume 3) with the same acknowledge number, it sets the slow start treshold to half of the congestion window.
+Then, it retransmits the lost packet, sets its congestion window (= cwnd) to cwnd + 3 and continues with slow start.
+Once you receive an ACK that acknowledges all packets sent between the lost packet and the first reception of a duplicate ACK, exit fast recovery (set cwnd to the slow start treshold).

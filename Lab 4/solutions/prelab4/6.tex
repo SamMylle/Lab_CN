@@ -1,0 +1,4 @@
+You must enable zebra by adjusting the file /etc/quagga/daemons. You must change/add the line "zebra=yes". \\
+In the same file, you must also activate the protocol. This is also done by changing/adding the line "X=yes" where X is ripd, ospfd or bgpd.
+Afterwards, you'll have to type the following command: /etc/init.d/quagga start.
+In case quagga was already running, you shouldn't start quagga, you should obviously restart it. This is done by using the command: /etc/init.d/quagga restart.
