@@ -1,0 +1,6 @@
+The source and destination MAC/IP addresses do not change. The bridge just 'forwards' the packets to the other network segment, without altering the IP or MAC addresses. \\
+
+TODO : example \\
+
+In case PC2 was configured as an IP router, the ethernet header would be altered to send the packets to the interface of PC2 first. The source and destination addresses of the IP headers still remain the same. The checksum, time to live, ... might vary though.
+\textit{In case no routing entries have been added to the PC's though, no communication between PC1 and PC3 would be possible.}
