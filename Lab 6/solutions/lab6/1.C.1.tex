@@ -1,6 +1,27 @@
-The source and destination MAC/IP addresses do not change. The bridge just 'forwards' the packets to the other network segment, without altering the IP or MAC addresses. \\
+The source and destination MAC/IP addresses do not change. The bridge just 'forwards' the packets to the other network segment, without altering the IP or MAC addresses. This can be confirmed by obversing the captured packets. \\
 
-TODO : example \\
+The request packet sent from PC1: \\
+\begin{lstlisting}
+No.     Time           Source                Destination           Protocol Length Info
+     23 282.238541389  10.0.1.11             10.0.1.31             ICMP     98     Echo (ping) request  id=0x092d, seq=1/256, ttl=64 (reply in 24)
 
-In case PC2 was configured as an IP router, the ethernet header would be altered to send the packets to the interface of PC2 first. The source and destination addresses of the IP headers still remain the same. The checksum, time to live, ... might vary though.
+Frame 23: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 68:05:ca:36:39:c7
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.1.31
+Internet Control Message Protocol
+\end{lstlisting}
+
+The request packet observed at PC3: \\
+\begin{lstlisting}
+No.     Time           Source                Destination           Protocol Length Info
+     16 210.916705506  10.0.1.11             10.0.1.31             ICMP     98     Echo (ping) request  id=0x092d, seq=1/256, ttl=64 (reply in 17)
+
+Frame 16: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: 68:05:ca:36:33:a0, Dst: 68:05:ca:36:39:c7
+Internet Protocol Version 4, Src: 10.0.1.11, Dst: 10.0.1.31
+Internet Control Message Protocol
+\end{lstlisting}
+
+
+In case PC2 was configured as an IP router, the ethernet header would be altered to send the packets to the interface of PC2 first. The source and destination addresses of the IP headers still remain the same. The checksum, time to live, ... might vary though. \\ \\
 \textit{In case no routing entries have been added to the PC's though, no communication between PC1 and PC3 would be possible.}

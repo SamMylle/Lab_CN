@@ -24,7 +24,7 @@ A bridge or LAN switch is a device that interconnects two or more Local Area Net
 
 LAN switches are widely deployed in enterprise networks, including university campus networks. Many enterprise networks primarily use LAN switches, and use IP routers only to connect the enterprise network to the public Internet.
 
-The term `bridge’ was coined in the early 1980s. Today, when referring to data-link layer interconnection devices, the terms `LAN switch’ or `Ethernet switch’ (in the context of Ethernet) are much more common. Since many of the concepts, configuration commands, and protocols for LAN switches in Lab 6 use the old term `bridge’, we will, with few exceptions, refer to LAN switches as bridges.
+The term 'bridge' was coined in the early 1980s. Today, when referring to data-link layer interconnection devices, the terms 'LAN switch' or 'Ethernet switch' (in the context of Ethernet) are much more common. Since many of the concepts, configuration commands, and protocols for LAN switches in Lab 6 use the old term 'bridge', we will, with few exceptions, refer to LAN switches as bridges.
 
 This lab covers the main concepts of LAN switching in Ethernet networks: how packets are forwarded between LANs and how the routes of packets are determined. In the first and second parts of Lab 6, you learn how to configure a Linux PC and a Cisco router as a bridge. The third part illustrates the difference between an Ethernet hub and an Ethernet switch. Parts 4 explores how forwarding tables of bridges are set up. You learn about the concepts of learning bridges and transparent bridges.
 
@@ -68,10 +68,10 @@ The network configuration for this part is shown in Figure \ref{fig:lab6-network
 			\begin{tabular}{| c | c | c |}	
 				\hline
 				\textbf{Linux PC} & \textbf{MAC address of eth0} & \textbf{MAC address of eth1} \\ \hline
-				PC1 &  &  \\ 
-				PC2 &  &  \\
-				PC3 &  &  \\
-				PC4 &  &  \\ \hline
+				PC1 & 68:05:ca:36:33:a0 & 68:05:ca:39:cc:79 \\ 
+				PC2 & 68:05:ca:36:31:f0 & 68:05:ca:39:e1:36 \\
+				PC3 & 68:05:ca:36:39:c7 & 68:05:ca:36:51:3f \\
+				PC4 & 68:05:ca:39:e1:2f & 68:05:ca:39:e1:32 \\ \hline
 			\end{tabular}
 			\caption{MAC addresses of the linux PCs}
 			\label{tab:lab6-macs-pcs}
@@ -227,10 +227,10 @@ After the network is configured, as in Exercise 1-a above for the Linux PCs, you
 			\begin{tabular}{| c | c | c |}	
 				\hline
 				\textbf{Linux PC} & \textbf{MAC address of FastEthernet0/0} & \textbf{MAC address of interface vlan1} \\ \hline
-				Router1 &  &  \\ 
-				Router2 &  &  \\
-				Router3 &  &  \\
-				Router4 &  &  \\ \hline
+				Router1 & 00:0d:65:17:01:29 & 00:0d:65:17:01:29 \\ 
+				Router2 & 00:0d:bc:ef:b1:a3 & 00:0d:bc:ef:b1:a3 \\
+				Router3 & 00:0d:bc:ef:eb:24 & 00:0d:bc:ef:eb:24 \\
+				Router4 & 00:0d:bc:ef:b9:48 & 00:0d:bc:ef:b9:48 \\ \hline
 			\end{tabular}
 			\caption{MAC addresses of the linux PCs}
 			\label{tab:lab6-macs-routers}
