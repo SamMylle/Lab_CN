@@ -1,0 +1,5 @@
+Trying 128.143.136.1...
+Connected to 128.143.136.1.
+Escape character is '^]'.
+Ubuntu 16.04.1 LTS
+labpc login: 
