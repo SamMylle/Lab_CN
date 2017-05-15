@@ -1,0 +1,41 @@
+lease {
+  interface "enp5s0";
+  fixed-address 143.129.82.1;
+  filename "pxelinux.0";
+  option subnet-mask 255.255.255.0;
+  option dhcp-lease-time 3600;
+  option routers 143.129.82.254;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 143.129.82.254;
+  option domain-name-servers 143.129.77.30;
+  option ntp-servers 143.169.252.254;
+  option host-name "labpc1";
+  option domain-name "mosaic.uantwerpen.be";
+  renew 4 2016/09/22 10:02:19;
+  rebind 4 2016/09/22 10:25:37;
+  expire 4 2016/09/22 10:33:07;
+}
+lease {
+  interface "eth0";
+  fixed-address 10.0.1.2;
+  option subnet-mask 255.255.255.0;
+  option routers 10.0.1.21;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 10.0.1.21;
+  renew 1 2017/05/15 12:22:29;
+  rebind 1 2017/05/15 12:27:04;
+  expire 1 2017/05/15 12:28:19;
+}
+lease {
+  interface "eth0";
+  fixed-address 10.0.1.2;
+  option subnet-mask 255.255.255.0;
+  option routers 10.0.1.21;
+  option dhcp-lease-time 600;
+  option dhcp-message-type 5;
+  option dhcp-server-identifier 10.0.1.21;
+  renew 1 2017/05/15 12:26:20;
+  rebind 1 2017/05/15 12:31:14;
+  expire 1 2017/05/15 12:32:29;
+}
