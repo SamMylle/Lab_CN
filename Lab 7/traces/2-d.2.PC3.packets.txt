@@ -1,0 +1,26 @@
+No.     Time           Source                Destination           Protocol Length Info
+      7 11.402352967   0.0.0.0               255.255.255.255       DHCP     342    DHCP Discover - Transaction ID 0xbc565e40
+
+Frame 7: 342 bytes on wire (2736 bits), 342 bytes captured (2736 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:80:18, Dst: ff:ff:ff:ff:ff:ff
+Internet Protocol Version 4, Src: 0.0.0.0, Dst: 255.255.255.255
+User Datagram Protocol, Src Port: 68 (68), Dst Port: 67 (67)
+Bootstrap Protocol (Discover)
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 12.409838657   10.0.3.1              10.0.3.2              DHCP     342    DHCP Offer    - Transaction ID 0xbc565e40
+
+Frame 10: 342 bytes on wire (2736 bits), 342 bytes captured (2736 bits) on interface 0
+Ethernet II, Src: 00:0e:83:f5:ff:4c, Dst: 68:05:ca:1a:80:18
+Internet Protocol Version 4, Src: 10.0.3.1, Dst: 10.0.3.2
+User Datagram Protocol, Src Port: 67 (67), Dst Port: 68 (68)
+Bootstrap Protocol (Offer)
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 12.409909801   0.0.0.0               255.255.255.255       DHCP     342    DHCP Request  - Transaction ID 0xbc565e40
+
+Frame 11: 342 bytes on wire (2736 bits), 342 bytes captured (2736 bits) on interface 0
+Ethernet II, Src: 68:05:ca:1a:80:18, Dst: ff:ff:ff:ff:ff:ff
+Internet Protocol Version 4, Src: 0.0.0.0, Dst: 255.255.255.255
+User Datagram Protocol, Src Port: 68 (68), Dst Port: 67 (67)
+Bootstrap Protocol (Request)
