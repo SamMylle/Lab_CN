@@ -1,0 +1,3 @@
+RARP differs from DHCP in the sense that the IP address distribution does not happen dynamically. The mappings from physical (MAC) address are stores in one or more server hosts, and need to be entered statically. When a client wants an IP address, it sends a RARP packet with its own MAC address. \\
+Other than that RARP does not really offer any services, which makes it obsolete. A point of contention could be that it is easier to implement, but then again, keeping track of the mappings statically isn't realistic in big network setups. \\
+DHCP offers alot more services, such as DHCP relaying, ability to assign addresses dynamically (with ranges) and statically, passing of information of different services (DNS, routers, ...). 
