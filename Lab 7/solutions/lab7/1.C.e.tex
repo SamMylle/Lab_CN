@@ -1,1 +1,17 @@
-TODO do things
+When a packet has to go outside the private network:
+\begin{itemize}
+\item Inspect the source address and port of the packet.
+\item Lookup the entry in the NAT table where the non-translated address and port equal the address and port found above.
+\item Extract the translated address and port in the entry found above.
+\item Replace the source address and source port in the outgoing packet (using the address and port in the previous step).
+\item Send the packet to its destination (outside the private network).
+\end{itemize}
+
+When a packet has to go inside the private network:
+\begin{itemize}
+\item Inspect the destination address and port of the packet.
+\item Lookup the entry in the NAT table where the translated address and port equal the address and port found above.
+\item Extract the non-translated address and port in the entry found above.
+\item Replace the destination address and destination port in the outgoing packet (using the address and port in the previous step).
+\item Send the packet to its destination (within the private network).
+\end{itemize}

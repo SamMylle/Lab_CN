@@ -1,0 +1,31 @@
+No.     Time           Source                Destination           Protocol Length Info
+     13 4.929547540    10.0.1.2              128.143.136.1         ICMP     98     Echo (ping) request  id=0x09e9, seq=1/256, ttl=64 (reply in 14)
+
+Frame 13: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: IntelCor_1a:80:18 (68:05:ca:1a:80:18), Dst: CiscoInc_ef:b1:2b (00:0d:bc:ef:b1:2b)
+Internet Protocol Version 4, Src: 10.0.1.2, Dst: 128.143.136.1
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 4.931030258    128.143.136.1         10.0.1.2              ICMP     98     Echo (ping) reply    id=0x09e9, seq=1/256, ttl=63 (request in 13)
+
+Frame 14: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CiscoInc_ef:b1:2b (00:0d:bc:ef:b1:2b), Dst: IntelCor_1a:80:18 (68:05:ca:1a:80:18)
+Internet Protocol Version 4, Src: 128.143.136.1, Dst: 10.0.1.2
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 4.916821694    200.0.0.2             128.143.136.1         ICMP     98     Echo (ping) request  id=0x09e9, seq=1/256, ttl=63 (reply in 9)
+
+Frame 8: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CiscoInc_ef:b1:2b (00:0d:bc:ef:b1:2b), Dst: IntelCor_1a:80:16 (68:05:ca:1a:80:16)
+Internet Protocol Version 4, Src: 200.0.0.2, Dst: 128.143.136.1
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 4.916854633    128.143.136.1         200.0.0.2             ICMP     98     Echo (ping) reply    id=0x09e9, seq=1/256, ttl=64 (request in 8)
+
+Frame 9: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: IntelCor_1a:80:16 (68:05:ca:1a:80:16), Dst: CiscoInc_ef:b1:2b (00:0d:bc:ef:b1:2b)
+Internet Protocol Version 4, Src: 128.143.136.1, Dst: 200.0.0.2
+Internet Control Message Protocol

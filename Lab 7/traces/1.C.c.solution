@@ -1,0 +1,195 @@
+First ping:
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 1.538752969    10.0.1.2              10.0.1.3              ICMP     98     Echo (ping) request  id=0x0a6c, seq=2/512, ttl=64 (reply in 9)
+
+Frame 8: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: IntelCor_1a:7c:70 (68:05:ca:1a:7c:70), Dst: CiscoInc_f5:ff:4c (00:0e:83:f5:ff:4c)
+Internet Protocol Version 4, Src: 10.0.1.2, Dst: 10.0.1.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 84
+    Identification: 0x2f8a (12170)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (1)
+    Header checksum: 0xf51a [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.0.1.2
+    Destination: 10.0.1.3
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 1.539711636    10.0.1.3              10.0.1.2              ICMP     98     Echo (ping) reply    id=0x0a6c, seq=2/512, ttl=255 (request in 8)
+
+Frame 9: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: CiscoInc_f5:ff:4c (00:0e:83:f5:ff:4c), Dst: IntelCor_1a:7c:70 (68:05:ca:1a:7c:70)
+Internet Protocol Version 4, Src: 10.0.1.3, Dst: 10.0.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 84
+    Identification: 0x2f8a (12170)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 255
+    Protocol: ICMP (1)
+    Header checksum: 0x361a [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.0.1.3
+    Destination: 10.0.1.2
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Second ping:
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 16.615871940   10.0.1.2              128.143.136.1         ICMP     98     Echo (ping) request  id=0x0a6d, seq=1/256, ttl=64 (reply in 26)
+
+Frame 25: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: IntelCor_1a:7c:70 (68:05:ca:1a:7c:70), Dst: IntelCor_1a:7c:77 (68:05:ca:1a:7c:77)
+Internet Protocol Version 4, Src: 10.0.1.2, Dst: 128.143.136.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 84
+    Identification: 0xa6da (42714)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (1)
+    Header checksum: 0x803c [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.0.1.2
+    Destination: 128.143.136.1
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: United States, AS225 University of Virginia, Charlottesville, VA, 38.032902, -78.513702]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 16.616137918   128.143.136.1         10.0.1.2              ICMP     98     Echo (ping) reply    id=0x0a6d, seq=1/256, ttl=63 (request in 25)
+
+Frame 26: 98 bytes on wire (784 bits), 98 bytes captured (784 bits) on interface 0
+Ethernet II, Src: IntelCor_1a:7c:77 (68:05:ca:1a:7c:77), Dst: IntelCor_1a:7c:70 (68:05:ca:1a:7c:70)
+Internet Protocol Version 4, Src: 128.143.136.1, Dst: 10.0.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 84
+    Identification: 0x7903 (30979)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: ICMP (1)
+    Header checksum: 0xef13 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.143.136.1
+    Destination: 10.0.1.2
+    [Source GeoIP: United States, AS225 University of Virginia, Charlottesville, VA, 38.032902, -78.513702]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Third ping:
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 29.475364336   10.0.1.3              10.0.1.2              ICMP     114    Echo (ping) request  id=0x0000, seq=0/0, ttl=255 (reply in 39)
+
+Frame 38: 114 bytes on wire (912 bits), 114 bytes captured (912 bits) on interface 0
+Ethernet II, Src: CiscoInc_f5:ff:4c (00:0e:83:f5:ff:4c), Dst: IntelCor_1a:7c:70 (68:05:ca:1a:7c:70)
+Internet Protocol Version 4, Src: 10.0.1.3, Dst: 10.0.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 100
+    Identification: 0x0000 (0)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 255
+    Protocol: ICMP (1)
+    Header checksum: 0xa594 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.0.1.3
+    Destination: 10.0.1.2
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 29.475611138   10.0.1.2              10.0.1.3              ICMP     114    Echo (ping) reply    id=0x0000, seq=0/0, ttl=64 (request in 38)
+
+Frame 39: 114 bytes on wire (912 bits), 114 bytes captured (912 bits) on interface 0
+Ethernet II, Src: IntelCor_1a:7c:70 (68:05:ca:1a:7c:70), Dst: CiscoInc_f5:ff:4c (00:0e:83:f5:ff:4c)
+Internet Protocol Version 4, Src: 10.0.1.2, Dst: 10.0.1.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 100
+    Identification: 0x49f7 (18935)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: ICMP (1)
+    Header checksum: 0x1a9e [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.0.1.2
+    Destination: 10.0.1.3
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Fourth ping:
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 37.854747896   10.0.1.3              128.143.136.1         ICMP     114    Echo (ping) request  id=0x0001, seq=0/0, ttl=255 (reply in 58)
+
+Frame 57: 114 bytes on wire (912 bits), 114 bytes captured (912 bits) on interface 0
+Ethernet II, Src: CiscoInc_f5:ff:4c (00:0e:83:f5:ff:4c), Dst: IntelCor_1a:7c:77 (68:05:ca:1a:7c:77)
+Internet Protocol Version 4, Src: 10.0.1.3, Dst: 128.143.136.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 100
+    Identification: 0x0005 (5)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 255
+    Protocol: ICMP (1)
+    Header checksum: 0xa800 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.0.1.3
+    Destination: 128.143.136.1
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: United States, AS225 University of Virginia, Charlottesville, VA, 38.032902, -78.513702]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 37.855024926   128.143.136.1         10.0.1.3              ICMP     114    Echo (ping) reply    id=0x0001, seq=0/0, ttl=63 (request in 57)
+
+Frame 58: 114 bytes on wire (912 bits), 114 bytes captured (912 bits) on interface 0
+Ethernet II, Src: IntelCor_1a:7c:77 (68:05:ca:1a:7c:77), Dst: CiscoInc_f5:ff:4c (00:0e:83:f5:ff:4c)
+Internet Protocol Version 4, Src: 128.143.136.1, Dst: 10.0.1.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x00 (DSCP: CS0, ECN: Not-ECT)
+    Total Length: 100
+    Identification: 0x8354 (33620)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: ICMP (1)
+    Header checksum: 0xe4b1 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.143.136.1
+    Destination: 10.0.1.3
+    [Source GeoIP: United States, AS225 University of Virginia, Charlottesville, VA, 38.032902, -78.513702]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol

@@ -1,8 +1,8 @@
 
 The first ping command was successful because the router was directly reachable from the PC. \\
-The second ping was successful because of the nat translation (TODO elaborate).
-The third ping was successful because it was in the same network, didn't leave.
-The fourth ping was not successful, because PC4 could not route the packet back.
-The fifth ping was not succesful because no nat entry has been added, no default gw present (TODO elaborate).
+The second ping was successful because of the nat translation. When the ping arrives at Router 2, he translates the source address. The packet is then routed to PC 4 and arrives at its destination. TODO this should fail, no? \\
+The third ping was successful because it was in the same network, it didn't leave. \\
+The fourth ping was not successful, because PC4 could not route the packet back. \\
+The fifth ping was not succesful because no nat entry has been added, no default gw present. The address 10.0.1.2 of PC 3 is not visible outside the NAT network. Therefore, PC 4 won't be able to reach PC 3. If PC 4 would be able to reach PC 3 using 10.0.1.2, this would mean that he can also reach PC 1 using address 10.0.1.2. Of course, this is impossible. \\
 
 The last ping was successful, because of the nat entry at router 2.

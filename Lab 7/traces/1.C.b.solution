@@ -1,0 +1,202 @@
+First session:
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 1.755162503    10.0.1.2              10.0.1.3              TELNET   81     Telnet Data ...
+
+Frame 9: 81 bytes on wire (648 bits), 81 bytes captured (648 bits) on interface 0
+Ethernet II, Src: IntelCor_1a:7c:70 (68:05:ca:1a:7c:70), Dst: CiscoInc_f5:ff:4c (00:0e:83:f5:ff:4c)
+Internet Protocol Version 4, Src: 10.0.1.2, Dst: 10.0.1.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x10 (DSCP: Unknown, ECN: Not-ECT)
+    Total Length: 67
+    Identification: 0xfece (65230)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x25d2 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.0.1.2
+    Destination: 10.0.1.3
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 58442, Dst Port: 23, Seq: 1, Ack: 1, Len: 27
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 1.760888534    10.0.1.3              10.0.1.2              TELNET   66     Telnet Data ...
+
+Frame 10: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: CiscoInc_f5:ff:4c (00:0e:83:f5:ff:4c), Dst: IntelCor_1a:7c:70 (68:05:ca:1a:7c:70)
+Internet Protocol Version 4, Src: 10.0.1.3, Dst: 10.0.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+    Total Length: 52
+    Identification: 0x3f4b (16203)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 255
+    Protocol: TCP (6)
+    Header checksum: 0x65b4 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.0.1.3
+    Destination: 10.0.1.2
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 23, Dst Port: 58442, Seq: 1, Ack: 28, Len: 12
+Telnet
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Second session:
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 7.509330364    10.0.1.2              128.143.136.1         TELNET   147    Telnet Data ...
+
+Frame 33: 147 bytes on wire (1176 bits), 147 bytes captured (1176 bits) on interface 0
+Ethernet II, Src: IntelCor_1a:7c:70 (68:05:ca:1a:7c:70), Dst: IntelCor_1a:7c:77 (68:05:ca:1a:7c:77)
+Internet Protocol Version 4, Src: 10.0.1.2, Dst: 128.143.136.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x10 (DSCP: Unknown, ECN: Not-ECT)
+    Total Length: 133
+    Identification: 0x1261 (4705)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x1470 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.0.1.2
+    Destination: 128.143.136.1
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: United States, AS225 University of Virginia, Charlottesville, VA, 38.032902, -78.513702]
+Transmission Control Protocol, Src Port: 55472, Dst Port: 23, Seq: 28, Ack: 52, Len: 81
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 7.509854329    128.143.136.1         10.0.1.2              TELNET   69     Telnet Data ...
+
+Frame 34: 69 bytes on wire (552 bits), 69 bytes captured (552 bits) on interface 0
+Ethernet II, Src: IntelCor_1a:7c:77 (68:05:ca:1a:7c:77), Dst: IntelCor_1a:7c:70 (68:05:ca:1a:7c:70)
+Internet Protocol Version 4, Src: 128.143.136.1, Dst: 10.0.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x10 (DSCP: Unknown, ECN: Not-ECT)
+    Total Length: 55
+    Identification: 0x7499 (29849)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: TCP (6)
+    Header checksum: 0xb385 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.143.136.1
+    Destination: 10.0.1.2
+    [Source GeoIP: United States, AS225 University of Virginia, Charlottesville, VA, 38.032902, -78.513702]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 23, Dst Port: 55472, Seq: 52, Ack: 109, Len: 3
+Telnet
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Third session:
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 22.640140231   10.0.1.3              10.0.1.2              TELNET   60     Telnet Data ...
+
+Frame 73: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CiscoInc_f5:ff:4c (00:0e:83:f5:ff:4c), Dst: IntelCor_1a:7c:70 (68:05:ca:1a:7c:70)
+Internet Protocol Version 4, Src: 10.0.1.3, Dst: 10.0.1.2
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+    Total Length: 43
+    Identification: 0x2e71 (11889)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 255
+    Protocol: TCP (6)
+    Header checksum: 0x7697 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.0.1.3
+    Destination: 10.0.1.2
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 35791, Dst Port: 23, Seq: 15, Ack: 13, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 22.640390451   10.0.1.2              10.0.1.3              TELNET   63     Telnet Data ...
+
+Frame 74: 63 bytes on wire (504 bits), 63 bytes captured (504 bits) on interface 0
+Ethernet II, Src: IntelCor_1a:7c:70 (68:05:ca:1a:7c:70), Dst: CiscoInc_f5:ff:4c (00:0e:83:f5:ff:4c)
+Internet Protocol Version 4, Src: 10.0.1.2, Dst: 10.0.1.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x10 (DSCP: Unknown, ECN: Not-ECT)
+    Total Length: 49
+    Identification: 0xaef9 (44793)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 64
+    Protocol: TCP (6)
+    Header checksum: 0x75b9 [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.0.1.2
+    Destination: 10.0.1.3
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 23, Dst Port: 35791, Seq: 13, Ack: 18, Len: 9
+Telnet
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Fourth session:
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 26.611692441   10.0.1.3              128.143.136.1         TELNET   60     Telnet Data ...
+
+Frame 112: 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface 0
+Ethernet II, Src: CiscoInc_f5:ff:4c (00:0e:83:f5:ff:4c), Dst: IntelCor_1a:7c:77 (68:05:ca:1a:7c:77)
+Internet Protocol Version 4, Src: 10.0.1.3, Dst: 128.143.136.1
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0xc0 (DSCP: CS6, ECN: Not-ECT)
+    Total Length: 43
+    Identification: 0x1a0b (6667)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 255
+    Protocol: TCP (6)
+    Header checksum: 0x8d6e [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 10.0.1.3
+    Destination: 128.143.136.1
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: United States, AS225 University of Virginia, Charlottesville, VA, 38.032902, -78.513702]
+Transmission Control Protocol, Src Port: 46568, Dst Port: 23, Seq: 13, Ack: 13, Len: 3
+Telnet
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 26.611918490   128.143.136.1         10.0.1.3              TELNET   63     Telnet Data ...
+
+Frame 113: 63 bytes on wire (504 bits), 63 bytes captured (504 bits) on interface 0
+Ethernet II, Src: IntelCor_1a:7c:77 (68:05:ca:1a:7c:77), Dst: CiscoInc_f5:ff:4c (00:0e:83:f5:ff:4c)
+Internet Protocol Version 4, Src: 128.143.136.1, Dst: 10.0.1.3
+    0100 .... = Version: 4
+    .... 0101 = Header Length: 20 bytes (5)
+    Differentiated Services Field: 0x10 (DSCP: Unknown, ECN: Not-ECT)
+    Total Length: 49
+    Identification: 0x6587 (25991)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 63
+    Protocol: TCP (6)
+    Header checksum: 0xc29c [validation disabled]
+    [Header checksum status: Unverified]
+    Source: 128.143.136.1
+    Destination: 10.0.1.3
+    [Source GeoIP: United States, AS225 University of Virginia, Charlottesville, VA, 38.032902, -78.513702]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 23, Dst Port: 46568, Seq: 13, Ack: 16, Len: 9
+Telnet
