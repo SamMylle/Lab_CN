@@ -1,3 +1,3 @@
-The ping we issued was succesful after a few pings (TODO : verify exact amt), without sending the ping from PC3 to PC1.
+The ping we issued was succesful after a few pings (TODO : verify exact amt), without sending the ping from PC3 to PC1. This can be explained by some protocols that were still running on the hosts, trying to communicate with other hosts/internet services.
 \\
-TODO : why?
+The reason why the ping in step 6 would have that effect, is because it 'forces' the routers to update their MAC forwarding tables. This way, they have the correct information again. This results in the ability to send pings from PC1 to PC3 again.
