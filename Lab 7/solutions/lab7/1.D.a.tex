@@ -1,5 +1,5 @@
 \lstinputlisting{traces/1.D.a.data}
 
 The first packet above was captured on PC4 during the first experiment. As expected, NAT wasn't involved and the payload contains the expected address. \\
-The second packet above was also captured on PC4, but now during the second experiment. As expected, NAT changed the addresses and ports in the IP header (compared to the third packet). But we can see now that in the data payload, the address and port changed as well. NAT also changes the payload addresses of other protocols when the data is not encrypted (or when the NAT translation unit has the key of the encryption). \\
+The second packet above was also captured on PC4, but now during the second experiment. As expected, NAT changed the addresses and ports in the IP header (compared to the third packet). We can see now, however, that the address and port changed in the data payload as well. NAT also changes the payload addresses of other protocols when the data is not encrypted (or when the NAT translation unit has the key of the encryption). \\
 The third packet was captured on PC3 during the second experiment. If you compare this to the second packet, you can see that the payload changed during the second experiment.

@@ -2,4 +2,4 @@
 
 The lease file contains information about the interface to which the lease belongs, the IP address it recieved, the subnet mask, routers, dhcp-lease-time, dhcp-message-type and dhcp-server-identifier of the network. It also contains timestamp on when the lease should be renewed, rebinded and when it expires. \\ \\
 
-When the renew time is hit, the client will start sending DHCP requests to the DHCP server. When the server is not reachable, the client will keep doing this untill he hits the expire time. When the expire time is hit, the client will release his acquired ip address from the server, and start looking for a renewed DHCP server.
+When the renew time is hit, the client will start sending DHCP requests to the DHCP server. If the server is not reachable, the client will keep doing this untill he hits the expire time. When the expire time is hit, the client will release his acquired IP address from the server, and start looking for a renewed DHCP server.
