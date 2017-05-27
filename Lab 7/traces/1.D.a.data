@@ -1,0 +1,42 @@
+No.     Time           Source                Destination           Protocol Length Info
+     77 34.188113685   128.143.136.1         128.143.136.22        FTP      94     Request: PORT 128,143,136,1,139,130
+
+Frame 77: 94 bytes on wire (752 bits), 94 bytes captured (752 bits) on interface 0
+Ethernet II, Src: IntelCor_1a:7c:6f (68:05:ca:1a:7c:6f), Dst: IntelCor_1a:7c:75 (68:05:ca:1a:7c:75)
+Internet Protocol Version 4, Src: 128.143.136.1, Dst: 128.143.136.22
+Transmission Control Protocol, Src Port: 35736, Dst Port: 21, Seq: 76, Ack: 242, Len: 28
+File Transfer Protocol (FTP)
+    PORT 128,143,136,1,139,130\r\n
+        Request command: PORT
+        Request arg: 128,143,136,1,139,130
+        Active IP address: 128.143.136.1
+        Active port: 35714
+
+
+No.     Source                Destination           Protocol Length Time           Info
+    132 200.0.0.2             128.143.136.22        FTP      90     72.655696234   Request: PORT 200,0,0,2,179,140
+
+Frame 132: 90 bytes on wire (720 bits), 90 bytes captured (720 bits) on interface 0
+Ethernet II, Src: IntelCor_1a:7c:6f (68:05:ca:1a:7c:6f), Dst: IntelCor_1a:7c:75 (68:05:ca:1a:7c:75)
+Internet Protocol Version 4, Src: 200.0.0.2, Dst: 128.143.136.22
+Transmission Control Protocol, Src Port: 39532, Dst Port: 21, Seq: 73, Ack: 242, Len: 24
+File Transfer Protocol (FTP)
+    PORT 200,0,0,2,179,140\r\n
+        Request command: PORT
+        Request arg: 200,0,0,2,179,140
+        Active IP address: 200.0.0.2
+        Active port: 45964
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 57.022289964   10.0.1.2              128.143.136.22        FTP      89     Request: PORT 10,0,1,2,179,140
+
+Frame 97: 89 bytes on wire (712 bits), 89 bytes captured (712 bits) on interface 0
+Ethernet II, Src: IntelCor_1a:80:18 (68:05:ca:1a:80:18), Dst: CiscoInc_ef:b1:2b (00:0d:bc:ef:b1:2b)
+Internet Protocol Version 4, Src: 10.0.1.2, Dst: 128.143.136.22
+Transmission Control Protocol, Src Port: 39532, Dst Port: 21, Seq: 72, Ack: 242, Len: 23
+File Transfer Protocol (FTP)
+    PORT 10,0,1,2,179,140\r\n
+        Request command: PORT
+        Request arg: 10,0,1,2,179,140
+        Active IP address: 10.0.1.2
+        Active port: 45964
