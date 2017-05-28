@@ -1,1 +1,7 @@
-TODO : add data
+In the data we captured, we can see that the bridges forward ARP requests to all other interfaces than on which the request arrived, if they have no entry for that specific MAC address yet. If the bridges already have an entry concerning that MAC address, they only forward the request to that specific interface. \\
+Bridges do not forward ARP replies if the destination is not in their MAC forwarding table. \\
+The combination of these two phenomenons results in bridges learning where hosts are located, as well as on which interface they need to route the packets to those hosts.
+\\ \\
+For example, after the third ping, Router3's MAC forwarding table contains entries for PC2's eth0 MAC address and PC4's eth0 MAC address. \\
+\lstinputlisting{traces/4-a.6.2.Router3.txt}
+\lstinputlisting{traces/4-a.6.3.Router3.txt}

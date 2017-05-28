@@ -1,1 +1,9 @@
-TODO : do this
+The first ping results in the learning of PC1's eth0 interface, and PC2's eth0 interface at Router1 and Router2. Router3 learns PC1's eth0 address, but not PC2's eth0 address. This can be explained by the fact that the ARP reply packet is not forwarded by Router2. \\
+
+The second ping does not result in any changes. Both interfaces are known by Router1 and Router2. Router2 does not forward the ARP request, because he already knows that the ARP request is not destined for his other interface. \\
+
+The third ping results in the learning of PC4's eth0 MAC address at Router2 and Router3. Router3 also learns PC2's eth0 address, because of the ARP request. Router1, however, does not learn about the address of PC4's eth0 interface. This can be explained by the fact that the ARP response from PC4 is not forwarded by Router1. It does on the other hand need to be forwarded by Router3 and Router4, hence the reason why Router2 and Router3 learn PC4's eth0 address. \\
+
+The last ping results in the learning of PC3's eth0 address in Router2 and Router3. They both already had information concerning PC2's eth0 address. \\
+The reason they both learned the address of PC3 is because an ARP request from PC3 arrived at their interfaces. \\
+
