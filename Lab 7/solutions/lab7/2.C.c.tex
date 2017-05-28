@@ -1,0 +1,10 @@
+\begin{lstlisting}
+The UDP header contains source and destination port numbers. The BOOTP protocol uses two reserved port numbers, 'BOOTP client' (68) and 'BOOTP server' (67). The client sends requests using 'BOOTP server' as the destination port; this is usually a broadcast. The server sends replies using 'BOOTP client' as the destination port; depending on the kernel or driver facilities in the server, this may or may not be a broadcast (this is explained further in the section titled 'Chicken/Egg issues' below). The reason TWO reserved ports are used, is to avoid 'waking up' and scheduling the BOOTP server daemons, when a bootreply must be broadcast to a client. Since the server and other hosts won't be listening on the 'BOOTP client' port, any such incoming broadcasts will be filtered out at the kernel level. We could not simply allow the client to pick a 'random' port number for the UDP source port field; since the server reply may be broadcast, a randomly chosen port number could confuse other hosts that happened to be listening on that port.
+\end{lstlisting}
+\href{https://www.ietf.org/rfc/rfc951.txt}{\color{red}\textit{Source: Bootstrap Protocol rfc 951}}
+\newline
+
+As stated in the explanation, the server reply may be a broadcast. If the answers to the DHCP packets from the client are broadcasts to a randomly chosen port, this might confuse other clients which are also using this port. A fixed port (in this case port 68) fixes this problem. \\
+
+
+\textit{We found the explanation in bootstrap rfc 951 instead of dhcp rfc 2131.}

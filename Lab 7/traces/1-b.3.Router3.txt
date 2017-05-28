@@ -1,0 +1,12 @@
+Router3#ping 10.0.1.2                                                           
+                                                                                
+Type escape sequence to abort.                                                  
+Sending 5, 100-byte ICMP Echos to 10.0.1.2, timeout is 2 seconds:               
+!!!!!                                                                           
+Success rate is 100 percent (5/5), round-trip min/avg/max = 1/1/4 ms            
+Router3#ping 128.143.136.1                                                      
+                                                                                
+Type escape sequence to abort.                                                  
+Sending 5, 100-byte ICMP Echos to 128.143.136.1, timeout is 2 seconds:          
+.....                                                                           
+Success rate is 0 percent (0/5)

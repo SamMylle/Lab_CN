@@ -1,0 +1,7 @@
+
+The first ping command was successful because the router was directly reachable from the PC. \\
+The second ping was successful because of the NAT translation. When the ping arrives at Router 2, it translates the source address. The packet is then routed to PC4 and arrives at its destination. The reply is then sent back to Router 2 using the identifiers in the ping packet. \\
+The third ping was successful because it was contained within its own private network. \\
+The fourth ping was not successful, because PC4 could not route the packet back. \\
+The fifth ping was not succesful because no NAT entry has been added, and no default gw is present. The address 10.0.1.2 of PC3 is not visible outside the NAT network. Therefore, PC4 won't be able to reach PC3. If PC4 would be able to reach PC3 using 10.0.1.2, this would mean that he can also reach PC1 using address 10.0.1.2. Of course, this is impossible. \\
+The last ping was successful, because of the NAT entry at router 2.

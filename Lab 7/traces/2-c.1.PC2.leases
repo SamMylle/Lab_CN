@@ -1,0 +1,25 @@
+# The format of this file is documented in the dhcpd.leases(5) manual page.
+# This lease file was written by isc-dhcp-4.3.3
+
+server-duid "\000\001\000\001 \254X\253h\005\312\032|w";
+
+lease 10.0.1.2 {
+  starts 1 2017/05/15 12:20:02;
+  ends 1 2017/05/15 12:30:02;
+  cltt 1 2017/05/15 12:20:02;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 68:05:ca:1a:7c:70;
+  client-hostname "labpc";
+}
+lease 10.0.1.2 {
+  starts 1 2017/05/15 12:24:11;
+  ends 1 2017/05/15 12:34:11;
+  cltt 1 2017/05/15 12:24:11;
+  binding state active;
+  next binding state free;
+  rewind binding state free;
+  hardware ethernet 68:05:ca:1a:7c:70;
+  client-hostname "labpc";
+}

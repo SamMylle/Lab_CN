@@ -1,0 +1,13 @@
+In the Discover packet we observe 4 options: 
+\begin{itemize}
+	\item DHCP Message Type: In this case Discover.
+	\item Host Name: The name of the host.
+	\item Parameter Request List: A list of all the parameters that the client wants. This varies from subnet mask, broadcast address, ... to server addresses, network settings, etc.
+	\item End: The end of the options.
+\end{itemize}
+
+The Offer packet also has a message type and end option. Other than that, it contains options/information about the router, subnet mask, IP address lease time and DHCP server identifier. \\
+
+The Request packet uses the same options as the Discover packet, with the addition of a Requested IP Address option. This last option specifies the IP address the client wants. \\
+
+The ACK package has the same options as the Offer packet (no additional ones).

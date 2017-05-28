@@ -1,0 +1,4 @@
+The DHCP relay server kind off modifies both, dependent on where the packet came from. \\
+The relay server adjusts the client packets to a unicast packet straight to the DHCP server. It uses port 67 as source, since it is a server. It also modifies the DHCP header slightly, by filling in the relay agent IP address as its own, and adjusting the hop count. \\ 
+As for packets received from the DHCP server, it only modifies the IP header to send the packet to the DHCP client.
+ 

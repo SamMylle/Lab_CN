@@ -1,0 +1,3 @@
+Trying 128.143.136.1 ... Open                                                   
+Ubuntu 16.04.1 LTS                                                              
+labpc login:

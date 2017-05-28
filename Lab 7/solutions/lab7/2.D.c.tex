@@ -1,0 +1,2 @@
+This is not necessarily a problem. Multiple DHCP servers can work in harmony if configured right. If you have different network segments, you can have a DHCP server for each segment. \\
+Multiple DHCP servers on a single network segment is also possible. Here you need to keep in mind to properly 'sync'/configure the servers, so that their address range list is properly split amongst them. When a client sends a Discover packet, the first DHCP server to offer an IP address will be the one that the client chooses and answers to.
